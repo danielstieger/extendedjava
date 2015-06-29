@@ -5,6 +5,7 @@
     <use id="5f362b6a-7593-4d33-922a-7554535c0063" name="com.hlag.entitylang" version="-1" />
     <use id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql" version="-1" />
   </languages>
   <imports>
     <import index="8mn1" ref="b263f292-6e43-46d0-829c-100beca2960f/f:java_stub#b263f292-6e43-46d0-829c-100beca2960f#javax.persistence(com.hlag.entitylang.runtime/javax.persistence@java_stub)" />
@@ -48,12 +49,14 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
@@ -100,6 +103,11 @@
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
+    </language>
+    <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql">
+      <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
+        <child id="1631019930971216020" name="returnType" index="11JpdC" />
+      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -615,6 +623,39 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="1qyyZLn7GCZ">
+    <property role="TrG5h" value="Servuce" />
+    <node concept="2tJIrI" id="1qyyZLn7GNU" role="jymVt" />
+    <node concept="2tJIrI" id="1qyyZLn7GNW" role="jymVt" />
+    <node concept="3clFb_" id="1qyyZLn7GO7" role="jymVt">
+      <property role="TrG5h" value="runQuery" />
+      <node concept="37vLTG" id="1qyyZLn7GOz" role="3clF46">
+        <property role="TrG5h" value="em" />
+        <node concept="3uibUv" id="1qyyZLn7GOH" role="1tU5fm">
+          <ref role="3uigEE" to="8mn1:~EntityManager" resolve="EntityManager" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="1qyyZLn7GO9" role="3clF45" />
+      <node concept="3Tm1VV" id="1qyyZLn7GOa" role="1B3o_S" />
+      <node concept="3clFbS" id="1qyyZLn7GOb" role="3clF47">
+        <node concept="3clFbH" id="1qyyZLn7Jbh" role="3cqZAp" />
+        <node concept="3clFbH" id="1qyyZLn84s_" role="3cqZAp" />
+        <node concept="3clFbF" id="1qyyZLn7JbU" role="3cqZAp">
+          <node concept="2OqwBi" id="1qyyZLn7Jcy" role="3clFbG">
+            <node concept="37vLTw" id="1qyyZLn7JbS" role="2Oq$k0">
+              <ref role="3cqZAo" node="1qyyZLn7GOz" resolve="em" />
+            </node>
+            <node concept="11J1DH" id="1qyyZLn7Max" role="2OqNvi">
+              <node concept="3uibUv" id="1qyyZLn7MaF" role="11JpdC">
+                <ref role="3uigEE" node="1qyyZLmWy9F" resolve="Container" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="1qyyZLn7GD0" role="1B3o_S" />
   </node>
 </model>
 
