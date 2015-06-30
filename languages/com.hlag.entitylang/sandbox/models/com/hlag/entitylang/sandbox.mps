@@ -107,6 +107,10 @@
     <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql">
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
         <child id="1631019930971216020" name="returnType" index="11JpdC" />
+        <child id="8181476057624324251" name="variableDeclarations" index="3SxtAV" />
+      </concept>
+      <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityDeclaration" flags="ng" index="3SxtsA">
+        <reference id="8181476057624323597" name="entity" index="3SxtsH" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -625,7 +629,7 @@
     </node>
   </node>
   <node concept="312cEu" id="1qyyZLn7GCZ">
-    <property role="TrG5h" value="Servuce" />
+    <property role="TrG5h" value="Service" />
     <node concept="2tJIrI" id="1qyyZLn7GNU" role="jymVt" />
     <node concept="2tJIrI" id="1qyyZLn7GNW" role="jymVt" />
     <node concept="3clFb_" id="1qyyZLn7GO7" role="jymVt">
@@ -646,9 +650,13 @@
             <node concept="37vLTw" id="1qyyZLn7JbS" role="2Oq$k0">
               <ref role="3cqZAo" node="1qyyZLn7GOz" resolve="em" />
             </node>
-            <node concept="11J1DH" id="1qyyZLn7Max" role="2OqNvi">
-              <node concept="3uibUv" id="1qyyZLn7MaF" role="11JpdC">
-                <ref role="3uigEE" node="1qyyZLmWy9F" resolve="Container" />
+            <node concept="11J1DH" id="76asi299VBg" role="2OqNvi">
+              <node concept="3uibUv" id="76asi299VBt" role="11JpdC">
+                <ref role="3uigEE" node="1kgMMKTEKhq" resolve="Shipment" />
+              </node>
+              <node concept="3SxtsA" id="76asi29ah4k" role="3SxtAV">
+                <property role="TrG5h" value="e" />
+                <ref role="3SxtsH" node="1qyyZLmWy9F" resolve="Container" />
               </node>
             </node>
           </node>
