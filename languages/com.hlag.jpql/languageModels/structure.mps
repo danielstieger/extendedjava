@@ -48,47 +48,26 @@
     <property role="34LRSv" value="query" />
     <property role="R4oN_" value="query &lt;ret type&gt; SELECT" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="76asi299jHJ" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="joins" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="76asi299jGi" resolve="Join" />
-    </node>
-    <node concept="PrWs8" id="1qyyZLn7KKg" role="PzmwI">
-      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
-    </node>
-    <node concept="PrWs8" id="76asi295RwW" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
-    <node concept="1TJgyj" id="76asi293Uyr" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="variableDeclarations" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="76asi299a1t" resolve="IIdentificationVariable" />
-    </node>
-    <node concept="1TJgyj" id="1qyyZLn7Lyk" role="1TKVEi">
+    <node concept="1TJgyj" id="76asi29az_B" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="returnType" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
     </node>
-    <node concept="1TJgyj" id="76asi2953Dt" role="1TKVEi">
+    <node concept="PrWs8" id="1qyyZLn7KKg" role="PzmwI">
+      <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
+    </node>
+    <node concept="1TJgyj" id="76asi29a$YU" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="resultSetExpression" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <property role="20kJfa" value="statement" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi29a$Mc" resolve="IQueryStatement" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi293Uo6">
-    <property role="TrG5h" value="EntityDeclaration" />
+    <property role="TrG5h" value="EntityVarDeclaration" />
     <property role="3GE5qa" value="EntityRef" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="76asi29ah4c" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="join" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="76asi299jGi" resolve="Join" />
-    </node>
     <node concept="1TJgyj" id="76asi293Uod" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="entity" />
@@ -96,7 +75,7 @@
       <ref role="20lvS9" to="5zrl:1kgMMKTCeR4" resolve="Entity" />
     </node>
     <node concept="PrWs8" id="76asi299a4Y" role="PzmwI">
-      <ref role="PrY4T" node="76asi299a1t" resolve="IIdentificationVariable" />
+      <ref role="PrY4T" node="76asi299a1t" resolve="IVariable" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi2953Ca">
@@ -130,7 +109,7 @@
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="varDeclaration" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi299a1t" resolve="IIdentificationVariable" />
+      <ref role="20lvS9" node="76asi299a1t" resolve="IVariable" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi296m63">
@@ -226,16 +205,22 @@
   </node>
   <node concept="PlHQZ" id="76asi299a1t">
     <property role="3GE5qa" value="EntityRef" />
-    <property role="TrG5h" value="IIdentificationVariable" />
+    <property role="TrG5h" value="IVariable" />
     <node concept="PrWs8" id="76asi299a22" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="PrWs8" id="76asi29ccKk" role="PrDN$">
+      <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
+    </node>
+    <node concept="PrWs8" id="76asi29cZoD" role="PrDN$">
+      <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi299jGi">
     <property role="3GE5qa" value="Joins" />
-    <property role="TrG5h" value="Join" />
+    <property role="TrG5h" value="JoinVarDeclaration" />
     <property role="34LRSv" value="JOIN" />
-    <property role="R4oN_" value="join operation" />
+    <property role="R4oN_" value="relationship join" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="76asi299jHv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -244,26 +229,75 @@
       <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="76asi299jGm" role="PzmwI">
-      <ref role="PrY4T" node="76asi299a1t" resolve="IIdentificationVariable" />
+      <ref role="PrY4T" node="76asi299a1t" resolve="IVariable" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="76asi29a6nV">
-    <property role="3GE5qa" value="Joins" />
-    <property role="TrG5h" value="InnerJoin" />
-    <property role="34LRSv" value="INNER JOIN" />
-    <ref role="1TJDcQ" node="76asi299jGi" resolve="Join" />
   </node>
   <node concept="1TIwiD" id="76asi29a6os">
     <property role="3GE5qa" value="Joins" />
-    <property role="TrG5h" value="LeftJoin" />
+    <property role="TrG5h" value="LeftJoinVarDeclaration" />
     <property role="34LRSv" value="LEFT JOIN" />
-    <ref role="1TJDcQ" node="76asi299jGi" resolve="Join" />
+    <property role="R4oN_" value="relationship missing join" />
+    <ref role="1TJDcQ" node="76asi299jGi" resolve="JoinVarDeclaration" />
   </node>
-  <node concept="1TIwiD" id="76asi29a6oX">
+  <node concept="1TIwiD" id="76asi29az_k">
+    <property role="TrG5h" value="SelectStatement" />
+    <property role="34LRSv" value="SELECT" />
+    <property role="R4oN_" value="select from database" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="76asi29egi4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="whereClause" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="76asi29az_A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fromClause" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="76asi29cZnK" resolve="IFromClause" />
+    </node>
+    <node concept="1TJgyj" id="76asi29az_C" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="resultSetExpression" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="76asi29a$YZ" role="PzmwI">
+      <ref role="PrY4T" node="76asi29a$Mc" resolve="IQueryStatement" />
+    </node>
+    <node concept="PrWs8" id="76asi29az_H" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="76asi29a$Mc">
+    <property role="TrG5h" value="IQueryStatement" />
+  </node>
+  <node concept="PlHQZ" id="76asi29cZnK">
+    <property role="3GE5qa" value="EntityRef" />
+    <property role="TrG5h" value="IFromClause" />
+  </node>
+  <node concept="1TIwiD" id="76asi29duoM">
     <property role="3GE5qa" value="Joins" />
-    <property role="TrG5h" value="LeftOuterJoin" />
-    <property role="34LRSv" value="LEFT OUTER JOIN" />
-    <ref role="1TJDcQ" node="76asi299jGi" resolve="Join" />
+    <property role="TrG5h" value="FetchJoin" />
+    <property role="34LRSv" value="FETCH JOIN" />
+    <property role="R4oN_" value="loading relationship join" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="76asi29duoT" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+    <node concept="PrWs8" id="76asi29duoN" role="PzmwI">
+      <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="76asi29dupn">
+    <property role="3GE5qa" value="Joins" />
+    <property role="TrG5h" value="FetchLeftJoin" />
+    <property role="34LRSv" value="FETCH LEFT JOIN" />
+    <property role="R4oN_" value="loading relathinship missing" />
+    <ref role="1TJDcQ" node="76asi29duoM" resolve="FetchJoin" />
   </node>
 </model>
 

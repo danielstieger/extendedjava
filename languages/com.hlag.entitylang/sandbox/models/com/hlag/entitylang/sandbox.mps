@@ -106,11 +106,25 @@
     </language>
     <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql">
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
-        <child id="1631019930971216020" name="returnType" index="11JpdC" />
-        <child id="8181476057624324251" name="variableDeclarations" index="3SxtAV" />
+        <child id="8181476057626070970" name="statement" index="3SC3Uq" />
+        <child id="8181476057626065255" name="returnType" index="3SC4x7" />
       </concept>
-      <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityDeclaration" flags="ng" index="3SxtsA">
+      <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityVarDeclaration" flags="ng" index="3SxtsA">
         <reference id="8181476057624323597" name="entity" index="3SxtsH" />
+      </concept>
+      <concept id="8181476057624968260" name="com.hlag.jpql.structure.FieldReference" flags="ng" index="3S$KP$">
+        <reference id="8181476057624968329" name="field" index="3S$KQD" />
+      </concept>
+      <concept id="8181476057624961411" name="com.hlag.jpql.structure.DotExpression" flags="ng" index="3S$L2z">
+        <child id="8181476057624961412" name="operand" index="3S$L2$" />
+        <child id="8181476057624961414" name="operation" index="3S$L2A" />
+      </concept>
+      <concept id="8181476057624655942" name="com.hlag.jpql.structure.VarReference" flags="ng" index="3SBG_A">
+        <reference id="8181476057624834891" name="varDeclaration" index="3SBg9F" />
+      </concept>
+      <concept id="8181476057626065236" name="com.hlag.jpql.structure.SelectStatement" flags="ng" index="3SC4xO">
+        <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
+        <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -632,6 +646,7 @@
     <property role="TrG5h" value="Service" />
     <node concept="2tJIrI" id="1qyyZLn7GNU" role="jymVt" />
     <node concept="2tJIrI" id="1qyyZLn7GNW" role="jymVt" />
+    <node concept="2tJIrI" id="76asi29cHK9" role="jymVt" />
     <node concept="3clFb_" id="1qyyZLn7GO7" role="jymVt">
       <property role="TrG5h" value="runQuery" />
       <node concept="37vLTG" id="1qyyZLn7GOz" role="3clF46">
@@ -644,23 +659,112 @@
       <node concept="3Tm1VV" id="1qyyZLn7GOa" role="1B3o_S" />
       <node concept="3clFbS" id="1qyyZLn7GOb" role="3clF47">
         <node concept="3clFbH" id="1qyyZLn7Jbh" role="3cqZAp" />
-        <node concept="3clFbH" id="1qyyZLn84s_" role="3cqZAp" />
-        <node concept="3clFbF" id="1qyyZLn7JbU" role="3cqZAp">
-          <node concept="2OqwBi" id="1qyyZLn7Jcy" role="3clFbG">
-            <node concept="37vLTw" id="1qyyZLn7JbS" role="2Oq$k0">
+        <node concept="3SKdUt" id="76asi29cHM3" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHMn" role="3SKWNk">
+            <property role="3SKdUp" value="Some notes in the lang desing. JOINS are impl. as EntityDeclarations in order to " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29cHMS" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHNe" role="3SKWNk">
+            <property role="3SKdUp" value="allow them appear at any var dcl. place. e.g. CRTL-SPACE after variable declaration. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="76asi29cHK$" role="3cqZAp" />
+        <node concept="3SKdUt" id="76asi29cHO9" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHOy" role="3SKWNk">
+            <property role="3SKdUp" value="fetch joins are available as own concepts CRTL-SPACE, or via intention. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="76asi29cHNB" role="3cqZAp" />
+        <node concept="3clFbH" id="76asi29cHO$" role="3cqZAp" />
+        <node concept="3SKdUt" id="76asi29cHPz" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHPZ" role="3SKWNk">
+            <property role="3SKdUp" value="(1) from &lt;from clause&gt; =&gt; EntityVariable JoinVariable (IVariable) or JoinFetch" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29cI0o" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cI0T" role="3SKWNk">
+            <property role="3SKdUp" value="    add intention and side transforms ?  " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29cHVc" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHVD" role="3SKWNk">
+            <property role="3SKdUp" value="(2) Join Variable needs some exp mandatory! We do not care that it appears in code completion straigt" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29cHX$" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29cHY3" role="3SKWNk">
+            <property role="3SKdUp" value="    after FROM keyword. " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29egh9" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29eghR" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: (3) JOINS are restricted to other entities and list of other entities as target type" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="76asi29eggi" role="3cqZAp" />
+        <node concept="3SKdUt" id="76asi29eg4l" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29eg4S" role="3SKWNk">
+            <property role="3SKdUp" value="OUTER and INNER were skipped, as well as the AS keyword. " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="76asi29eg38" role="3cqZAp" />
+        <node concept="3clFbH" id="76asi29eg3D" role="3cqZAp" />
+        <node concept="3SKdUt" id="76asi29eg2A" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29eg36" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: What s with the node factories, e.g. select " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29eg6L" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29eg7p" role="3SKWNk">
+            <property role="3SKdUp" value=". we could remove resultset methods from expressions, although upper / lower could be used in where also" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29eg8e" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29eg8S" role="3SKWNk">
+            <property role="3SKdUp" value="  maybe simply rename them to functions" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29f7Cs" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29f7Dd" role="3SKWNk">
+            <property role="3SKdUp" value=". JOIN WHERE FETCH etc. also applicable in Expressions right now (side transform)" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="76asi29fmRL" role="3cqZAp">
+          <node concept="3SKdUq" id="76asi29fmSz" role="3SKWNk">
+            <property role="3SKdUp" value=". right now exp uses side transform default_" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="76asi29fmS_" role="3cqZAp" />
+        <node concept="3clFbH" id="76asi29fmTo" role="3cqZAp" />
+        <node concept="3clFbF" id="76asi29efVI" role="3cqZAp">
+          <node concept="2OqwBi" id="76asi29efWt" role="3clFbG">
+            <node concept="37vLTw" id="76asi29efVG" role="2Oq$k0">
               <ref role="3cqZAo" node="1qyyZLn7GOz" resolve="em" />
             </node>
-            <node concept="11J1DH" id="76asi299VBg" role="2OqNvi">
-              <node concept="3uibUv" id="76asi299VBt" role="11JpdC">
-                <ref role="3uigEE" node="1kgMMKTEKhq" resolve="Shipment" />
+            <node concept="11J1DH" id="76asi29eg05" role="2OqNvi">
+              <node concept="3SC4xO" id="76asi29eg06" role="3SC3Uq">
+                <node concept="3SxtsA" id="76asi29eg0R" role="3SC4x6">
+                  <property role="TrG5h" value="s" />
+                  <ref role="3SxtsH" node="1qyyZLmWy9F" resolve="Container" />
+                </node>
+                <node concept="3S$L2z" id="76asi29f7A1" role="3SC4x8">
+                  <node concept="3SBG_A" id="76asi29eg11" role="3S$L2$">
+                    <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
+                  </node>
+                  <node concept="3S$KP$" id="76asi29f7Ax" role="3S$L2A">
+                    <ref role="3S$KQD" node="1qyyZLmWy9P" resolve="containerId" />
+                  </node>
+                </node>
               </node>
-              <node concept="3SxtsA" id="76asi29ah4k" role="3SxtAV">
-                <property role="TrG5h" value="e" />
-                <ref role="3SxtsH" node="1qyyZLmWy9F" resolve="Container" />
+              <node concept="3uibUv" id="76asi29eg0k" role="3SC4x7">
+                <ref role="3uigEE" node="1qyyZLmWy9F" resolve="Container" />
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="76asi29eg9_" role="3cqZAp" />
+        <node concept="3clFbH" id="76asi29egah" role="3cqZAp" />
       </node>
     </node>
     <node concept="3Tm1VV" id="1qyyZLn7GD0" role="1B3o_S" />
