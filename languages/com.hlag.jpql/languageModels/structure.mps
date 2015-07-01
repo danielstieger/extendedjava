@@ -299,5 +299,83 @@
     <property role="R4oN_" value="loading relathinship missing" />
     <ref role="1TJDcQ" node="76asi29duoM" resolve="FetchJoin" />
   </node>
+  <node concept="1TIwiD" id="4PnqMJu_7W8">
+    <property role="TrG5h" value="LogicOperation" />
+    <property role="3GE5qa" value="Logic" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAq3Z">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="CompareLogicOperation" />
+    <ref role="1TJDcQ" node="4PnqMJu_7W8" resolve="LogicOperation" />
+    <node concept="1TJgyj" id="4PnqMJuAq40" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="4PnqMJuAq42" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrF">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="EqualsCompLogOperation" />
+    <property role="34LRSv" value="=" />
+    <property role="R4oN_" value="equals" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrG">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="NotEqualsCompLogOperation" />
+    <property role="34LRSv" value="&lt;&gt;" />
+    <property role="R4oN_" value="not equals" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrH">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="GreaterCompLogOperation" />
+    <property role="34LRSv" value="&gt;" />
+    <property role="R4oN_" value="greater than" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrI">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="GreaterEqCompLogOperation" />
+    <property role="34LRSv" value="&gt;=" />
+    <property role="R4oN_" value="greater or equals" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrJ">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="LowerCompLogOperation" />
+    <property role="34LRSv" value="&lt;" />
+    <property role="R4oN_" value="lower" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuAwrK">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="LowerEqCompLogOperation" />
+    <property role="34LRSv" value="&lt;=" />
+    <property role="R4oN_" value="lower or equals" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuCH8W">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="AndLogOperation" />
+    <property role="34LRSv" value="AND" />
+    <property role="R4oN_" value="logic and" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuCH9j">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="OrLogOperation" />
+    <property role="34LRSv" value="OR" />
+    <property role="R4oN_" value="logic or" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
 </model>
 

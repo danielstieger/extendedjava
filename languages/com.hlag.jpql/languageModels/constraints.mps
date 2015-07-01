@@ -261,7 +261,7 @@
     <node concept="1N5Pfh" id="76asi295Rj2" role="1Mr941">
       <ref role="1N5Vy1" to="ev4m:76asi295Rdb" />
       <node concept="1dDu$B" id="76asi295RwN" role="1N6uqs">
-        <ref role="1dDu$A" to="ev4m:76asi299a1t" resolve="IIdentificationVariable" />
+        <ref role="1dDu$A" to="ev4m:76asi299a1t" resolve="IVariable" />
       </node>
     </node>
   </node>
@@ -312,6 +312,26 @@
       <ref role="1N5Vy1" to="ev4m:76asi296nM9" />
       <node concept="1dDu$B" id="76asi298nsw" role="1N6uqs">
         <ref role="1dDu$A" to="5zrl:1kgMMKTClnP" resolve="Field" />
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4PnqMJuDGrf">
+    <property role="3GE5qa" value="Logic" />
+    <ref role="1M2myG" to="ev4m:4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+    <node concept="nKS2y" id="4PnqMJuDGsq" role="1MLUbF">
+      <node concept="3clFbS" id="4PnqMJuDGsr" role="2VODD2">
+        <node concept="3clFbF" id="4PnqMJuDGxm" role="3cqZAp">
+          <node concept="3fqX7Q" id="4PnqMJuDGVi" role="3clFbG">
+            <node concept="2OqwBi" id="4PnqMJuDH38" role="3fr31v">
+              <node concept="otxO1" id="4PnqMJuDGVm" role="2Oq$k0" />
+              <node concept="3O6GUB" id="4PnqMJuDHVr" role="2OqNvi">
+                <node concept="chp4Y" id="4PnqMJuDId7" role="3QVz_e">
+                  <ref role="cht4Q" to="ev4m:4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

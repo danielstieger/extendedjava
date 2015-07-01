@@ -736,5 +736,21 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4PnqMJuAq4a">
+    <property role="3GE5qa" value="Logic" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+    <node concept="3EZMnI" id="4PnqMJuAsu8" role="2wV5jI">
+      <node concept="3F1sOY" id="4PnqMJuAsuf" role="3EZMnx">
+        <ref role="1NtTu8" to="ev4m:4PnqMJuAq40" />
+      </node>
+      <node concept="PMmxH" id="4PnqMJuAsul" role="3EZMnx">
+        <ref role="PMmxG" to="tpco:2wZex4PafBj" resolve="alias" />
+      </node>
+      <node concept="3F1sOY" id="4PnqMJuAsus" role="3EZMnx">
+        <ref role="1NtTu8" to="ev4m:4PnqMJuAq42" />
+      </node>
+      <node concept="l2Vlx" id="4PnqMJuAsub" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
