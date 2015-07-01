@@ -217,7 +217,6 @@
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
-      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt" />
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
@@ -787,21 +786,21 @@
       <property role="1hAc7j" value="delete_action_id" />
       <node concept="1hAIg9" id="gAp5u0C" role="1hA7z_">
         <node concept="3clFbS" id="gAp5u0D" role="2VODD2">
-          <node concept="3clFbH" id="4PnqMJuEjvD" role="3cqZAp" />
-          <node concept="3clFbF" id="4PnqMJuEkik" role="3cqZAp">
-            <node concept="2OqwBi" id="4PnqMJuEkih" role="3clFbG">
-              <node concept="10M0yZ" id="4PnqMJuEkii" role="2Oq$k0">
+          <node concept="3clFbF" id="4PnqMJuF8Wf" role="3cqZAp">
+            <node concept="2OqwBi" id="4PnqMJuF8Wc" role="3clFbG">
+              <node concept="10M0yZ" id="4PnqMJuF8Wd" role="2Oq$k0">
                 <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
                 <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
               </node>
-              <node concept="liA8E" id="4PnqMJuEkij" role="2OqNvi">
+              <node concept="liA8E" id="4PnqMJuF8We" role="2OqNvi">
                 <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                <node concept="Xl_RD" id="4PnqMJuEkpE" role="37wK5m">
-                  <property role="Xl_RC" value="DELETE called ... " />
+                <node concept="Xl_RD" id="4PnqMJuF93P" role="37wK5m">
+                  <property role="Xl_RC" value="DELETE in LogicalCompareRightArgument" />
                 </node>
               </node>
             </node>
           </node>
+          <node concept="3clFbH" id="4PnqMJuF9oN" role="3cqZAp" />
           <node concept="3clFbJ" id="6o2z4lPcPTJ" role="3cqZAp">
             <node concept="3clFbS" id="6o2z4lPcPTM" role="3clFbx">
               <node concept="3clFbF" id="6o2z4lPcS4C" role="3cqZAp">
@@ -817,6 +816,20 @@
                     <node concept="0IXxy" id="6o2z4lPcS4B" role="2Oq$k0" />
                     <node concept="3TrEf2" id="4PnqMJuE3Vj" role="2OqNvi">
                       <ref role="3Tt5mk" to="ev4m:4PnqMJuAq42" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="4PnqMJuF8UE" role="3cqZAp">
+                <node concept="2OqwBi" id="4PnqMJuF8UB" role="3clFbG">
+                  <node concept="10M0yZ" id="4PnqMJuF8UC" role="2Oq$k0">
+                    <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                    <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+                  </node>
+                  <node concept="liA8E" id="4PnqMJuF8UD" role="2OqNvi">
+                    <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                    <node concept="Xl_RD" id="4PnqMJuF9zP" role="37wK5m">
+                      <property role="Xl_RC" value="Right no was not expression. putting exp there" />
                     </node>
                   </node>
                 </node>
@@ -845,7 +858,7 @@
             </node>
           </node>
           <node concept="3clFbH" id="4PnqMJuEkwo" role="3cqZAp" />
-          <node concept="3SKdUt" id="4PnqMJuEkHz" role="3cqZAp" />
+          <node concept="3clFbH" id="4PnqMJuFavm" role="3cqZAp" />
           <node concept="3cpWs8" id="hI97EOH" role="3cqZAp">
             <node concept="3cpWsn" id="hI97EOI" role="3cpWs9">
               <property role="TrG5h" value="leftExpression" />
@@ -854,8 +867,8 @@
               </node>
               <node concept="2OqwBi" id="hI97EOK" role="33vP2m">
                 <node concept="0IXxy" id="hI97EOL" role="2Oq$k0" />
-                <node concept="3TrEf2" id="4PnqMJuE48o" role="2OqNvi">
-                  <ref role="3Tt5mk" to="ev4m:4PnqMJuAq42" />
+                <node concept="3TrEf2" id="4PnqMJuFarA" role="2OqNvi">
+                  <ref role="3Tt5mk" to="ev4m:4PnqMJuAq40" />
                 </node>
               </node>
             </node>
@@ -870,6 +883,22 @@
               </node>
             </node>
           </node>
+          <node concept="3clFbF" id="4PnqMJuFaJm" role="3cqZAp">
+            <node concept="2OqwBi" id="4PnqMJuFaJj" role="3clFbG">
+              <node concept="10M0yZ" id="4PnqMJuFaJk" role="2Oq$k0">
+                <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="4PnqMJuFaJl" role="2OqNvi">
+                <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="4PnqMJuFaRK" role="37wK5m">
+                  <property role="Xl_RC" value="Put left exp, where compare was" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4PnqMJuFaBk" role="3cqZAp" />
+          <node concept="3clFbH" id="4PnqMJuFbhj" role="3cqZAp" />
           <node concept="3clFbF" id="hI97EOS" role="3cqZAp">
             <node concept="2OqwBi" id="hI97EOT" role="3clFbG">
               <node concept="1Q80Hx" id="hI97EOU" role="2Oq$k0" />
@@ -878,7 +907,6 @@
               </node>
             </node>
           </node>
-          <node concept="3clFbH" id="4PnqMJuE4f$" role="3cqZAp" />
           <node concept="3cpWs8" id="hI97EOW" role="3cqZAp">
             <node concept="3cpWsn" id="hI97EOX" role="3cpWs9">
               <property role="TrG5h" value="editor" />

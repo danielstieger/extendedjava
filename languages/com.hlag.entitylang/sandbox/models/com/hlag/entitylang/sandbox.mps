@@ -133,7 +133,6 @@
         <child id="8181476057624961412" name="operand" index="3S$L2$" />
         <child id="8181476057624961414" name="operation" index="3S$L2A" />
       </concept>
-      <concept id="8181476057624623666" name="com.hlag.jpql.structure.Expression" flags="ng" index="3SB$Gi" />
       <concept id="8181476057624623626" name="com.hlag.jpql.structure.ResultSetFunc" flags="ng" index="3SB$GE">
         <child id="8181476057624624696" name="expression" index="3SB$Wo" />
       </concept>
@@ -901,8 +900,10 @@
                     <ref role="3S$KQD" node="1qyyZLmWy9P" resolve="containerId" />
                   </node>
                 </node>
-                <node concept="2jNmR5" id="4PnqMJuEDO$" role="3SGRm$">
-                  <node concept="3SB$Gi" id="4PnqMJuEDO_" role="2jNGCD" />
+                <node concept="2jNmR5" id="4PnqMJuFgDF" role="3SGRm$">
+                  <node concept="3SBG_A" id="4PnqMJuFgDU" role="2jNGCD">
+                    <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
+                  </node>
                   <node concept="3SBG_A" id="4PnqMJuEDOn" role="2jNGCF">
                     <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                   </node>
