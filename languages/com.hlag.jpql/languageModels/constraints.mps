@@ -58,9 +58,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
-        <child id="1081516765348" name="expression" index="3fr31v" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
@@ -86,7 +83,6 @@
     <language id="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1" name="jetbrains.mps.lang.constraints">
       <concept id="1202989531578" name="jetbrains.mps.lang.constraints.structure.ConstraintFunction_CanBeAChild" flags="in" index="nKS2y" />
       <concept id="1202989658459" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_parentNode" flags="nn" index="nLn13" />
-      <concept id="1203001236505" name="jetbrains.mps.lang.constraints.structure.ConstraintFunctionParameter_childConcept" flags="nn" index="otxO1" />
       <concept id="8401916545537438642" name="jetbrains.mps.lang.constraints.structure.InheritedNodeScopeFactory" flags="ng" index="1dDu$B">
         <reference id="8401916545537438643" name="kind" index="1dDu$A" />
       </concept>
@@ -118,9 +114,6 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
-      </concept>
-      <concept id="1172326502327" name="jetbrains.mps.lang.smodel.structure.Concept_IsExactlyOperation" flags="nn" index="3O6GUB">
-        <child id="1206733650006" name="conceptArgument" index="3QVz_e" />
       </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <reference id="1140138128738" name="concept" index="1PxNhF" />
@@ -265,46 +258,6 @@
       </node>
     </node>
   </node>
-  <node concept="1M2fIO" id="76asi296eoQ">
-    <property role="3GE5qa" value="EntityRef" />
-    <ref role="1M2myG" to="ev4m:76asi2953CM" resolve="Expression" />
-    <node concept="nKS2y" id="76asi296eoR" role="1MLUbF">
-      <node concept="3clFbS" id="76asi296eoS" role="2VODD2">
-        <node concept="3clFbF" id="76asi296hh3" role="3cqZAp">
-          <node concept="3fqX7Q" id="76asi296ibE" role="3clFbG">
-            <node concept="2OqwBi" id="76asi296ibG" role="3fr31v">
-              <node concept="otxO1" id="76asi296ibH" role="2Oq$k0" />
-              <node concept="3O6GUB" id="76asi296ibI" role="2OqNvi">
-                <node concept="chp4Y" id="76asi296ibJ" role="3QVz_e">
-                  <ref role="cht4Q" to="ev4m:76asi2953CM" resolve="Expression" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="76asi297Ohd">
-    <property role="3GE5qa" value="ResultSet" />
-    <ref role="1M2myG" to="ev4m:76asi2953Ca" resolve="ResultSetFunc" />
-    <node concept="nKS2y" id="76asi297Ohe" role="1MLUbF">
-      <node concept="3clFbS" id="76asi297Ohf" role="2VODD2">
-        <node concept="3clFbF" id="76asi297Omb" role="3cqZAp">
-          <node concept="3fqX7Q" id="76asi297Om9" role="3clFbG">
-            <node concept="2OqwBi" id="76asi297Owk" role="3fr31v">
-              <node concept="otxO1" id="76asi297Orr" role="2Oq$k0" />
-              <node concept="3O6GUB" id="76asi297OJD" role="2OqNvi">
-                <node concept="chp4Y" id="76asi297OPK" role="3QVz_e">
-                  <ref role="cht4Q" to="ev4m:76asi2953Ca" resolve="ResultSetFunc" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-  </node>
   <node concept="1M2fIO" id="76asi298nsr">
     <property role="3GE5qa" value="EntityRef" />
     <ref role="1M2myG" to="ev4m:76asi296nL4" resolve="FieldReference" />
@@ -312,26 +265,6 @@
       <ref role="1N5Vy1" to="ev4m:76asi296nM9" />
       <node concept="1dDu$B" id="76asi298nsw" role="1N6uqs">
         <ref role="1dDu$A" to="5zrl:1kgMMKTClnP" resolve="Field" />
-      </node>
-    </node>
-  </node>
-  <node concept="1M2fIO" id="4PnqMJuDGrf">
-    <property role="3GE5qa" value="Logic" />
-    <ref role="1M2myG" to="ev4m:4PnqMJuAq3Z" resolve="CompareLogicOperation" />
-    <node concept="nKS2y" id="4PnqMJuDGsq" role="1MLUbF">
-      <node concept="3clFbS" id="4PnqMJuDGsr" role="2VODD2">
-        <node concept="3clFbF" id="4PnqMJuDGxm" role="3cqZAp">
-          <node concept="3fqX7Q" id="4PnqMJuDGVi" role="3clFbG">
-            <node concept="2OqwBi" id="4PnqMJuDH38" role="3fr31v">
-              <node concept="otxO1" id="4PnqMJuDGVm" role="2Oq$k0" />
-              <node concept="3O6GUB" id="4PnqMJuDHVr" role="2OqNvi">
-                <node concept="chp4Y" id="4PnqMJuDId7" role="3QVz_e">
-                  <ref role="cht4Q" to="ev4m:4PnqMJuAq3Z" resolve="CompareLogicOperation" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
       </node>
     </node>
   </node>

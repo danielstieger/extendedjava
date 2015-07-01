@@ -1023,5 +1023,34 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="4PnqMJuHmgv">
+    <property role="3GE5qa" value="Logic" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuHm9w" resolve="ParenthesisExpression" />
+    <node concept="3EZMnI" id="4PnqMJuHmlC" role="2wV5jI">
+      <node concept="3F0ifn" id="4PnqMJuHmlJ" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F1sOY" id="4PnqMJuHmlP" role="3EZMnx">
+        <ref role="1NtTu8" to="ev4m:4PnqMJuHmlA" />
+      </node>
+      <node concept="3F0ifn" id="4PnqMJuHmlX" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="l2Vlx" id="4PnqMJuHmlF" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4PnqMJuHGbq">
+    <property role="3GE5qa" value="Logic" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuHGb0" resolve="NotOperation" />
+    <node concept="3EZMnI" id="4PnqMJuHGbI" role="2wV5jI">
+      <node concept="3F0ifn" id="4PnqMJuHGbP" role="3EZMnx">
+        <property role="3F0ifm" value="NOT" />
+      </node>
+      <node concept="3F1sOY" id="4PnqMJuHGbV" role="3EZMnx">
+        <ref role="1NtTu8" to="ev4m:4PnqMJuHGbj" />
+      </node>
+      <node concept="l2Vlx" id="4PnqMJuHGbL" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

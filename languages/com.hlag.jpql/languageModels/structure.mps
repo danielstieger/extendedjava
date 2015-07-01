@@ -14,6 +14,8 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
+        <property id="4628067390765956807" name="final" index="R5$K2" />
+        <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
       </concept>
@@ -82,6 +84,8 @@
     <property role="TrG5h" value="ResultSetFunc" />
     <property role="3GE5qa" value="ResultSet" />
     <property role="R4oN_" value="result set function" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
     <node concept="1TJgyj" id="76asi2953SS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -92,6 +96,10 @@
   <node concept="1TIwiD" id="76asi2953CM">
     <property role="TrG5h" value="Expression" />
     <property role="3GE5qa" value="EntityRef" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="34LRSv" value="NOT" />
+    <property role="R4oN_" value="not" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="76asi2958F0">
@@ -302,11 +310,15 @@
   <node concept="1TIwiD" id="4PnqMJu_7W8">
     <property role="TrG5h" value="LogicOperation" />
     <property role="3GE5qa" value="Logic" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAq3Z">
     <property role="3GE5qa" value="Logic" />
     <property role="TrG5h" value="CompareLogicOperation" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="4PnqMJu_7W8" resolve="LogicOperation" />
     <node concept="1TJgyj" id="4PnqMJuAq40" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -376,6 +388,30 @@
     <property role="34LRSv" value="OR" />
     <property role="R4oN_" value="logic or" />
     <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="CompareLogicOperation" />
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuHm9w">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="ParenthesisExpression" />
+    <property role="34LRSv" value="( expression )" />
+    <property role="R4oN_" value="parenthesis for expressions" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <node concept="1TJgyj" id="4PnqMJuHmlA" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuHGb0">
+    <property role="3GE5qa" value="Logic" />
+    <property role="TrG5h" value="NotOperation" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <node concept="1TJgyj" id="4PnqMJuHGbj" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
   </node>
 </model>
 
