@@ -122,6 +122,9 @@
       <concept id="5573040900058473056" name="com.hlag.jpql.structure.ParenthesisExpression" flags="ng" index="2jSw_b">
         <child id="5573040900058473830" name="expression" index="2jSwTd" />
       </concept>
+      <concept id="5573040900058700616" name="com.hlag.jpql.structure.ASCExpression" flags="ng" index="2jVV1z">
+        <child id="5573040900058700617" name="expression" index="2jVV1y" />
+      </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
         <child id="8181476057626065255" name="returnType" index="3SC4x7" />
@@ -143,6 +146,7 @@
         <reference id="8181476057624834891" name="varDeclaration" index="3SBg9F" />
       </concept>
       <concept id="8181476057626065236" name="com.hlag.jpql.structure.SelectStatement" flags="ng" index="3SC4xO">
+        <child id="5573040900058699367" name="orderbyClause" index="2jVVPc" />
         <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
@@ -801,6 +805,19 @@
           </node>
         </node>
         <node concept="3clFbH" id="76asi29fmS_" role="3cqZAp" />
+        <node concept="3clFbH" id="4PnqMJuITII" role="3cqZAp" />
+        <node concept="3SKdUt" id="4PnqMJuITMo" role="3cqZAp">
+          <node concept="3SKdUq" id="4PnqMJuITOb" role="3SKWNk">
+            <property role="3SKdUp" value="TODO: substitution for ORDER BY ASC DESC is needed. maybe enum and just one sort expression ? " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="4PnqMJuIU3Q" role="3cqZAp">
+          <node concept="3SKdUq" id="4PnqMJuIU5F" role="3SKWNk">
+            <property role="3SKdUp" value="single orderby exp not derived from expression but put into select statement instead of general expression?" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="4PnqMJuIUbs" role="3cqZAp" />
+        <node concept="3clFbH" id="4PnqMJuIUdf" role="3cqZAp" />
         <node concept="3cpWs8" id="4PnqMJuElpc" role="3cqZAp">
           <node concept="3cpWsn" id="4PnqMJuElpf" role="3cpWs9">
             <property role="TrG5h" value="a" />
@@ -820,6 +837,7 @@
           </node>
         </node>
         <node concept="3clFbH" id="4PnqMJuIbkS" role="3cqZAp" />
+        <node concept="3clFbH" id="4PnqMJuITBF" role="3cqZAp" />
         <node concept="3clFbH" id="4PnqMJuCGdo" role="3cqZAp" />
         <node concept="3clFbF" id="4PnqMJuG9OA" role="3cqZAp">
           <node concept="2OqwBi" id="4PnqMJuG9Q_" role="3clFbG">
@@ -940,6 +958,11 @@
                     <node concept="3SBG_A" id="4PnqMJuHFxq" role="2jNGCF">
                       <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                     </node>
+                  </node>
+                </node>
+                <node concept="2jVV1z" id="4PnqMJuITOQ" role="2jVVPc">
+                  <node concept="3SBG_A" id="4PnqMJuITPm" role="2jVV1y">
+                    <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                   </node>
                 </node>
               </node>

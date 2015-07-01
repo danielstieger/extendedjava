@@ -252,6 +252,12 @@
     <property role="34LRSv" value="SELECT" />
     <property role="R4oN_" value="select from database" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="4PnqMJuIdpB" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="orderbyClause" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="76asi29egi4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="whereClause" />
@@ -412,6 +418,26 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuIdH8">
+    <property role="TrG5h" value="ASCExpression" />
+    <property role="34LRSv" value="ASC" />
+    <property role="R4oN_" value="ascending sort order" />
+    <property role="3GE5qa" value="OrderBy" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <node concept="1TJgyj" id="4PnqMJuIdH9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4PnqMJuIdMx">
+    <property role="3GE5qa" value="OrderBy" />
+    <property role="TrG5h" value="DESCExpression" />
+    <property role="34LRSv" value="DESC" />
+    <property role="R4oN_" value="descending order" />
+    <ref role="1TJDcQ" node="4PnqMJuIdH8" resolve="ASCExpression" />
   </node>
 </model>
 
