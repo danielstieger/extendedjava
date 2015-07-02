@@ -268,5 +268,15 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="5BrOT_AeLn1">
+    <property role="3GE5qa" value="Referencing" />
+    <ref role="1M2myG" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+    <node concept="1N5Pfh" id="5BrOT_AeLoM" role="1Mr941">
+      <ref role="1N5Vy1" to="ev4m:5BrOT_AeH5x" />
+      <node concept="1dDu$B" id="5BrOT_AeLK6" role="1N6uqs">
+        <ref role="1dDu$A" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+      </node>
+    </node>
+  </node>
 </model>
 

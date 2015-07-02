@@ -173,6 +173,8 @@
   <node concept="1TIwiD" id="76asi296oYV">
     <property role="TrG5h" value="AbstractOperation" />
     <property role="3GE5qa" value="Referencing" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="76asi296oYW" role="PzmwI">
       <ref role="PrY4T" node="76asi296nM6" resolve="IOperation" />
@@ -456,6 +458,18 @@
     </node>
     <node concept="M4N5e" id="1TgSVM5rpFd" role="M5hS2">
       <property role="1uS6qo" value="DESC" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5BrOT_AeH14">
+    <property role="3GE5qa" value="Referencing" />
+    <property role="TrG5h" value="JavaVarReference" />
+    <property role="R4oN_" value="reference to java variable" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <node concept="1TJgyj" id="5BrOT_AeH5x" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="varDeclaration" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
     </node>
   </node>
 </model>
