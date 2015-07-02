@@ -67,6 +67,9 @@
         <child id="1175147624276" name="body" index="2sgrp5" />
       </concept>
       <concept id="1175147670730" name="jetbrains.mps.lang.typesystem.structure.SubtypingRule" flags="ig" index="2sgARr" />
+      <concept id="1201607707634" name="jetbrains.mps.lang.typesystem.structure.InequationReplacementRule" flags="ig" index="35pCF_">
+        <child id="1201607798918" name="supertypeNode" index="35pZ6h" />
+      </concept>
       <concept id="1195213580585" name="jetbrains.mps.lang.typesystem.structure.AbstractCheckingRule" flags="ig" index="18hYwZ">
         <child id="1195213635060" name="body" index="18ibNy" />
       </concept>
@@ -92,6 +95,7 @@
         <child id="1174660783413" name="leftExpression" index="1ZfhK$" />
         <child id="1174660783414" name="rightExpression" index="1ZfhKB" />
       </concept>
+      <concept id="1174663118805" name="jetbrains.mps.lang.typesystem.structure.CreateLessThanInequationStatement" flags="nn" index="1ZobV4" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
@@ -184,7 +188,7 @@
               <ref role="3cqZAo" node="1kgMMKTFR2X" resolve="field" />
             </node>
             <node concept="2qgKlT" id="1kgMMKTGcRr" role="2OqNvi">
-              <ref role="37wK5l" to="74vs:1kgMMKTFQdF" resolve="getFieldType" />
+              <ref role="37wK5l" to="74vs:1kgMMKTFQdF" resolve="getFieldTypeCopy" />
             </node>
           </node>
         </node>
@@ -291,6 +295,51 @@
       <ref role="1YaFvo" to="5zrl:1kgMMKTFrvD" resolve="FieldType" />
     </node>
     <node concept="1YaCAy" id="1qyyZLn519H" role="1YuTPh">
+      <property role="TrG5h" value="fieldType" />
+      <ref role="1YaFvo" to="5zrl:1kgMMKTFrvD" resolve="FieldType" />
+    </node>
+  </node>
+  <node concept="35pCF_" id="6FEYPw3R_E1">
+    <property role="TrG5h" value="FieldTypeSubtypedss" />
+    <node concept="3clFbS" id="6FEYPw3R_E2" role="2sgrp5">
+      <node concept="3SKdUt" id="6FEYPw3RH7o" role="3cqZAp">
+        <node concept="3SKdUq" id="6FEYPw3RH7A" role="3SKWNk">
+          <property role="3SKdUp" value="int var = shippmentId " />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="6FEYPw3RH6X" role="3cqZAp">
+        <node concept="3SKdUq" id="6FEYPw3RH79" role="3SKWNk">
+          <property role="3SKdUp" value="type is a weak subtype of fieldType subtype" />
+        </node>
+      </node>
+      <node concept="1ZobV4" id="6FEYPw3RG4G" role="3cqZAp">
+        <node concept="mw_s8" id="6FEYPw3RG53" role="1ZfhKB">
+          <node concept="1YBJjd" id="6FEYPw3RIQa" role="mwGJk">
+            <ref role="1YBMHb" node="6FEYPw3RDSu" resolve="type" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="6FEYPw3RG4J" role="1ZfhK$">
+          <node concept="2OqwBi" id="6FEYPw3RIuT" role="mwGJk">
+            <node concept="2OqwBi" id="6FEYPw3RHLV" role="2Oq$k0">
+              <node concept="1YBJjd" id="6FEYPw3RER6" role="2Oq$k0">
+                <ref role="1YBMHb" node="6FEYPw3RDSl" resolve="fieldType" />
+              </node>
+              <node concept="3TrEf2" id="6FEYPw3RIeC" role="2OqNvi">
+                <ref role="3Tt5mk" to="5zrl:1kgMMKTFrvE" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="6FEYPw3RIPa" role="2OqNvi">
+              <ref role="3Tt5mk" to="5zrl:1kgMMKTFrrE" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="6FEYPw3RDSu" role="35pZ6h">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="tpee:fz3vP1H" resolve="Type" />
+    </node>
+    <node concept="1YaCAy" id="6FEYPw3RDSl" role="1YuTPh">
       <property role="TrG5h" value="fieldType" />
       <ref role="1YaFvo" to="5zrl:1kgMMKTFrvD" resolve="FieldType" />
     </node>
