@@ -41,6 +41,12 @@
     <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <node concept="1TJgyj" id="26taNl4wTou" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="jpaAnnotations" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
+    </node>
     <node concept="1TJgyj" id="1kgMMKTCqIZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fields" />
@@ -59,9 +65,9 @@
     </node>
     <node concept="1TJgyj" id="1qyyZLn58MQ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="annotations" />
+      <property role="20kJfa" value="jpaAnnotations" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="FieldAnnotation" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
     </node>
     <node concept="PrWs8" id="1kgMMKTDvZo" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -114,13 +120,13 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1qyyZLn5fZ2">
-    <property role="TrG5h" value="FieldAnnotation" />
+    <property role="TrG5h" value="JpaAnnotation" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1qyyZLn5g0m" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="values" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1qyyZLn5g0j" resolve="FieldAnnotationValue" />
+      <ref role="20lvS9" node="1qyyZLn5g0j" resolve="JpaAnnotationValue" />
     </node>
     <node concept="1TJgyj" id="1qyyZLn5g0k" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -133,7 +139,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1qyyZLn5g0j">
-    <property role="TrG5h" value="FieldAnnotationValue" />
+    <property role="TrG5h" value="JpaAnnotationValue" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1qyyZLn5X4e" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

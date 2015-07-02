@@ -20,6 +20,7 @@
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
+      <concept id="8714766435263473176" name="jetbrains.mps.lang.editor.structure.IStyleSheetItem" flags="ig" index="i$nvY" />
       <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
       <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -69,6 +70,7 @@
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1082639509531" name="nullText" index="ilYzB" />
         <property id="1073389577007" name="text" index="3F0ifm" />
       </concept>
       <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
@@ -120,19 +122,19 @@
         </node>
         <node concept="3F0ifn" id="3bYrH4MEeYB" role="3EZMnx">
           <property role="3F0ifm" value="Entity" />
-          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
+          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="ElHeader" />
         </node>
         <node concept="3F0A7n" id="3bYrH4MEeYD" role="3EZMnx">
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="ElHeaderName" />
         </node>
         <node concept="3F0ifn" id="2xB8IJbLelc" role="3EZMnx">
           <property role="3F0ifm" value="extends" />
-          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="O2Header" />
+          <ref role="1k5W1q" node="12ldMQAKJpH" resolve="ElHeader" />
         </node>
         <node concept="3F1sOY" id="2xB8IJbLele" role="3EZMnx">
           <ref role="1NtTu8" to="tpee:gXzkM_H" />
-          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="O2HeaderName" />
+          <ref role="1k5W1q" node="12ldMQAZxY_" resolve="ElHeaderName" />
         </node>
         <node concept="2iRfu4" id="12ldMQBwHz7" role="2iSdaV" />
       </node>
@@ -140,12 +142,27 @@
       <node concept="3F0ifn" id="3bYrH4MEeYV" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
+      <node concept="3F0ifn" id="26taNl4x80T" role="3EZMnx">
+        <property role="3F0ifm" value="Jpa settings:" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="ElSection" />
+      </node>
+      <node concept="3F2HdR" id="26taNl4wTqA" role="3EZMnx">
+        <ref role="1NtTu8" to="5zrl:26taNl4wTou" />
+        <node concept="2iRkQZ" id="26taNl4wTqC" role="2czzBx" />
+        <node concept="3F0ifn" id="26taNl4x81k" role="2czzBI">
+          <property role="3F0ifm" value="" />
+          <property role="ilYzB" value="&lt;no jpaAnnotations&gt;" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="26taNl4wTqe" role="3EZMnx">
+        <property role="3F0ifm" value="" />
+      </node>
       <node concept="3F0ifn" id="3bYrH4MEeZb" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
       <node concept="3F0ifn" id="3bYrH4MEeZd" role="3EZMnx">
         <property role="3F0ifm" value="Entity fields:" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="ElSection" />
       </node>
       <node concept="3F0ifn" id="2M2kZGr95_n" role="3EZMnx">
         <property role="3F0ifm" value="" />
@@ -175,7 +192,7 @@
       </node>
       <node concept="3F0ifn" id="3bYrH4MEf0T" role="3EZMnx">
         <property role="3F0ifm" value="Entity members:" />
-        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="O2Section" />
+        <ref role="1k5W1q" node="7i5NrsZlm8b" resolve="ElSection" />
       </node>
       <node concept="PMmxH" id="3Z61ZaMckgG" role="3EZMnx">
         <ref role="PMmxG" to="tpen:3Z61ZaMckgv" resolve="ClassifierMembers_Component" />
@@ -185,7 +202,7 @@
   <node concept="V5hpn" id="1kgMMKTCzkV">
     <property role="TrG5h" value="Customstyles" />
     <node concept="14StLt" id="12ldMQAKJpH" role="V601i">
-      <property role="TrG5h" value="O2Header" />
+      <property role="TrG5h" value="ElHeader" />
       <node concept="VechU" id="12ldMQAKJre" role="3F10Kt">
         <property role="Vb096" value="DARK_GREEN" />
         <node concept="1iSF2X" id="12ldMQBnuDO" role="VblUZ">
@@ -200,7 +217,7 @@
       </node>
     </node>
     <node concept="14StLt" id="12ldMQAZxY_" role="V601i">
-      <property role="TrG5h" value="O2HeaderName" />
+      <property role="TrG5h" value="ElHeaderName" />
       <node concept="VechU" id="12ldMQBnveR" role="3F10Kt">
         <property role="Vb096" value="DARK_GREEN" />
         <node concept="1iSF2X" id="12ldMQBnveS" role="VblUZ">
@@ -212,7 +229,7 @@
       </node>
     </node>
     <node concept="14StLt" id="7i5NrsZlm8b" role="V601i">
-      <property role="TrG5h" value="O2Section" />
+      <property role="TrG5h" value="ElSection" />
       <node concept="Vb9p2" id="7i5NrsZlm8f" role="3F10Kt">
         <property role="Vbekb" value="BOLD" />
       </node>
@@ -226,6 +243,14 @@
         <property role="2USNnj" value="2" />
       </node>
     </node>
+    <node concept="14StLt" id="26taNl4EruX" role="V601i">
+      <property role="TrG5h" value="ElJpaAnnotation" />
+      <node concept="VechU" id="26taNl4Erzv" role="3F10Kt">
+        <property role="Vb096" value="cyan" />
+      </node>
+      <node concept="Vb9p2" id="26taNl4ErCD" role="3F10Kt" />
+    </node>
+    <node concept="i$nvY" id="26taNl4ErmQ" role="V601i" />
   </node>
   <node concept="24kQdi" id="1kgMMKTDwHd">
     <ref role="1XX52x" to="5zrl:1kgMMKTClnP" resolve="Field" />
@@ -296,7 +321,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1qyyZLn5g0u">
-    <ref role="1XX52x" to="5zrl:1qyyZLn5fZ2" resolve="FieldAnnotation" />
+    <ref role="1XX52x" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotation" />
     <node concept="3EZMnI" id="1qyyZLn5g0w" role="2wV5jI">
       <node concept="1iCGBv" id="1qyyZLn5g0B" role="3EZMnx">
         <ref role="1NtTu8" to="5zrl:1qyyZLn5g0k" />
@@ -304,11 +329,13 @@
           <node concept="3F0A7n" id="1qyyZLn5g0K" role="2wV5jI">
             <property role="1Intyy" value="true" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+            <ref role="1k5W1q" node="26taNl4EruX" resolve="ElJpaAnnotation" />
           </node>
         </node>
       </node>
       <node concept="3F0ifn" id="1qyyZLn5g17" role="3EZMnx">
         <property role="3F0ifm" value="(" />
+        <ref role="1k5W1q" node="26taNl4EruX" resolve="ElJpaAnnotation" />
         <node concept="11L4FC" id="1qyyZLn5$TN" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -326,6 +353,7 @@
       </node>
       <node concept="3F0ifn" id="1qyyZLn5g1n" role="3EZMnx">
         <property role="3F0ifm" value=")" />
+        <ref role="1k5W1q" node="26taNl4EruX" resolve="ElJpaAnnotation" />
         <node concept="11L4FC" id="1qyyZLn5$XK" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
@@ -334,7 +362,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1qyyZLn5X4m">
-    <ref role="1XX52x" to="5zrl:1qyyZLn5g0j" resolve="FieldAnnotationValue" />
+    <ref role="1XX52x" to="5zrl:1qyyZLn5g0j" resolve="JpaAnnotationValue" />
     <node concept="3EZMnI" id="1qyyZLn5X4r" role="2wV5jI">
       <node concept="1iCGBv" id="1qyyZLn5X4y" role="3EZMnx">
         <ref role="1NtTu8" to="5zrl:1qyyZLn5X4c" />
