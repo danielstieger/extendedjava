@@ -115,6 +115,7 @@
     <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql">
       <concept id="5573040900056680171" name="com.hlag.jpql.structure.EqualsCompLogOperation" flags="ng" index="2jNmR0" />
       <concept id="5573040900056680174" name="com.hlag.jpql.structure.GreaterEqCompLogOperation" flags="ng" index="2jNmR5" />
+      <concept id="5573040900056680173" name="com.hlag.jpql.structure.GreaterCompLogOperation" flags="ng" index="2jNmR6" />
       <concept id="5573040900056654079" name="com.hlag.jpql.structure.CompareLogicOperation" flags="ng" index="2jNGJk">
         <child id="5573040900056654082" name="right" index="2jNGCD" />
         <child id="5573040900056654080" name="left" index="2jNGCF" />
@@ -122,7 +123,7 @@
       <concept id="5573040900058473056" name="com.hlag.jpql.structure.ParenthesisExpression" flags="ng" index="2jSw_b">
         <child id="5573040900058473830" name="expression" index="2jSwTd" />
       </concept>
-      <concept id="5573040900058700616" name="com.hlag.jpql.structure.ASCExpression" flags="ng" index="2jVV1z">
+      <concept id="5573040900058700616" name="com.hlag.jpql.structure.OrderByClause" flags="ng" index="2jVV1z">
         <child id="5573040900058700617" name="expression" index="2jVV1y" />
       </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
@@ -838,6 +839,16 @@
         </node>
         <node concept="3clFbH" id="4PnqMJuIbkS" role="3cqZAp" />
         <node concept="3clFbH" id="4PnqMJuITBF" role="3cqZAp" />
+        <node concept="3clFbF" id="1TgSVM5svyZ" role="3cqZAp">
+          <node concept="37vLTI" id="1TgSVM5svIM" role="3clFbG">
+            <node concept="3cmrfG" id="1TgSVM5svJc" role="37vLTx">
+              <property role="3cmrfH" value="1" />
+            </node>
+            <node concept="37vLTw" id="1TgSVM5svyX" role="37vLTJ">
+              <ref role="3cqZAo" node="4PnqMJuElpf" resolve="a" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbH" id="4PnqMJuCGdo" role="3cqZAp" />
         <node concept="3clFbF" id="4PnqMJuG9OA" role="3cqZAp">
           <node concept="2OqwBi" id="4PnqMJuG9Q_" role="3clFbG">
@@ -951,17 +962,17 @@
                   </node>
                 </node>
                 <node concept="2jSw_b" id="4PnqMJuHFx4" role="3SGRm$">
-                  <node concept="2jNmR0" id="4PnqMJuHFxx" role="2jSwTd">
-                    <node concept="3SBG_A" id="4PnqMJuHFxZ" role="2jNGCD">
+                  <node concept="2jNmR6" id="1TgSVM5qIRV" role="2jSwTd">
+                    <node concept="3SBG_A" id="1TgSVM5qIRX" role="2jNGCF">
                       <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                     </node>
-                    <node concept="3SBG_A" id="4PnqMJuHFxq" role="2jNGCF">
+                    <node concept="3SBG_A" id="1TgSVM5qIRY" role="2jNGCD">
                       <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                     </node>
                   </node>
                 </node>
-                <node concept="2jVV1z" id="4PnqMJuITOQ" role="2jVVPc">
-                  <node concept="3SBG_A" id="4PnqMJuITPm" role="2jVV1y">
+                <node concept="2jVV1z" id="1TgSVM5rJnn" role="2jVVPc">
+                  <node concept="3SBG_A" id="1TgSVM5rJnw" role="2jVV1y">
                     <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                   </node>
                 </node>

@@ -249,7 +249,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="76asi295Rif">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1M2myG" to="ev4m:76asi295bx6" resolve="VarReference" />
     <node concept="1N5Pfh" id="76asi295Rj2" role="1Mr941">
       <ref role="1N5Vy1" to="ev4m:76asi295Rdb" />
@@ -259,7 +259,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="76asi298nsr">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1M2myG" to="ev4m:76asi296nL4" resolve="FieldReference" />
     <node concept="1N5Pfh" id="76asi298nss" role="1Mr941">
       <ref role="1N5Vy1" to="ev4m:76asi296nM9" />

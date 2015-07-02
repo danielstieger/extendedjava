@@ -103,7 +103,7 @@
   </registry>
   <node concept="1YbPZF" id="76asi296IE3">
     <property role="TrG5h" value="typeof_EntityReference" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <node concept="3clFbS" id="76asi296IE4" role="18ibNy">
       <node concept="1Z5TYs" id="76asi296IFJ" role="3cqZAp">
         <node concept="mw_s8" id="76asi296IG1" role="1ZfhKB">
@@ -132,12 +132,12 @@
     </node>
     <node concept="1YaCAy" id="76asi296IE6" role="1YuTPh">
       <property role="TrG5h" value="entityReference" />
-      <ref role="1YaFvo" to="ev4m:76asi295bx6" resolve="EntityReference" />
+      <ref role="1YaFvo" to="ev4m:76asi295bx6" resolve="VarReference" />
     </node>
   </node>
   <node concept="1YbPZF" id="76asi297jv_">
     <property role="TrG5h" value="typeof_FieldReference" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <node concept="3clFbS" id="76asi297jvA" role="18ibNy">
       <node concept="1Z5TYs" id="76asi297jD_" role="3cqZAp">
         <node concept="mw_s8" id="76asi297jE8" role="1ZfhKB">
@@ -171,7 +171,7 @@
   </node>
   <node concept="1YbPZF" id="76asi297qwI">
     <property role="TrG5h" value="typeof_DotExpression" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <node concept="3clFbS" id="76asi297qwJ" role="18ibNy">
       <node concept="yXGxS" id="2S64haUgUvg" role="3cqZAp">
         <node concept="2OqwBi" id="2S64haUgUT$" role="yXQkb">

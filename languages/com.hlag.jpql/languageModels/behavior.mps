@@ -239,7 +239,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="76asi296JCL">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="13h7C2" to="ev4m:76asi293Uo6" resolve="EntityVarDeclaration" />
     <node concept="13hLZK" id="76asi296JCM" role="13h7CW">
       <node concept="3clFbS" id="76asi296JCN" role="2VODD2" />
@@ -296,7 +296,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="76asi298nyI">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="13h7C2" to="ev4m:76asi296m63" resolve="DotExpression" />
     <node concept="13i0hz" id="76asi298_pq" role="13h7CS">
       <property role="TrG5h" value="calcEntityScop" />
@@ -536,7 +536,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="76asi299a4_">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="13h7C2" to="ev4m:76asi299a1t" resolve="IVariable" />
     <node concept="13i0hz" id="76asi299a4F" role="13h7CS">
       <property role="13i0iv" value="true" />

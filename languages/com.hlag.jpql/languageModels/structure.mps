@@ -12,12 +12,20 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <reference id="1083171729157" name="memberDataType" index="M4eZT" />
+        <child id="1083172003582" name="member" index="M5hS2" />
+      </concept>
+      <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
+        <property id="1083923523172" name="externalValue" index="1uS6qo" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
+        <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
       <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
         <child id="1169127546356" name="extends" index="PrDN$" />
@@ -28,6 +36,9 @@
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
+      </concept>
+      <concept id="1071489288299" name="jetbrains.mps.lang.structure.structure.PropertyDeclaration" flags="ig" index="1TJgyi">
+        <reference id="1082985295845" name="dataType" index="AX2Wp" />
       </concept>
       <concept id="1071489288298" name="jetbrains.mps.lang.structure.structure.LinkDeclaration" flags="ig" index="1TJgyj">
         <property id="1071599776563" name="role" index="20kJfa" />
@@ -68,7 +79,7 @@
   </node>
   <node concept="1TIwiD" id="76asi293Uo6">
     <property role="TrG5h" value="EntityVarDeclaration" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="76asi293Uod" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -95,11 +106,9 @@
   </node>
   <node concept="1TIwiD" id="76asi2953CM">
     <property role="TrG5h" value="Expression" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="34LRSv" value="NOT" />
-    <property role="R4oN_" value="not" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="76asi2958F0">
@@ -111,7 +120,7 @@
   </node>
   <node concept="1TIwiD" id="76asi295bx6">
     <property role="TrG5h" value="VarReference" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
     <node concept="1TJgyj" id="76asi295Rdb" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -122,7 +131,7 @@
   </node>
   <node concept="1TIwiD" id="76asi296m63">
     <property role="TrG5h" value="DotExpression" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
     <node concept="1TJgyj" id="76asi296m64" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -145,7 +154,7 @@
   </node>
   <node concept="1TIwiD" id="76asi296nL4">
     <property role="TrG5h" value="FieldReference" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="76asi296nM7" role="PzmwI">
       <ref role="PrY4T" node="76asi296nM6" resolve="IOperation" />
@@ -159,11 +168,11 @@
   </node>
   <node concept="PlHQZ" id="76asi296nM6">
     <property role="TrG5h" value="IOperation" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
   </node>
   <node concept="1TIwiD" id="76asi296oYV">
     <property role="TrG5h" value="AbstractOperation" />
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="76asi296oYW" role="PzmwI">
       <ref role="PrY4T" node="76asi296nM6" resolve="IOperation" />
@@ -212,7 +221,7 @@
     <ref role="1TJDcQ" node="76asi2953Ca" resolve="ResultSetFunc" />
   </node>
   <node concept="PlHQZ" id="76asi299a1t">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <property role="TrG5h" value="IVariable" />
     <node concept="PrWs8" id="76asi299a22" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -256,12 +265,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="orderbyClause" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="4PnqMJuIdH8" resolve="OrderByClause" />
     </node>
     <node concept="1TJgyj" id="76asi29egi4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="whereClause" />
-      <property role="20lbJX" value="0..n" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
     </node>
     <node concept="1TJgyj" id="76asi29az_A" role="1TKVEi">
@@ -287,7 +296,7 @@
     <property role="TrG5h" value="IQueryStatement" />
   </node>
   <node concept="PlHQZ" id="76asi29cZnK">
-    <property role="3GE5qa" value="EntityRef" />
+    <property role="3GE5qa" value="Referencing" />
     <property role="TrG5h" value="IFromClause" />
   </node>
   <node concept="1TIwiD" id="76asi29duoM">
@@ -411,6 +420,8 @@
   <node concept="1TIwiD" id="4PnqMJuHGb0">
     <property role="3GE5qa" value="Logic" />
     <property role="TrG5h" value="NotOperation" />
+    <property role="34LRSv" value="NOT" />
+    <property role="R4oN_" value="not" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
     <node concept="1TJgyj" id="4PnqMJuHGbj" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -420,11 +431,15 @@
     </node>
   </node>
   <node concept="1TIwiD" id="4PnqMJuIdH8">
-    <property role="TrG5h" value="ASCExpression" />
-    <property role="34LRSv" value="ASC" />
-    <property role="R4oN_" value="ascending sort order" />
+    <property role="TrG5h" value="OrderByClause" />
+    <property role="34LRSv" value="order" />
+    <property role="R4oN_" value="sorting" />
     <property role="3GE5qa" value="OrderBy" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="1TgSVM5rpOo" role="1TKVEl">
+      <property role="TrG5h" value="order" />
+      <ref role="AX2Wp" node="1TgSVM5rpE5" resolve="SortOrder" />
+    </node>
     <node concept="1TJgyj" id="4PnqMJuIdH9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />
@@ -432,12 +447,16 @@
       <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
     </node>
   </node>
-  <node concept="1TIwiD" id="4PnqMJuIdMx">
+  <node concept="AxPO7" id="1TgSVM5rpE5">
     <property role="3GE5qa" value="OrderBy" />
-    <property role="TrG5h" value="DESCExpression" />
-    <property role="34LRSv" value="DESC" />
-    <property role="R4oN_" value="descending order" />
-    <ref role="1TJDcQ" node="4PnqMJuIdH8" resolve="ASCExpression" />
+    <property role="TrG5h" value="SortOrder" />
+    <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
+    <node concept="M4N5e" id="1TgSVM5rpE6" role="M5hS2">
+      <property role="1uS6qo" value="ASC" />
+    </node>
+    <node concept="M4N5e" id="1TgSVM5rpFd" role="M5hS2">
+      <property role="1uS6qo" value="DESC" />
+    </node>
   </node>
 </model>
 
