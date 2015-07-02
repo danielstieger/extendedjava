@@ -127,6 +127,7 @@
       <concept id="5573040900058700616" name="com.hlag.jpql.structure.OrderByClause" flags="ng" index="2jVV1z">
         <child id="5573040900058700617" name="expression" index="2jVV1y" />
       </concept>
+      <concept id="5573040900057256508" name="com.hlag.jpql.structure.AndLogOperation" flags="ng" index="2jXr$n" />
       <concept id="6475001545073807428" name="com.hlag.jpql.structure.JavaVarReference" flags="ng" index="ZSgft">
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
@@ -144,6 +145,7 @@
         <child id="8181476057624961412" name="operand" index="3S$L2$" />
         <child id="8181476057624961414" name="operation" index="3S$L2A" />
       </concept>
+      <concept id="8181476057624623666" name="com.hlag.jpql.structure.Expression" flags="ng" index="3SB$Gi" />
       <concept id="8181476057624623626" name="com.hlag.jpql.structure.ResultSetFunc" flags="ng" index="3SB$GE">
         <child id="8181476057624624696" name="expression" index="3SB$Wo" />
       </concept>
@@ -502,6 +504,15 @@
     <node concept="3Tm1VV" id="1kgMMKTEKhr" role="1B3o_S" />
     <node concept="GGpVp" id="1kgMMKTENW9" role="GGm2j">
       <property role="TrG5h" value="myfield" />
+      <node concept="11HBgY" id="26taNl4gpta" role="11Hwta">
+        <ref role="11HSJC" to="8mn1:~Column" resolve="Column" />
+        <node concept="11HSJJ" id="26taNl4gpv$" role="11HSJE">
+          <ref role="11HlFK" to="8mn1:~Column.name()" resolve="name" />
+          <node concept="Xl_RD" id="26taNl4gpvM" role="11HlFM">
+            <property role="Xl_RC" value="ID2" />
+          </node>
+        </node>
+      </node>
       <node concept="GJnRb" id="1kgMMKTFwAl" role="GJgAG">
         <property role="TrG5h" value="ShipmentId" />
         <node concept="3uibUv" id="1kgMMKTF$se" role="GJnR6">
@@ -1004,17 +1015,20 @@
                     <ref role="3S$KQD" node="1qyyZLmWy9P" resolve="containerId" />
                   </node>
                 </node>
-                <node concept="2jSw_b" id="4PnqMJuHFx4" role="3SGRm$">
-                  <node concept="2jNmR6" id="1TgSVM5qIRV" role="2jSwTd">
-                    <node concept="3SBG_A" id="1TgSVM5qIRX" role="2jNGCF">
-                      <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
-                    </node>
-                    <node concept="3S$L2z" id="5BrOT_AhrE7" role="2jNGCD">
-                      <node concept="ZSgft" id="5BrOT_AhrDX" role="3S$L2$">
-                        <ref role="ZSgbS" node="5BrOT_AhkOo" resolve="shipment" />
+                <node concept="2jXr$n" id="26taNl4hmUv" role="3SGRm$">
+                  <node concept="3SB$Gi" id="26taNl4hmUw" role="2jNGCD" />
+                  <node concept="2jSw_b" id="4PnqMJuHFx4" role="2jNGCF">
+                    <node concept="2jNmR6" id="1TgSVM5qIRV" role="2jSwTd">
+                      <node concept="3SBG_A" id="1TgSVM5qIRX" role="2jNGCF">
+                        <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
                       </node>
-                      <node concept="3S$KP$" id="5BrOT_AhK1_" role="3S$L2A">
-                        <ref role="3S$KQD" node="1qyyZLmWFzP" resolve="container" />
+                      <node concept="3S$L2z" id="5BrOT_AhrE7" role="2jNGCD">
+                        <node concept="ZSgft" id="5BrOT_AhrDX" role="3S$L2$">
+                          <ref role="ZSgbS" node="5BrOT_AhkOo" resolve="shipment" />
+                        </node>
+                        <node concept="3S$KP$" id="5BrOT_AhK1_" role="3S$L2A">
+                          <ref role="3S$KQD" node="1qyyZLmWFzP" resolve="container" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -1022,6 +1036,11 @@
                 <node concept="2jVV1z" id="1TgSVM5rJnn" role="2jVVPc">
                   <node concept="3SBG_A" id="1TgSVM5rJnw" role="2jVV1y">
                     <ref role="3SBg9F" node="76asi29eg0R" resolve="s" />
+                  </node>
+                </node>
+                <node concept="2jVV1z" id="26taNl4hmVc" role="2jVVPc">
+                  <node concept="ZSgft" id="26taNl4hNLt" role="2jVV1y">
+                    <ref role="ZSgbS" node="4PnqMJuElrq" resolve="b" />
                   </node>
                 </node>
               </node>

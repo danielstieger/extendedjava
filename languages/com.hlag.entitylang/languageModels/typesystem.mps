@@ -302,46 +302,76 @@
   <node concept="35pCF_" id="6FEYPw3R_E1">
     <property role="TrG5h" value="FieldTypeSubtypedss" />
     <node concept="3clFbS" id="6FEYPw3R_E2" role="2sgrp5">
+      <node concept="3SKdUt" id="26taNl4f2LZ" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f2Mi" role="3SKWNk">
+          <property role="3SKdUp" value="following assignment does not work" />
+        </node>
+      </node>
       <node concept="3SKdUt" id="6FEYPw3RH7o" role="3cqZAp">
         <node concept="3SKdUq" id="6FEYPw3RH7A" role="3SKWNk">
-          <property role="3SKdUp" value="int var = shippmentId " />
+          <property role="3SKdUp" value="ShippmentId &lt;int&gt; var = 10" />
         </node>
       </node>
-      <node concept="3SKdUt" id="6FEYPw3RH6X" role="3cqZAp">
-        <node concept="3SKdUq" id="6FEYPw3RH79" role="3SKWNk">
-          <property role="3SKdUp" value="type is a weak subtype of fieldType subtype" />
+      <node concept="3clFbH" id="26taNl4f2Mk" role="3cqZAp" />
+      <node concept="3SKdUt" id="26taNl4f2MX" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f2Nj" role="3SKWNk">
+          <property role="3SKdUp" value="since Integer is not a subtype of FieldType" />
         </node>
       </node>
+      <node concept="3clFbH" id="26taNl4f6dC" role="3cqZAp" />
+      <node concept="3SKdUt" id="26taNl4f6ex" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f6eQ" role="3SKWNk">
+          <property role="3SKdUp" value="check if type is a subtype of fieldtype's type" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="26taNl4f6dU" role="3cqZAp" />
       <node concept="1ZobV4" id="6FEYPw3RG4G" role="3cqZAp">
         <node concept="mw_s8" id="6FEYPw3RG53" role="1ZfhKB">
-          <node concept="1YBJjd" id="6FEYPw3RIQa" role="mwGJk">
-            <ref role="1YBMHb" node="6FEYPw3RDSu" resolve="type" />
-          </node>
-        </node>
-        <node concept="mw_s8" id="6FEYPw3RG4J" role="1ZfhK$">
-          <node concept="2OqwBi" id="6FEYPw3RIuT" role="mwGJk">
-            <node concept="2OqwBi" id="6FEYPw3RHLV" role="2Oq$k0">
-              <node concept="1YBJjd" id="6FEYPw3RER6" role="2Oq$k0">
-                <ref role="1YBMHb" node="6FEYPw3RDSl" resolve="fieldType" />
+          <node concept="2OqwBi" id="26taNl4eU1t" role="mwGJk">
+            <node concept="2OqwBi" id="26taNl4eT22" role="2Oq$k0">
+              <node concept="1YBJjd" id="6FEYPw3RIQa" role="2Oq$k0">
+                <ref role="1YBMHb" node="6FEYPw3RDSu" resolve="fieldType" />
               </node>
-              <node concept="3TrEf2" id="6FEYPw3RIeC" role="2OqNvi">
+              <node concept="3TrEf2" id="26taNl4eTKX" role="2OqNvi">
                 <ref role="3Tt5mk" to="5zrl:1kgMMKTFrvE" />
               </node>
             </node>
-            <node concept="3TrEf2" id="6FEYPw3RIPa" role="2OqNvi">
+            <node concept="3TrEf2" id="26taNl4eUmT" role="2OqNvi">
               <ref role="3Tt5mk" to="5zrl:1kgMMKTFrrE" />
             </node>
           </node>
         </node>
+        <node concept="mw_s8" id="6FEYPw3RG4J" role="1ZfhK$">
+          <node concept="1YBJjd" id="26taNl4eVk8" role="mwGJk">
+            <ref role="1YBMHb" node="6FEYPw3RDSl" resolve="type" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="26taNl4f6eS" role="3cqZAp" />
+      <node concept="3clFbH" id="26taNl4f6fe" role="3cqZAp" />
+      <node concept="3SKdUt" id="26taNl4f6fX" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f6gm" role="3SKWNk">
+          <property role="3SKdUp" value="other way round should work with subtyping rule" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="26taNl4f6gM" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f6hd" role="3SKWNk">
+          <property role="3SKdUp" value="int var = shipmentid" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="26taNl4f6hF" role="3cqZAp">
+        <node concept="3SKdUq" id="26taNl4f6i8" role="3SKWNk">
+          <property role="3SKdUp" value="since Integer is a supertype of FieldType, assignment is possible. " />
+        </node>
       </node>
     </node>
     <node concept="1YaCAy" id="6FEYPw3RDSu" role="35pZ6h">
-      <property role="TrG5h" value="type" />
-      <ref role="1YaFvo" to="tpee:fz3vP1H" resolve="Type" />
-    </node>
-    <node concept="1YaCAy" id="6FEYPw3RDSl" role="1YuTPh">
       <property role="TrG5h" value="fieldType" />
       <ref role="1YaFvo" to="5zrl:1kgMMKTFrvD" resolve="FieldType" />
+    </node>
+    <node concept="1YaCAy" id="6FEYPw3RDSl" role="1YuTPh">
+      <property role="TrG5h" value="type" />
+      <ref role="1YaFvo" to="tpee:fz3vP1H" resolve="Type" />
     </node>
   </node>
 </model>
