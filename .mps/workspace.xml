@@ -13,7 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="02ee9ee1-60db-4002-ba38-9fb759f8a0a8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/typesystem.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
     <ignored path="extendedjava.iws" />
     <ignored path=".mps/workspace.xml" />
@@ -90,7 +89,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -99,7 +98,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldType" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FieldType" pinned="false" current-in-tab="true">
         <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/FieldType">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
@@ -107,18 +106,18 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="414" />
-                    <property name="caretXRelative" value="84" />
+                    <property name="caretX" value="483" />
+                    <property name="caretXRelative" value="428" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/4584728281054946671" />
+                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                      <node node_reference="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -128,11 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Shipment" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Shipment" pinned="false" current-in-tab="false">
         <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Shipment">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
+              <memento viewPositionX="0" viewPositionY="840">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
@@ -147,7 +146,7 @@
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -435,7 +434,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1087" y="25" width="1453" height="1361" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32856005" sideWeight="0.6890369" order="0" side_tool="false" content_ui="tabs" />
@@ -460,7 +459,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37807378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2181693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2181693" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.49979848" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1782,7 +1781,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1820,7 +1819,7 @@
     <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Shipment">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
+          <memento viewPositionX="0" viewPositionY="840">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
@@ -1835,7 +1834,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1876,18 +1875,18 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="414" />
-                <property name="caretXRelative" value="84" />
+                <property name="caretX" value="483" />
+                <property name="caretXRelative" value="428" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/4584728281054946671" />
+                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
+                  <node node_reference="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/1517936465230365786" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:1632f432-da57-46e2-9eb2-bd7291ebfe44(com.hlag.entitylang.typesystem)/1631019930970523270" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />

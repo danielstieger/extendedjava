@@ -6,25 +6,16 @@
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
-    <import index="fxg7" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="74vs" ref="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)" implicit="true" />
-    <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="5zrl" ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)" implicit="true" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
-      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
-      </concept>
-      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
-        <property id="1070475926801" name="value" index="Xl_RC" />
-      </concept>
-      <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
-        <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -36,9 +27,6 @@
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
       <concept id="1068580123152" name="jetbrains.mps.baseLanguage.structure.EqualsExpression" flags="nn" index="3clFbC" />
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123159" name="jetbrains.mps.baseLanguage.structure.IfStatement" flags="nn" index="3clFbJ">
         <child id="1068580123160" name="condition" index="3clFbw" />
@@ -50,7 +38,6 @@
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
         <property id="1068580123138" name="value" index="3clFbU" />
       </concept>
-      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
       </concept>
@@ -60,7 +47,6 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
-        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -261,44 +247,6 @@
       <node concept="3SKdUt" id="1qyyZLn58pp" role="3cqZAp">
         <node concept="3SKdUq" id="1qyyZLn58q6" role="3SKWNk">
           <property role="3SKdUp" value="probably working with Integer, but maybe not with int" />
-        </node>
-      </node>
-      <node concept="3clFbF" id="3Wg6CYzSY4F" role="3cqZAp">
-        <node concept="2OqwBi" id="3Wg6CYzSY4C" role="3clFbG">
-          <node concept="10M0yZ" id="3Wg6CYzSY4D" role="2Oq$k0">
-            <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-            <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-          </node>
-          <node concept="liA8E" id="3Wg6CYzSY4E" role="2OqNvi">
-            <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-            <node concept="3cpWs3" id="3Wg6CYzSYtf" role="37wK5m">
-              <node concept="1YBJjd" id="3Wg6CYzSYwo" role="3uHU7w">
-                <ref role="1YBMHb" node="1qyyZLn519H" resolve="fieldType" />
-              </node>
-              <node concept="Xl_RD" id="3Wg6CYzSY5U" role="3uHU7B">
-                <property role="Xl_RC" value="FieldTypecomparisonRule left: " />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3clFbF" id="3Wg6CYzSY$t" role="3cqZAp">
-        <node concept="2OqwBi" id="3Wg6CYzSY$u" role="3clFbG">
-          <node concept="10M0yZ" id="3Wg6CYzSY$v" role="2Oq$k0">
-            <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-            <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-          </node>
-          <node concept="liA8E" id="3Wg6CYzSY$w" role="2OqNvi">
-            <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-            <node concept="3cpWs3" id="3Wg6CYzSY$x" role="37wK5m">
-              <node concept="1YBJjd" id="3Wg6CYzSZ5H" role="3uHU7w">
-                <ref role="1YBMHb" node="1qyyZLn51a2" resolve="fieldType2" />
-              </node>
-              <node concept="Xl_RD" id="3Wg6CYzSY$z" role="3uHU7B">
-                <property role="Xl_RC" value="FieldTypecomparisonRule right: " />
-              </node>
-            </node>
-          </node>
         </node>
       </node>
       <node concept="3clFbH" id="3Wg6CYzSY1o" role="3cqZAp" />
