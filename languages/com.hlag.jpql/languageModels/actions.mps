@@ -1470,6 +1470,77 @@
         </node>
       </node>
     </node>
+    <node concept="3UNGvq" id="3Wg6CYzRdm8" role="3UOs0v">
+      <property role="7I3sp" value="left" />
+      <ref role="3UNGvu" to="ev4m:76asi2953CM" resolve="Expression" />
+      <node concept="tYCnQ" id="3Wg6CYzRdm9" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:3Wg6CYzQhkr" resolve="OptionalExpression" />
+        <node concept="Cmt7Y" id="3Wg6CYzRdma" role="uz6Si">
+          <node concept="Cnhdc" id="3Wg6CYzRdmb" role="Cncma">
+            <node concept="3clFbS" id="3Wg6CYzRdmc" role="2VODD2">
+              <node concept="3cpWs8" id="3Wg6CYzRdmd" role="3cqZAp">
+                <node concept="3cpWsn" id="3Wg6CYzRdme" role="3cpWs9">
+                  <property role="TrG5h" value="parent" />
+                  <node concept="3Tqbb2" id="3Wg6CYzRdmf" role="1tU5fm">
+                    <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                  </node>
+                  <node concept="2YIFZM" id="3Wg6CYzRdmg" role="33vP2m">
+                    <ref role="1Pybhc" node="3Wg6CYzLKHX" resolve="OpPrecedenceHelper" />
+                    <ref role="37wK5l" node="3Wg6CYzLL5H" resolve="getParentForTransform" />
+                    <node concept="35c_gC" id="3Wg6CYzRdmh" role="37wK5m">
+                      <ref role="35c_gD" to="ev4m:3Wg6CYzQhkr" resolve="OptionalExpression" />
+                    </node>
+                    <node concept="Cj7Ep" id="3Wg6CYzRdmi" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs8" id="3Wg6CYzRdmj" role="3cqZAp">
+                <node concept="3cpWsn" id="3Wg6CYzRdmk" role="3cpWs9">
+                  <property role="TrG5h" value="newOne" />
+                  <node concept="3Tqbb2" id="3Wg6CYzRdml" role="1tU5fm">
+                    <ref role="ehGHo" to="ev4m:3Wg6CYzQhkr" resolve="OptionalExpression" />
+                  </node>
+                  <node concept="2OqwBi" id="3Wg6CYzRdmm" role="33vP2m">
+                    <node concept="37vLTw" id="3Wg6CYzRdmn" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Wg6CYzRdme" resolve="parent" />
+                    </node>
+                    <node concept="2DeJnW" id="3Wg6CYzRdmo" role="2OqNvi">
+                      <ref role="1_rbq0" to="ev4m:3Wg6CYzQhkr" resolve="OptionalExpression" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3Wg6CYzRdmq" role="3cqZAp">
+                <node concept="37vLTI" id="3Wg6CYzRdmr" role="3clFbG">
+                  <node concept="37vLTw" id="3Wg6CYzRdms" role="37vLTx">
+                    <ref role="3cqZAo" node="3Wg6CYzRdme" resolve="parent" />
+                  </node>
+                  <node concept="2OqwBi" id="3Wg6CYzRdmt" role="37vLTJ">
+                    <node concept="37vLTw" id="3Wg6CYzRdmu" role="2Oq$k0">
+                      <ref role="3cqZAo" node="3Wg6CYzRdmk" resolve="newOne" />
+                    </node>
+                    <node concept="3TrEf2" id="3Wg6CYzRdmv" role="2OqNvi">
+                      <ref role="3Tt5mk" to="ev4m:26taNl4mtwe" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3clFbF" id="3Wg6CYzRdmw" role="3cqZAp">
+                <node concept="37vLTw" id="3Wg6CYzRdmx" role="3clFbG">
+                  <ref role="3cqZAo" node="3Wg6CYzRdmk" resolve="newOne" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="3Wg6CYzRdmy" role="Cn2iK">
+            <property role="2h1i$Z" value="OPTIONAL" />
+          </node>
+          <node concept="2h1dTh" id="3Wg6CYzRdmz" role="Cn6ar">
+            <property role="2h1i$Z" value="parenthesis" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3UOs0u" id="4PnqMJuIeFm">
     <property role="TrG5h" value="OrderByTransform" />
