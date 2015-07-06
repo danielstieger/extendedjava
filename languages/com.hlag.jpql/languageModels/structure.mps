@@ -126,6 +126,7 @@
   <node concept="1TIwiD" id="76asi295bx6">
     <property role="TrG5h" value="VarReference" />
     <property role="3GE5qa" value="Referencing" />
+    <property role="MwhBj" value="${module}/icons/weather-clear.png" />
     <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
     <node concept="1TJgyj" id="76asi295Rdb" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -156,9 +157,6 @@
     <node concept="PrWs8" id="76asi296m69" role="PzmwI">
       <ref role="PrY4T" to="tpck:1_TrU5E6oyb" resolve="IDontSubstituteByDefault" />
     </node>
-    <node concept="PrWs8" id="76asi298nyE" role="PzmwI">
-      <ref role="PrY4T" to="tpck:3fifI_xCcJN" resolve="ScopeProvider" />
-    </node>
     <node concept="PrWs8" id="26taNl4i7$V" role="PzmwI">
       <ref role="PrY4T" node="26taNl4i7z5" resolve="IPath" />
     </node>
@@ -166,6 +164,7 @@
   <node concept="1TIwiD" id="76asi296nL4">
     <property role="TrG5h" value="FieldReference" />
     <property role="3GE5qa" value="Referencing" />
+    <property role="MwhBj" value="${module}/icons/weather-clear.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="76asi296nM7" role="PzmwI">
       <ref role="PrY4T" node="76asi296nM6" resolve="IOperation" />
@@ -257,9 +256,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="76asi299jHv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="path" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="26taNl4i7z5" resolve="IPath" />
     </node>
     <node concept="PrWs8" id="76asi299jGm" role="PzmwI">
       <ref role="PrY4T" node="76asi299a1t" resolve="IVariable" />
@@ -323,9 +322,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="76asi29duoT" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="path" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="26taNl4i7z5" resolve="IPath" />
     </node>
     <node concept="PrWs8" id="76asi29duoN" role="PzmwI">
       <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
@@ -446,7 +445,7 @@
     </node>
     <node concept="1TJgyj" id="4PnqMJuIdH9" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expression" />
+      <property role="20kJfa" value="path" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="26taNl4i7z5" resolve="IPath" />
     </node>

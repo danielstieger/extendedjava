@@ -42,7 +42,7 @@
   <node concept="1TIwiD" id="1kgMMKTCeR4">
     <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
-    <property role="MwhBj" value="${module}/icons/x-office-document.png" />
+    <property role="MwhBj" value="${module}/icons/page_white.png" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="2AlxPT0duf4" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
