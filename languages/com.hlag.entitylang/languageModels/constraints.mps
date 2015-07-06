@@ -13,6 +13,7 @@
     <import index="6xgk" ref="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" />
     <import index="o8zo" ref="r:314576fc-3aee-4386-a0a5-a38348ac317d(jetbrains.mps.scope)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="74vs" ref="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="5zrl" ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)" implicit="true" />
     <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
@@ -175,9 +176,6 @@
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
       </concept>
-      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
-        <reference id="1138056546658" name="link" index="3TtcxE" />
-      </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -275,8 +273,8 @@
                     </node>
                   </node>
                   <node concept="1mIQ4w" id="1qyyZLmXw3C" role="2OqNvi">
-                    <node concept="chp4Y" id="1qyyZLmXw3D" role="cj9EA">
-                      <ref role="cht4Q" to="5zrl:1kgMMKTCeR4" resolve="Entity" />
+                    <node concept="chp4Y" id="2AlxPT0goQa" role="cj9EA">
+                      <ref role="cht4Q" to="5zrl:2AlxPT0gnyc" resolve="IContainsFields" />
                     </node>
                   </node>
                 </node>
@@ -301,7 +299,7 @@
               <ref role="37wK5l" to="o8zo:4IP40Bi3eAf" resolve="forNamedElements" />
               <node concept="2OqwBi" id="1qyyZLmX_$6" role="37wK5m">
                 <node concept="1PxgMI" id="1qyyZLmX_9t" role="2Oq$k0">
-                  <ref role="1PxNhF" to="5zrl:1kgMMKTCeR4" resolve="Entity" />
+                  <ref role="1PxNhF" to="5zrl:2AlxPT0gnyc" resolve="IContainsFields" />
                   <node concept="2OqwBi" id="1qyyZLmX$5e" role="1PxMeX">
                     <node concept="37vLTw" id="1qyyZLmXzXn" role="2Oq$k0">
                       <ref role="3cqZAo" node="hDMFMP6" resolve="classifierType" />
@@ -311,8 +309,8 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3Tsc0h" id="1qyyZLmXAsf" role="2OqNvi">
-                  <ref role="3TtcxE" to="5zrl:1kgMMKTCqIZ" />
+                <node concept="2qgKlT" id="2AlxPT0gpte" role="2OqNvi">
+                  <ref role="37wK5l" to="74vs:2AlxPT0gnCB" resolve="getFields" />
                 </node>
               </node>
             </node>
@@ -322,7 +320,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1qyyZLn5$Za">
-    <ref role="1M2myG" to="5zrl:1qyyZLn5fZ2" resolve="FieldAnnotation" />
+    <ref role="1M2myG" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotation" />
     <node concept="1N5Pfh" id="1qyyZLn5_05" role="1Mr941">
       <ref role="1N5Vy1" to="5zrl:1qyyZLn5g0k" />
       <node concept="13QW63" id="1qyyZLn5_09" role="1N6uqs">
@@ -415,7 +413,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1qyyZLn64Rz">
-    <ref role="1M2myG" to="5zrl:1qyyZLn5g0j" resolve="FieldAnnotationValue" />
+    <ref role="1M2myG" to="5zrl:1qyyZLn5g0j" resolve="JpaAnnotationValue" />
     <node concept="1N5Pfh" id="1qyyZLn64R$" role="1Mr941">
       <ref role="1N5Vy1" to="5zrl:1qyyZLn5X4c" />
       <node concept="1dDu$B" id="1qyyZLn64RC" role="1N6uqs">

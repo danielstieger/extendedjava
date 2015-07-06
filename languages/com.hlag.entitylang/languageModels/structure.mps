@@ -61,6 +61,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1kgMMKTClnP" resolve="Field" />
     </node>
+    <node concept="PrWs8" id="2AlxPT0gpB4" role="PzmwI">
+      <ref role="PrY4T" node="2AlxPT0gnyc" resolve="IContainsFields" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1kgMMKTClnP">
     <property role="TrG5h" value="Field" />
@@ -180,6 +183,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="1kgMMKTClnP" resolve="Field" />
     </node>
+    <node concept="PrWs8" id="2AlxPT0gp$w" role="PzmwI">
+      <ref role="PrY4T" node="2AlxPT0gnyc" resolve="IContainsFields" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="2AlxPT0gnyc">
+    <property role="TrG5h" value="IContainsFields" />
   </node>
 </model>
 
