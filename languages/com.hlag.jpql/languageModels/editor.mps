@@ -1279,6 +1279,7 @@
       </node>
       <node concept="3F0A7n" id="1TgSVM5rqcO" role="3EZMnx">
         <ref role="1NtTu8" to="ev4m:1TgSVM5rpOo" resolve="order" />
+        <ref role="1k5W1q" node="26taNl4m8Z_" resolve="JpqlLogicOperator" />
       </node>
       <node concept="l2Vlx" id="4PnqMJuIdMj" role="2iSdaV" />
     </node>

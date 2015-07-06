@@ -21,6 +21,7 @@
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
       <concept id="1071489090640" name="jetbrains.mps.lang.structure.structure.ConceptDeclaration" flags="ig" index="1TIwiD">
+        <property id="1160488491229" name="iconPath" index="MwhBj" />
         <property id="1096454100552" name="rootable" index="19KtqR" />
         <reference id="1071489389519" name="extends" index="1TJDcQ" />
         <child id="1169129564478" name="implements" index="PzmwI" />
@@ -41,7 +42,13 @@
   <node concept="1TIwiD" id="1kgMMKTCeR4">
     <property role="TrG5h" value="Entity" />
     <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/x-office-document.png" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <node concept="1TJgyj" id="2AlxPT0duf4" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="entityKey" />
+      <ref role="20lvS9" node="2AlxPT0dqiK" resolve="EntityKey" />
+    </node>
     <node concept="1TJgyj" id="26taNl4wTou" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="jpaAnnotations" />
@@ -154,6 +161,24 @@
       <property role="20kJfa" value="method" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:hiACnCB" resolve="AnnotationMethodDeclaration" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2AlxPT0dqiK">
+    <property role="TrG5h" value="EntityKey" />
+    <property role="19KtqR" value="true" />
+    <property role="MwhBj" value="${module}/icons/star.png" />
+    <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
+    <node concept="1TJgyj" id="2AlxPT0dt5A" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="jpaAnnotations" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
+    </node>
+    <node concept="1TJgyj" id="2AlxPT0dt5B" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1kgMMKTClnP" resolve="Field" />
     </node>
   </node>
 </model>

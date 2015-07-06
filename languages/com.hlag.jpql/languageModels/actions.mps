@@ -831,6 +831,7 @@
     </node>
   </node>
   <node concept="3FK_9_" id="4PnqMJuCk_9">
+    <property role="TrG5h" value="SubstitutionTest" />
     <node concept="3FOIzC" id="4PnqMJuCk_a" role="3FOPby">
       <ref role="3FOWKa" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
       <node concept="tYCnQ" id="4PnqMJuCk_q" role="tZc4B">
