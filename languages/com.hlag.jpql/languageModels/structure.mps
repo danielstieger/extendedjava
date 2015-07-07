@@ -110,7 +110,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="76asi2953CM">
-    <property role="TrG5h" value="Expression" />
+    <property role="TrG5h" value="JpqlExpression" />
     <property role="3GE5qa" value="Referencing" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -127,7 +127,7 @@
     <property role="TrG5h" value="VarReference" />
     <property role="3GE5qa" value="Referencing" />
     <property role="MwhBj" value="${module}/icons/weather-clear.png" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
     <node concept="1TJgyj" id="76asi295Rdb" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="varDeclaration" />
@@ -139,14 +139,14 @@
     </node>
   </node>
   <node concept="1TIwiD" id="76asi296m63">
-    <property role="TrG5h" value="DotExpression" />
+    <property role="TrG5h" value="JpqlDotExpression" />
     <property role="3GE5qa" value="Referencing" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
     <node concept="1TJgyj" id="76asi296m64" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20lbJX" value="1" />
       <property role="20kJfa" value="operand" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
     </node>
     <node concept="1TJgyj" id="76asi296m66" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -286,7 +286,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="whereClause" />
       <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
     </node>
     <node concept="1TJgyj" id="76asi29az_A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -338,29 +338,29 @@
     <ref role="1TJDcQ" node="76asi29duoM" resolve="FetchJoin" />
   </node>
   <node concept="1TIwiD" id="4PnqMJu_7W8">
-    <property role="TrG5h" value="LogicOperation" />
+    <property role="TrG5h" value="JpqlLogicOperation" />
     <property role="3GE5qa" value="Expressions" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAq3Z">
     <property role="3GE5qa" value="Expressions.Compare" />
-    <property role="TrG5h" value="BinaryCompareOperation" />
+    <property role="TrG5h" value="JpqlBinaryCompareOperation" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="4PnqMJu_7W8" resolve="LogicOperation" />
+    <ref role="1TJDcQ" node="4PnqMJu_7W8" resolve="JpqlLogicOperation" />
     <node concept="1TJgyj" id="4PnqMJuAq40" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="left" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
     </node>
     <node concept="1TJgyj" id="4PnqMJuAq42" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="right" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrF">
@@ -368,67 +368,67 @@
     <property role="TrG5h" value="EqualsCompLogOperation" />
     <property role="34LRSv" value="=" />
     <property role="R4oN_" value="equals" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrG">
     <property role="3GE5qa" value="Expressions.Compare" />
     <property role="TrG5h" value="NotEqualsCompLogOperation" />
     <property role="34LRSv" value="&lt;&gt;" />
     <property role="R4oN_" value="not equals" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrH">
     <property role="3GE5qa" value="Expressions.Compare" />
     <property role="TrG5h" value="GreaterCompLogOperation" />
     <property role="34LRSv" value="&gt;" />
     <property role="R4oN_" value="greater than" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrI">
     <property role="3GE5qa" value="Expressions.Compare" />
     <property role="TrG5h" value="GreaterEqCompLogOperation" />
     <property role="34LRSv" value="&gt;=" />
     <property role="R4oN_" value="greater or equals" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrJ">
     <property role="3GE5qa" value="Expressions.Compare" />
     <property role="TrG5h" value="LowerCompLogOperation" />
     <property role="34LRSv" value="&lt;" />
     <property role="R4oN_" value="lower" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuAwrK">
     <property role="3GE5qa" value="Expressions.Compare" />
     <property role="TrG5h" value="LowerEqCompLogOperation" />
     <property role="34LRSv" value="&lt;=" />
     <property role="R4oN_" value="lower or equals" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuCH8W">
     <property role="3GE5qa" value="Expressions.AndOr" />
     <property role="TrG5h" value="AndLogOperation" />
     <property role="34LRSv" value="AND" />
     <property role="R4oN_" value="logic and" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuCH9j">
     <property role="3GE5qa" value="Expressions.AndOr" />
     <property role="TrG5h" value="OrLogOperation" />
     <property role="34LRSv" value="OR" />
     <property role="R4oN_" value="logic or" />
-    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1TJDcQ" node="4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuHm9w">
     <property role="3GE5qa" value="Expressions.Boxing" />
-    <property role="TrG5h" value="ParenthesisExpression" />
+    <property role="TrG5h" value="JpqlParenthesisExpression" />
     <property role="34LRSv" value="( expression )" />
     <property role="R4oN_" value="parenthesis for expressions" />
     <ref role="1TJDcQ" node="26taNl4mtwd" resolve="BoxingExpression" />
   </node>
   <node concept="1TIwiD" id="4PnqMJuHGb0">
     <property role="3GE5qa" value="Expressions.Boxing" />
-    <property role="TrG5h" value="NotExpression" />
+    <property role="TrG5h" value="JpqlNotExpression" />
     <property role="34LRSv" value="NOT" />
     <property role="R4oN_" value="not" />
     <ref role="1TJDcQ" node="26taNl4mtwd" resolve="BoxingExpression" />
@@ -465,7 +465,7 @@
     <property role="3GE5qa" value="Referencing" />
     <property role="TrG5h" value="JavaVarReference" />
     <property role="R4oN_" value="reference to java variable" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
     <node concept="1TJgyj" id="5BrOT_AeH5x" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="varDeclaration" />
@@ -496,19 +496,19 @@
     <property role="TrG5h" value="NullExpression" />
     <property role="34LRSv" value="NULL" />
     <property role="R4oN_" value="null comparison" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
   </node>
   <node concept="1TIwiD" id="26taNl4mtwd">
     <property role="3GE5qa" value="Expressions.Boxing" />
     <property role="TrG5h" value="BoxingExpression" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="76asi2953CM" resolve="Expression" />
+    <ref role="1TJDcQ" node="76asi2953CM" resolve="JpqlExpression" />
     <node concept="1TJgyj" id="26taNl4mtwe" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi2953CM" resolve="Expression" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
     </node>
   </node>
   <node concept="1TIwiD" id="3Wg6CYzQhkr">

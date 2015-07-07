@@ -21,6 +21,7 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpen" ref="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" implicit="true" />
+    <import index="zlu4" ref="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)" implicit="true" />
     <import index="ev4m" ref="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)" implicit="true" />
   </imports>
   <registry>
@@ -29,7 +30,9 @@
     </language>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1402906326895675325" name="jetbrains.mps.lang.editor.structure.CellActionMap_FunctionParm_selectedNode" flags="nn" index="0IXxy" />
-      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi">
+        <child id="1078153129734" name="inspectedCellModel" index="6VMZX" />
+      </concept>
       <concept id="1164052439493" name="jetbrains.mps.lang.editor.structure.CellMenuPart_AbstractGroup_MatchingText" flags="in" index="6VE3a" />
       <concept id="1164052588708" name="jetbrains.mps.lang.editor.structure.CellMenuPart_AbstractGroup_DescriptionText" flags="in" index="6WeAF" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
@@ -139,12 +142,19 @@
       <concept id="1163613035599" name="jetbrains.mps.lang.editor.structure.CellMenuPart_AbstractGroup_Query" flags="in" index="3GJtP1" />
       <concept id="1163613549566" name="jetbrains.mps.lang.editor.structure.CellMenuPart_AbstractGroup_parameterObject" flags="nn" index="3GLrbK" />
       <concept id="1163613822479" name="jetbrains.mps.lang.editor.structure.CellMenuPart_Abstract_editedNode" flags="nn" index="3GMtW1" />
+      <concept id="1225898583838" name="jetbrains.mps.lang.editor.structure.ReadOnlyModelAccessor" flags="ng" index="1HfYo3">
+        <child id="1225898971709" name="getter" index="1Hhtcw" />
+      </concept>
+      <concept id="1225900081164" name="jetbrains.mps.lang.editor.structure.CellModel_ReadOnlyModelAccessor" flags="sg" stub="3708815482283559694" index="1HlG4h">
+        <child id="1225900141900" name="modelAccessor" index="1HlULh" />
+      </concept>
       <concept id="3647146066980922272" name="jetbrains.mps.lang.editor.structure.SelectInEditorOperation" flags="nn" index="1OKiuA">
         <child id="1948540814633499358" name="editorContext" index="lBI5i" />
         <child id="1948540814635895774" name="cellSelector" index="lGT1i" />
         <child id="3604384757217586546" name="selectionStart" index="3dN3m$" />
       </concept>
       <concept id="1161622981231" name="jetbrains.mps.lang.editor.structure.ConceptFunctionParameter_editorContext" flags="nn" index="1Q80Hx" />
+      <concept id="1176717841777" name="jetbrains.mps.lang.editor.structure.QueryFunction_ModelAccess_Getter" flags="in" index="3TQlhw" />
       <concept id="1176749715029" name="jetbrains.mps.lang.editor.structure.QueryFunction_CellProvider" flags="in" index="3VJUX4" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
@@ -271,6 +281,7 @@
       <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
         <child id="1140725362529" name="linkTarget" index="2oxUTC" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1145404486709" name="jetbrains.mps.lang.smodel.structure.SemanticDowncastExpression" flags="nn" index="2JrnkZ">
         <child id="1145404616321" name="leftExpression" index="2JrQYb" />
@@ -335,7 +346,7 @@
         </node>
       </node>
       <node concept="3F1sOY" id="1qyyZLn7Lyt" role="3EZMnx">
-        <property role="1$x2rV" value="Object[]" />
+        <property role="1$x2rV" value="List&lt;Object[]&gt;" />
         <ref role="1NtTu8" to="ev4m:76asi29az_B" />
       </node>
       <node concept="3F0ifn" id="1qyyZLn7D6N" role="3EZMnx">
@@ -348,6 +359,43 @@
         <ref role="1NtTu8" to="ev4m:76asi29a$YU" />
       </node>
       <node concept="l2Vlx" id="1qyyZLn7D6x" role="2iSdaV" />
+    </node>
+    <node concept="3EZMnI" id="456D_1YqB0H" role="6VMZX">
+      <node concept="l2Vlx" id="456D_1YqB0I" role="2iSdaV" />
+      <node concept="1HlG4h" id="456D_1YqBaI" role="3EZMnx">
+        <node concept="1HfYo3" id="456D_1YqBaJ" role="1HlULh">
+          <node concept="3TQlhw" id="456D_1YqBaK" role="1Hhtcw">
+            <node concept="3clFbS" id="456D_1YqBaL" role="2VODD2">
+              <node concept="3clFbF" id="456D_1YqBnk" role="3cqZAp">
+                <node concept="3cpWs3" id="456D_1YtxWa" role="3clFbG">
+                  <node concept="2OqwBi" id="456D_1YtycU" role="3uHU7w">
+                    <node concept="pncrf" id="456D_1Yty61" role="2Oq$k0" />
+                    <node concept="2qgKlT" id="456D_1YtyF4" role="2OqNvi">
+                      <ref role="37wK5l" to="zlu4:456D_1YtumQ" resolve="isNoReturnTypeSpecified" />
+                    </node>
+                  </node>
+                  <node concept="3cpWs3" id="456D_1YtwTc" role="3uHU7B">
+                    <node concept="3cpWs3" id="456D_1YqC2D" role="3uHU7B">
+                      <node concept="Xl_RD" id="456D_1YqBnj" role="3uHU7B">
+                        <property role="Xl_RC" value="Single Result? " />
+                      </node>
+                      <node concept="2OqwBi" id="456D_1YqC9k" role="3uHU7w">
+                        <node concept="pncrf" id="456D_1YqC2N" role="2Oq$k0" />
+                        <node concept="2qgKlT" id="456D_1YqCq9" role="2OqNvi">
+                          <ref role="37wK5l" to="zlu4:456D_1YqzQE" resolve="isSingleResult" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="Xl_RD" id="456D_1YtwTx" role="3uHU7w">
+                      <property role="Xl_RC" value=" no ret type spec? " />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
   <node concept="V5hpn" id="1qyyZLn7D7z">
@@ -442,7 +490,7 @@
   </node>
   <node concept="24kQdi" id="76asi296m6m">
     <property role="3GE5qa" value="Referencing" />
-    <ref role="1XX52x" to="ev4m:76asi296m63" resolve="DotExpression" />
+    <ref role="1XX52x" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
     <node concept="3EZMnI" id="hqOrWt$" role="2wV5jI">
       <property role="3EZMnw" value="false" />
       <node concept="3F1sOY" id="hqOrXd$" role="3EZMnx">
@@ -465,7 +513,7 @@
   </node>
   <node concept="1h_SRR" id="76asi296mkz">
     <property role="TrG5h" value="DotExpression_Actions" />
-    <ref role="1h_SK9" to="ev4m:76asi296m63" resolve="DotExpression" />
+    <ref role="1h_SK9" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
     <node concept="1hA7zw" id="76asi296mk$" role="1h_SK8">
       <property role="1hAc7j" value="delete_action_id" />
       <property role="1hHO97" value="Delete op" />
@@ -649,7 +697,7 @@
   </node>
   <node concept="24kQdi" id="76asi297UXi">
     <property role="3GE5qa" value="Referencing" />
-    <ref role="1XX52x" to="ev4m:76asi2953CM" resolve="Expression" />
+    <ref role="1XX52x" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
     <node concept="gc7cB" id="76asi297UYF" role="2wV5jI">
       <node concept="3VJUX4" id="76asi297UYG" role="3YsKMw">
         <node concept="3clFbS" id="76asi297UYH" role="2VODD2">
@@ -859,7 +907,7 @@
   </node>
   <node concept="24kQdi" id="4PnqMJuAq4a">
     <property role="3GE5qa" value="Expressions.Compare" />
-    <ref role="1XX52x" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
     <node concept="3EZMnI" id="4PnqMJuAsu8" role="2wV5jI">
       <node concept="3F1sOY" id="4PnqMJuAsuf" role="3EZMnx">
         <ref role="1NtTu8" to="ev4m:4PnqMJuAq40" />
@@ -896,7 +944,7 @@
                 <node concept="3clFbF" id="6VEpgUhIlC1" role="3cqZAp">
                   <node concept="2OqwBi" id="6VEpgUhIlC2" role="3clFbG">
                     <node concept="1PxgMI" id="6VEpgUhIlC3" role="2Oq$k0">
-                      <ref role="1PxNhF" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                      <ref role="1PxNhF" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                       <node concept="37vLTw" id="6VEpgUhIlC4" role="1PxMeX">
                         <ref role="3cqZAo" node="6VEpgUhIlBR" resolve="resultNode" />
                       </node>
@@ -928,7 +976,7 @@
                       </node>
                       <node concept="3GMtW1" id="6VEpgUhIlAQ" role="37wK5m" />
                       <node concept="3TUQnm" id="7dh1A5Zd5Xo" role="37wK5m">
-                        <ref role="3TV0OU" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                        <ref role="3TV0OU" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                       </node>
                       <node concept="2ShNRf" id="6VEpgUhIlAS" role="37wK5m">
                         <node concept="YeOm9" id="6VEpgUhIlAT" role="2ShVmc">
@@ -951,11 +999,11 @@
                                         <ref role="3cqZAo" node="6VEpgUhIlBB" resolve="oldChild" />
                                       </node>
                                       <node concept="3Tqbb2" id="6VEpgUhIlB2" role="10QFUM">
-                                        <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                                        <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                                       </node>
                                     </node>
                                     <node concept="3Tqbb2" id="6VEpgUhIlB3" role="1tU5fm">
-                                      <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                                      <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                                     </node>
                                   </node>
                                 </node>
@@ -967,11 +1015,11 @@
                                         <ref role="3cqZAo" node="6VEpgUhIlBD" resolve="newChild" />
                                       </node>
                                       <node concept="3Tqbb2" id="6VEpgUhIlB8" role="10QFUM">
-                                        <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                                        <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                                       </node>
                                     </node>
                                     <node concept="3Tqbb2" id="6VEpgUhIlB9" role="1tU5fm">
-                                      <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+                                      <ref role="ehGHo" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
                                     </node>
                                   </node>
                                 </node>
@@ -1131,7 +1179,7 @@
   </node>
   <node concept="1h_SRR" id="4PnqMJuE29x">
     <property role="TrG5h" value="BinaryCompareOperation_RightArgument" />
-    <ref role="1h_SK9" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1h_SK9" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
     <node concept="1hA7zw" id="gAp5u0z" role="1h_SK8">
       <property role="1hHO97" value="replace logic compare" />
       <property role="1hAc7j" value="delete_action_id" />
@@ -1145,7 +1193,7 @@
                   <node concept="2ShNRf" id="3I_1mW26hEh" role="37vLTx">
                     <node concept="3zrR0B" id="3I_1mW26hDR" role="2ShVmc">
                       <node concept="3Tqbb2" id="3I_1mW26hDS" role="3zrR0E">
-                        <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                        <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
                       </node>
                     </node>
                   </node>
@@ -1173,7 +1221,7 @@
                 <node concept="3O6GUB" id="39KWzn7Yq6u" role="2OqNvi">
                   <node concept="25Kdxt" id="39KWzn7Yqlr" role="3QVz_e">
                     <node concept="35c_gC" id="39KWzn7Yq$t" role="25KhWn">
-                      <ref role="35c_gD" to="ev4m:76asi2953CM" resolve="Expression" />
+                      <ref role="35c_gD" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
                     </node>
                   </node>
                 </node>
@@ -1186,7 +1234,7 @@
             <node concept="3cpWsn" id="hI97EOI" role="3cpWs9">
               <property role="TrG5h" value="leftExpression" />
               <node concept="3Tqbb2" id="hI97EOJ" role="1tU5fm">
-                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
               </node>
               <node concept="2OqwBi" id="hI97EOK" role="33vP2m">
                 <node concept="0IXxy" id="hI97EOL" role="2Oq$k0" />
@@ -1225,7 +1273,7 @@
   </node>
   <node concept="24kQdi" id="4PnqMJuHmgv">
     <property role="3GE5qa" value="Expressions.Boxing" />
-    <ref role="1XX52x" to="ev4m:4PnqMJuHm9w" resolve="ParenthesisExpression" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuHm9w" resolve="JpqlParenthesisExpression" />
     <node concept="3EZMnI" id="4PnqMJuHmlC" role="2wV5jI">
       <node concept="3F0ifn" id="4PnqMJuHmlJ" role="3EZMnx">
         <property role="3F0ifm" value="(" />
@@ -1257,7 +1305,7 @@
   </node>
   <node concept="24kQdi" id="4PnqMJuHGbq">
     <property role="3GE5qa" value="Expressions.Boxing" />
-    <ref role="1XX52x" to="ev4m:4PnqMJuHGb0" resolve="NotExpression" />
+    <ref role="1XX52x" to="ev4m:4PnqMJuHGb0" resolve="JpqlNotExpression" />
     <node concept="3EZMnI" id="4PnqMJuHGbI" role="2wV5jI">
       <node concept="3F0ifn" id="4PnqMJuHGbP" role="3EZMnx">
         <property role="3F0ifm" value="NOT" />
@@ -1309,7 +1357,7 @@
   </node>
   <node concept="1h_SRR" id="26taNl4oXIB">
     <property role="TrG5h" value="BinaryCompareOperation_LeftArgument" />
-    <ref role="1h_SK9" to="ev4m:4PnqMJuAq3Z" resolve="BinaryCompareOperation" />
+    <ref role="1h_SK9" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
     <node concept="1hA7zw" id="26taNl4oXIC" role="1h_SK8">
       <property role="1hHO97" value="replace logic compare" />
       <property role="1hAc7j" value="delete_action_id" />
@@ -1323,7 +1371,7 @@
                   <node concept="2ShNRf" id="26taNl4oXIK" role="37vLTx">
                     <node concept="3zrR0B" id="26taNl4oXIL" role="2ShVmc">
                       <node concept="3Tqbb2" id="26taNl4oXIM" role="3zrR0E">
-                        <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                        <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
                       </node>
                     </node>
                   </node>
@@ -1351,7 +1399,7 @@
                 <node concept="3O6GUB" id="26taNl4oXIY" role="2OqNvi">
                   <node concept="25Kdxt" id="26taNl4oXIZ" role="3QVz_e">
                     <node concept="35c_gC" id="26taNl4oXJ0" role="25KhWn">
-                      <ref role="35c_gD" to="ev4m:76asi2953CM" resolve="Expression" />
+                      <ref role="35c_gD" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
                     </node>
                   </node>
                 </node>
@@ -1364,7 +1412,7 @@
             <node concept="3cpWsn" id="26taNl4oXJ4" role="3cpWs9">
               <property role="TrG5h" value="rightExpression" />
               <node concept="3Tqbb2" id="26taNl4oXJ5" role="1tU5fm">
-                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
               </node>
               <node concept="2OqwBi" id="26taNl4oXJ6" role="33vP2m">
                 <node concept="0IXxy" id="26taNl4oXJ7" role="2Oq$k0" />
@@ -1412,7 +1460,7 @@
             <node concept="3cpWsn" id="26taNl4pmgo" role="3cpWs9">
               <property role="TrG5h" value="innerExpression" />
               <node concept="3Tqbb2" id="26taNl4pmgp" role="1tU5fm">
-                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="Expression" />
+                <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
               </node>
               <node concept="2OqwBi" id="26taNl4pmgq" role="33vP2m">
                 <node concept="0IXxy" id="26taNl4pmgr" role="2Oq$k0" />

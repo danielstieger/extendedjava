@@ -7,17 +7,24 @@
   </models>
   <accessoryModels />
   <generators>
-    <generator generatorUID="com.hlag.jpql#1517936465229397122" uuid="74f94c17-cc8e-4950-97eb-cd32049afdac">
+    <generator name="" generatorUID="com.hlag.jpql#1517936465229397122" uuid="74f94c17-cc8e-4950-97eb-cd32049afdac">
       <models>
         <modelRoot contentPath="${module}" type="default">
           <sourceRoot location="generator/template" />
         </modelRoot>
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">b263f292-6e43-46d0-829c-100beca2960f(com.hlag.entitylang.runtime)</dependency>
+        <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+        <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
+        <dependency reexport="false">985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)</dependency>
+      </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
         <usedLanguage>d7706f63-9be2-479c-a3da-ae92af1e64d5(jetbrains.mps.lang.generator.generationContext)</usedLanguage>
         <usedLanguage>a846e4ee-ad86-4f44-b75a-4763a2ae30f6(com.hlag.jpql)</usedLanguage>
+        <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
       </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
