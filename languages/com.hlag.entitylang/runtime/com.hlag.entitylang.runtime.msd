@@ -8,6 +8,9 @@
       <sourceRoot location="javax.persistence_2.1.0.v201304241213.jar" />
     </modelRoot>
   </models>
+  <stubModelEntries>
+    <stubModelEntry path="/Users/danielstieger/javaware/extendedjava/jars/javax.persistence_2.1.0.v201304241213.jar" />
+  </stubModelEntries>
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>

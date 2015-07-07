@@ -168,8 +168,8 @@
   </node>
   <node concept="1TIwiD" id="2AlxPT0dqiK">
     <property role="TrG5h" value="EntityKey" />
-    <property role="19KtqR" value="true" />
     <property role="MwhBj" value="${module}/icons/star.png" />
+    <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpee:fz12cDA" resolve="ClassConcept" />
     <node concept="1TJgyj" id="2AlxPT0dt5A" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />

@@ -79,7 +79,6 @@
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
-      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
       <concept id="1206060495898" name="jetbrains.mps.baseLanguage.structure.ElsifClause" flags="ng" index="3eNFk2">
         <child id="1206060619838" name="condition" index="3eO9$A" />
         <child id="1206060644605" name="statementList" index="3eOfB_" />
@@ -368,8 +367,13 @@
     <node concept="3clFbS" id="76asi298HKZ" role="18ibNy">
       <node concept="1Z5TYs" id="76asi298HMH" role="3cqZAp">
         <node concept="mw_s8" id="76asi298HN1" role="1ZfhKB">
-          <node concept="2c44tf" id="76asi298HMX" role="mwGJk">
-            <node concept="3cqZAl" id="76asi298HNk" role="2c44tc" />
+          <node concept="2OqwBi" id="6kkcopD2OWR" role="mwGJk">
+            <node concept="1YBJjd" id="6kkcopD2OMf" role="2Oq$k0">
+              <ref role="1YBMHb" node="76asi298HL1" resolve="query" />
+            </node>
+            <node concept="2qgKlT" id="6kkcopD2P7s" role="2OqNvi">
+              <ref role="37wK5l" to="zlu4:456D_1YDrAN" resolve="getEventualReturnType" />
+            </node>
           </node>
         </node>
         <node concept="mw_s8" id="76asi298HMK" role="1ZfhK$">

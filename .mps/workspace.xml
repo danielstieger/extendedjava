@@ -12,13 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="02ee9ee1-60db-4002-ba38-9fb759f8a0a8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/models/com/hlag/entitylang/generatorTest.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/behavior.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/com.hlag.jpql.mpl" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/com.hlag.jpql.mpl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/editor.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/editor.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/generator/template/main@generator.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/models/com/hlag/entitylang/sandbox.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/models/com/hlag/entitylang/sandbox.mps" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/structure.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/behavior.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/behavior.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/com.hlag.entitylang.mpl" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/com.hlag.entitylang.mpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/runtime/com.hlag.entitylang.runtime.msd" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/runtime/com.hlag.entitylang.runtime.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/com.hlag.entitylang.sandbox.msd" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/com.hlag.entitylang.sandbox.msd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/models/com/hlag/entitylang/generatorTest.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/models/com/hlag/entitylang/generatorTest.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/generator/template/main@generator.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/generator/template/main@generator.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/structure.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.entitylang/languageModels/structure.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/typesystem.mps" afterPath="$PROJECT_DIR$/languages/com.hlag.jpql/languageModels/typesystem.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
     </list>
@@ -57,7 +57,7 @@
       <list>
         <TabState>
           <option name="title" value="Console" />
-          <option name="history" value="kaurqQAABAAHKCAshrkCx07WoZK8x/FNCjoAABVUZW1wTW9kZWxfNDg5MDg3Mzk5NzUXSBDkwoly0EWQiz506I7GBokAAC5UZW1wTW9kdWxlMTBlNGMyODktNzJkMC00NTkwLThiM2UtNzRlODhlYzYwNjg5/////6urq6taWlpaAALOq1GVJepPIpuSEDuVyowMAAAXamV0YnJhaW5zLm1wcy5sYW5nLmNvcmUAAQAAARA5bqqkAAANSU5hbWVkQ29uY2VwdAASAAEAAAEQOW7AQQAABG5hbWUAAAAA3hrYbW5QSgKzBtTRf2TDdQAAGmpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlAAMV+zQFH3JaLAAAC0NvbnNvbGVSb290ABIAAAAAAAIV+zQFH3JbrwAAB2hpc3RvcnkAFfs0BR9yW7EAAA1jb21tYW5kSG9sZGVyAATicWCstEhLAAANQ29tbWFuZEhvbGRlcgASAAAAAAAACoNfKMGqAr4AAAdIaXN0b3J5ABIAAAAAAAClpaWlAAXeGthtblBKArMG1NF/ZMN1AQAAAAX/////8maR0g3vTAauxiy5DErwpAAAHWpldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRz/////xqFVMTrhEO6jDRvDZDG51oAAB9qZXRicmFpbnMubXBzLmNvbnNvbGUuYmxDb21tYW5k/////6Xk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHP/////mVpzlH92S4upKcU0SHCBBgAAJmpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRz/////wAAAAEXSPvCXdJdpEg6ixlwko4bYtcAACRqZXRicmFpbnMubXBzLmRldmtpdC5nZW5lcmFsLXB1cnBvc2UAAAAFByg1mx0rd8RG35vysly+oyJUAAAkamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2Uuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////wcok1ug7nKRTKqoB9duj8aTkQAAKWpldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmQuc3RydWN0dXJlcP////8HKBNaYG8DdkxcmrhAMPBRoGIAACtqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMuc3RydWN0dXJlcP////8HKJBEUgapc0wdt2Aw5cd7dJcAADBqZXRicmFpbnMubXBzLmNvbnNvbGUuaW50ZXJuYWxDb21tYW5kcy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYQUamUH3knAz//3sAAAAAAAAAAAACAAMYQUamUH3knEIAAHsAAAAAAAAAAAAAfQACGEFGplB95JxDAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
+          <option name="history" value="kaurqQAABAAHKA2DFWtGsEKqqtfYqw6jCvcAABhUZW1wTW9kZWxfMTkzNTczMTMwMjA5NjgXSNnr0kxJ60cxvn624fCi8gIAAC5UZW1wTW9kdWxlZDllYmQyNGMtNDllYi00NzMxLWJlN2UtYjZlMWYwYTJmMjAy/////6urq6taWlpaAALOq1GVJepPIpuSEDuVyowMAAAXamV0YnJhaW5zLm1wcy5sYW5nLmNvcmUAAQAAARA5bqqkAAANSU5hbWVkQ29uY2VwdAASAAEAAAEQOW7AQQAABG5hbWUAAAAA3hrYbW5QSgKzBtTRf2TDdQAAGmpldGJyYWlucy5tcHMuY29uc29sZS5iYXNlAAMV+zQFH3JaLAAAC0NvbnNvbGVSb290ABIAAAAAAAIV+zQFH3JbrwAAB2hpc3RvcnkAFfs0BR9yW7EAAA1jb21tYW5kSG9sZGVyAATicWCstEhLAAANQ29tbWFuZEhvbGRlcgASAAAAAAAACoNfKMGqAr4AAAdIaXN0b3J5ABIAAAAAAAClpaWlAAXeGthtblBKArMG1NF/ZMN1AQAAAAX/////8maR0g3vTAauxiy5DErwpAAAHWpldGJyYWlucy5tcHMuY29uc29sZS5zY3JpcHRz/////xqFVMTrhEO6jDRvDZDG51oAAB9qZXRicmFpbnMubXBzLmNvbnNvbGUuYmxDb21tYW5k/////6Xk3lNGo0TaqrNo/fHDTtAAACFqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHP/////mVpzlH92S4upKcU0SHCBBgAAJmpldGJyYWlucy5tcHMuY29uc29sZS5pbnRlcm5hbENvbW1hbmRz/////wAAAAEXSPvCXdJdpEg6ixlwko4bYtcAACRqZXRicmFpbnMubXBzLmRldmtpdC5nZW5lcmFsLXB1cnBvc2UAAAAFByg1mx0rd8RG35vysly+oyJUAAAkamV0YnJhaW5zLm1wcy5jb25zb2xlLmJhc2Uuc3RydWN0dXJlcP////8HKOcS81NcPEKIrc6HyValL/sAACdqZXRicmFpbnMubXBzLmNvbnNvbGUuc2NyaXB0cy5zdHJ1Y3R1cmVw/////wcok1ug7nKRTKqoB9duj8aTkQAAKWpldGJyYWlucy5tcHMuY29uc29sZS5ibENvbW1hbmQuc3RydWN0dXJlcP////8HKBNaYG8DdkxcmrhAMPBRoGIAACtqZXRicmFpbnMubXBzLmNvbnNvbGUuaWRlQ29tbWFuZHMuc3RydWN0dXJlcP////8HKJBEUgapc0wdt2Aw5cd7dJcAADBqZXRicmFpbnMubXBzLmNvbnNvbGUuaW50ZXJuYWxDb21tYW5kcy5zdHJ1Y3R1cmVw/////7q6uroAAAABAAEYZRQxhmivslD//3sAAAAAAAAAAAACAAMYZRQxhmivsoYAAHsAAAAAAAAAAAAAfQACGGUUMYZor7KHAAF7AAEAAAEAAAAJAAAAAAAAAAB9fQ==" />
         </TabState>
       </list>
     </option>
@@ -78,54 +78,26 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="reduce_Query" pinned="false" current-in-tab="false">
-        <entry file="mps://node://com.hlag.jpql#1517936465229397122/com.hlag.jpql.generator.template.main@generator/reduce_Query">
+      <file leaf-file-name="Repository" pinned="false" current-in-tab="true">
+        <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.generatorTest/Repository">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="459" />
-                    <property name="caretXRelative" value="76" />
+                    <property name="caretX" value="135" />
+                    <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_vmyx7q_a0" cellNumber="0" isInList="false">
-                      <node node_reference="r:98d3ff0b-3f00-4863-a431-2378c635911d(com.hlag.jpql.generator.template.main@generator)/4703629725484807382" />
+                    <cellInfo cellId="Constant_3jay6a_a0" cellNumber="0" isInList="false">
+                      <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_jpqlLangGen" pinned="false" current-in-tab="false">
-        <entry file="mps://node://com.hlag.jpql#1517936465229397122/com.hlag.jpql.generator.template.main@generator/main_jpqlLangGen">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="265">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="126" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:98d3ff0b-3f00-4863-a431-2378c635911d(com.hlag.jpql.generator.template.main@generator)/4703629725475876066" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
@@ -142,164 +114,23 @@
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="503" />
-                    <property name="caretXRelative" value="436" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                      <node node_reference="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)/4703629725489052479" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-              <node node_ref="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)/8181476057624836150" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List" pinned="false" current-in-tab="false">
-        <entry file="mps://node://JDK/java.util@java_stub/List">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="327" />
-                    <property name="caretXRelative" value="52" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReferencePresentation_91bvrs_a0a0" cellNumber="0" isInList="false">
-                      <node node_reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)/4703629725474713067" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Collection" pinned="false" current-in-tab="false">
-        <entry file="mps://node://JDK/java.util@java_stub/Collection">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="367" />
+                    <property name="caretX" value="271" />
                     <property name="caretXRelative" value="44" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ReferencePresentation_91bvrs_a0a0" cellNumber="0" isInList="false">
-                      <node node_reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)/4703629725474729052" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Iterable" pinned="false" current-in-tab="false">
-        <entry file="mps://node://JDK/java.lang@java_stub/Iterable">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="15" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                      <node node_reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)/4703629725474756125" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Repository" pinned="false" current-in-tab="true">
-        <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.generatorTest/Repository">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="47" />
-                    <property name="caretXRelative" value="0" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <folded />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <folded />
-              </inspectorMemento>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassifierType" pinned="false" current-in-tab="false">
-        <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/ClassifierType">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-              <memento viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="155" />
-                    <property name="caretXRelative" value="32" />
-                    <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1109201940907" />
+                      <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625582657" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
                 <errorMarkers />
                 <folded />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <folded />
               </inspectorMemento>
-              <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1107535904670" />
+              <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625582654" />
             </state>
           </provider>
         </entry>
@@ -330,8 +161,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="22" />
+    <option name="x" value="818" />
+    <option name="y" value="61" />
     <option name="width" value="1675" />
     <option name="height" value="1361" />
   </component>
@@ -404,6 +235,7 @@
     </navigator>
     <panes>
       <pane id="Favorites" />
+      <pane id="FileSystem" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -417,6 +249,16 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Modules Pool">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="Project">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -435,11 +277,25 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.hlag.jpql">
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.hlag.jpql#1517936465229397122">
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang#1517936465229395678">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -447,7 +303,25 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.hlag.jpql.generator.template.main">
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang.generator.template.main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Empty">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Project">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang.structure">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -476,10 +350,6 @@
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT="com">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="com.hlag.entitylang.sandbox">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -508,7 +378,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="FileSystem" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -666,8 +535,8 @@
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
   <component name="ToolWindowManager">
-    <frame x="116" y="22" width="1675" height="1361" extended-state="0" />
-    <editor active="true" />
+    <frame x="818" y="61" width="1675" height="1361" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Model Checker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32831088" sideWeight="0.46567163" order="0" side_tool="false" content_ui="tabs" />
@@ -677,14 +546,14 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.6525373" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535288" sideWeight="0.33791044" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4044409" sideWeight="0.6525373" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535288" sideWeight="0.43343285" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32856005" sideWeight="0.4989754" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="24" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535288" sideWeight="0.6620895" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25535288" sideWeight="0.5665672" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297491" sideWeight="0.5" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3293556" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -692,7 +561,7 @@
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37807378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22985074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22985074" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Classpath Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Cell Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298887" sideWeight="0.49979848" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Dependencies Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -763,520 +632,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.actions/addAbstract">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/1233161041378" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194754942" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.actions/AddMethodCallTypeArgument">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4972241301747233312" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194754942" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.actions/AddAnnotationMemberDefaultValue">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/5790076564176961892" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194754942" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.actions/AbstractClassifierReferenceRT">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194754942" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="" propertyCell="true" cellId="VDNCC_property_name" cellNumber="0" isInList="false">
-                <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194877936" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="true" cellId="VDNCC_property_name" cellNumber="0" isInList="false">
-                <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194878035" />
-              </errorMarker>
-              <errorMarker text="" propertyCell="false" cellId="Error_a1nfgp_a0" cellNumber="0" isInList="false">
-                <node node_reference="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194877954" />
-              </errorMarker>
-            </errorMarkers>
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902bf(jetbrains.mps.baseLanguage.actions)/4246727699194754942" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Location">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="318" />
-                <property name="caretXRelative" value="96" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2996449965959936431" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465230542871" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/IFieldType">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="239" />
-                <property name="caretXRelative" value="84" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465230542871" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465230542871" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465230542871" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Priorities">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="31" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
-                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/5920063289794697496" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465230542871" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/OrLogOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/5573040900057256531" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248501644" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/5573040900057256531" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/GreaterEqCompLogOperation">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="15" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                  <node node_reference="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/5573040900056680174" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:61ebee14-6d2e-4dab-8ad3-ee2783ce9876(com.hlag.jpql.actions)/8181476057627048152" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/5573040900056680174" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/NullExpression">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="343" />
-                <property name="caretXRelative" value="116" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/2422139682375198678" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248510273" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/2422139682375198675" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/SelectStatement">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="351" />
-                <property name="caretXRelative" value="124" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/2422139682375204741" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248510273" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/2422139682375204738" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/OrderByClause">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="335" />
-                <property name="caretXRelative" value="108" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/4544161228248245802" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248510273" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/4544161228248245799" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.actions/WhereTransform">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="81">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:61ebee14-6d2e-4dab-8ad3-ee2783ce9876(com.hlag.jpql.actions)/8181476057627048152" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248510273" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.actions/ExpressionFactory">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="135" />
-                <property name="caretXRelative" value="4" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:61ebee14-6d2e-4dab-8ad3-ee2783ce9876(com.hlag.jpql.actions)/2184496218105399367" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/4544161228248802048" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/BoxingExpression">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="279" />
-                <property name="caretXRelative" value="132" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="name" cellNumber="0" isInList="false">
-                  <node node_reference="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/2422139682375194637" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230652267" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)/2422139682375194637" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.actions/ExpressionSideTransforms">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="2444">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="121" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:61ebee14-6d2e-4dab-8ad3-ee2783ce9876(com.hlag.jpql.actions)/4544161228248634785" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:61ebee14-6d2e-4dab-8ad3-ee2783ce9876(com.hlag.jpql.actions)/4544161228248634785" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/FieldReference">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="482" />
-                <property name="caretXRelative" value="40" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625215651" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230542888" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625212901" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/Field">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="39" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_fao2ea_c0" cellNumber="0" isInList="false">
-                  <node node_reference="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230652267" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230542888" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230652261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/FieldTypeDeclaration">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="311" />
-                <property name="caretXRelative" value="164" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230543800" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230542888" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)/1517936465230543800" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Service">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1523,47 +878,6 @@
             <folded />
           </inspectorMemento>
           <node node_ref="r:03ecb556-c3b8-4490-964e-e30f12ad09e3(org.modellwerkstatt.manmap.generator.template.main@generator)/4381394697219828495" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Dep_BwProcessInstance">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="3614">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-147" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_ejwutq_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881136" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers>
-              <errorMarker text="ProcessInstanceCompositeKey" propertyCell="false" cellNumber="0" isInList="false">
-                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881136" />
-                <parent cellId="Collection_ejwutq_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881136" />
-                </parent>
-              </errorMarker>
-            </errorMarkers>
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4544161228249053968" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_uj0cpq_a_0" cellNumber="0" isInList="false">
-                  <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4544161228249053968" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
         </state>
       </provider>
     </entry>
@@ -1897,59 +1211,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.generatorTest/Repository">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="47" />
-                <property name="caretXRelative" value="0" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_7h2wce_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/Query">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
-          <memento viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="503" />
-                <property name="caretXRelative" value="436" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_text" cellNumber="0" isInList="false">
-                  <node node_reference="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)/4703629725489052479" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-          <node node_ref="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)/8181476057624836150" />
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://JDK/java.util@java_stub/List">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
@@ -1968,7 +1229,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/1517936465229704644" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -1994,7 +1255,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1068390468198" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -2020,7 +1281,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687605081" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -2046,33 +1307,7 @@
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <folded />
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
-    <entry file="mps://node://com.hlag.jpql#1517936465229397122/com.hlag.jpql.generator.template.main@generator/main_jpqlLangGen">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento viewPositionX="0" viewPositionY="265">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="126" />
-                <property name="caretXRelative" value="56" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:98d3ff0b-3f00-4863-a431-2378c635911d(com.hlag.jpql.generator.template.main@generator)/4703629725475876066" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <folded />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:2109fc22-8139-4ada-969a-c7aa4afb187a(com.hlag.entitylang.plugin)/2422139682378813575" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -2141,18 +1376,18 @@
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="155" />
-                <property name="caretXRelative" value="32" />
+                <property name="caretX" value="71" />
+                <property name="caretXRelative" value="56" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1109201940907" />
+                <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1107535904670" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
             <errorMarkers />
             <folded />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725483477088" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1107535904670" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <folded />
@@ -2161,10 +1396,634 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/com.hlag.entitylang/sandbox/source_gen/com/hlag/entitylang/generatorTest/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34577388" vertical-offset="0" max-vertical-offset="911">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/ClassifierMember">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="159" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1178285077437" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1178285077437" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1178285077437" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/ClassConcept">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="227" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1165602531693" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1165602531693" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_6h6dhy_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1165602531693" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1068390468198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/Classifier">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="367" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687605081" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687605081" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/1107461130800" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://jetbrains.mps.baseLanguage/jetbrains.mps.baseLanguage.structure/IClassifier">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="159" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687209277" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687209277" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)/7405920559687209277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.plugin/StandalonePluginDescriptor">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_lfvdu_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:2109fc22-8139-4ada-969a-c7aa4afb187a(com.hlag.entitylang.plugin)/5377771638333924609" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_91bvrs_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.plugin/EntityImportUtil">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:2109fc22-8139-4ada-969a-c7aa4afb187a(com.hlag.entitylang.plugin)/2422139682378813575" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_91bvrs_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.util/NameingPolicy">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="151" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:350aa0b9-f5e1-49fd-a17e-dc92876af1b6(com.hlag.entitylang.util)/4703629725489739658" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_91bvrs_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Dep_BwProcessInstance">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="271" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_d5p1uc_c2a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881207" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="ProcessInstanceCompositeKey" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881136" />
+                <parent cellId="Collection_ejwutq_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881136" />
+                </parent>
+              </errorMarker>
+            </errorMarkers>
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377881207" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.sandbox/Dep_ProcessInstance">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-351" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers>
+              <errorMarker text="ProcessInstanceState" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WorkflowProcess" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896237" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896237" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896291" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896291" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896300" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896300" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ProcessInstanceState" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896379" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896379" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896273" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896273" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="removeProcessInstance" propertyCell="false" cellNumber="1" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896332" />
+                <parent cellId="Collection_jyer24_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896332" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896229" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896229" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="addProcessInstance" propertyCell="false" cellNumber="1" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896353" />
+                <parent cellId="Collection_jyer24_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896353" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ProcessInstanceState" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896363" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896363" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ProcessInstanceState" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896247" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896247" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WorkflowProcess" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896317" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896317" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WorkflowProcess" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896314" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896314" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ProcessInstanceState" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896366" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896366" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896256" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896256" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="WorkflowProcess" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896267" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896267" />
+                </parent>
+              </errorMarker>
+              <errorMarker text="ActivityInstance" propertyCell="false" cellNumber="0" isInList="false">
+                <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896288" />
+                <parent cellId="Collection_91bvrs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896288" />
+                </parent>
+              </errorMarker>
+            </errorMarkers>
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
+                <property name="caretX" value="0" />
+                <property name="caretXRelative" value="-15" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Collection_91bvrs_a_0" cellNumber="0" isInList="false">
+                  <node node_reference="r:520cd218-527c-4357-b173-bab6011a132a(com.hlag.entitylang.sandbox)/2422139682377896261" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.jpql#1517936465229397122/com.hlag.jpql.generator.template.main@generator/main_jpqlLangGen">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="265">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="118" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:98d3ff0b-3f00-4863-a431-2378c635911d(com.hlag.jpql.generator.template.main@generator)/4703629725475876066" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:570e8b99-0b81-4088-afd2-3b358a41e287(com.hlag.entitylang.editor)/2996449965958879292" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/Field">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="87" />
+                <property name="caretXRelative" value="4" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/4703629725489730989" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:570e8b99-0b81-4088-afd2-3b358a41e287(com.hlag.entitylang.editor)/2996449965958879292" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/4703629725489730989" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/EntityKey">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="239" />
+                <property name="caretXRelative" value="36" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_rootable" cellNumber="0" isInList="false">
+                  <node node_reference="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/2996449965958866096" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/2996449965958866096" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)/2996449965958866096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.generatorTest/Shipment">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="15" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_n4nctg_k0" cellNumber="0" isInList="false">
+                  <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725490222256" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/4703629725490222256" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/IContainsFields">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="63" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ALIAS_EDITOR_COMPONENT" cellNumber="0" isInList="false">
+                  <node node_reference="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/4703629725489789785" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/4703629725489789785" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/4703629725489789783" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang#1517936465229395678/com.hlag.entitylang.generator.template.main@generator/main_entitylangGen">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="677" />
+                <property name="caretXRelative" value="92" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="templateName" cellNumber="0" isInList="false">
+                  <node node_reference="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/7283500950722267250" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/7283500950722267250" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang/com.hlag.entitylang.structure/Entity">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="23" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_jiideg_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/7283500950722284194" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/7283500950722284194" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:77b8edcd-5db4-4e28-899f-c6da26b5e2d4(com.hlag.entitylang.generator.template.main@generator)/7283500950722268643" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.entitylang.sandbox/com.hlag.entitylang.generatorTest/Repository">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="135" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_3jay6a_a0" cellNumber="0" isInList="false">
+                  <node node_reference="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://com.hlag.jpql/com.hlag.jpql.structure/Query">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editorTabs.TabbedEditor$TabbedEditorState">
+          <memento viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="271" />
+                <property name="caretXRelative" value="44" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625582657" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <folded />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:74f6f437-e8d0-4ee7-aefc-4e1aeca4671f(com.hlag.entitylang.generatorTest)/7283500950722614452" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <folded />
+          </inspectorMemento>
+          <node node_ref="r:3e261735-cc74-4d9c-83cb-426752db4a80(com.hlag.jpql.typesystem)/8181476057625582654" />
         </state>
       </provider>
     </entry>
