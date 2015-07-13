@@ -4,6 +4,9 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
+    <modelRoot contentPath="${extendedjava}/jars" type="java_classes">
+      <sourceRoot location="workflow-domain.jar" />
+    </modelRoot>
   </models>
   <sourcePath />
   <dependencies>

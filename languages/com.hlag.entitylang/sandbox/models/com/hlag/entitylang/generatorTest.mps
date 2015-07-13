@@ -67,6 +67,9 @@
       </concept>
       <concept id="5573040900058563264" name="com.hlag.jpql.structure.JpqlNotExpression" flags="ng" index="2jSqBF" />
       <concept id="5573040900058473056" name="com.hlag.jpql.structure.JpqlParenthesisExpression" flags="ng" index="2jSw_b" />
+      <concept id="5573040900058700616" name="com.hlag.jpql.structure.OrderByClause" flags="ng" index="2jVV1z">
+        <child id="5573040900058700617" name="path" index="2jVV1y" />
+      </concept>
       <concept id="5573040900057256508" name="com.hlag.jpql.structure.AndLogOperation" flags="ng" index="2jXr$n" />
       <concept id="5573040900057256531" name="com.hlag.jpql.structure.OrLogOperation" flags="ng" index="2jXr_S" />
       <concept id="4544161228248388891" name="com.hlag.jpql.structure.OptionalExpression" flags="ng" index="2sMgYk" />
@@ -100,6 +103,7 @@
         <reference id="8181476057624834891" name="varDeclaration" index="3SBg9F" />
       </concept>
       <concept id="8181476057626065236" name="com.hlag.jpql.structure.SelectStatement" flags="ng" index="3SC4xO">
+        <child id="5573040900058699367" name="orderbyClause" index="2jVVPc" />
         <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
@@ -323,6 +327,26 @@
                           </node>
                         </node>
                       </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2jVV1z" id="5UuQb9KwuE_" role="2jVVPc">
+                  <node concept="3S$L2z" id="5UuQb9KwuUt" role="2jVV1y">
+                    <node concept="3SBG_A" id="5UuQb9KwuN4" role="3S$L2$">
+                      <ref role="3SBg9F" node="5UuQb9JZcFu" resolve="key" />
+                    </node>
+                    <node concept="3S$KP$" id="5UuQb9KwuV0" role="3S$L2A">
+                      <ref role="3S$KQD" node="456D_1YO1lw" resolve="id" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2jVV1z" id="5UuQb9KwuVt" role="2jVVPc">
+                  <node concept="3S$L2z" id="5UuQb9Kwv49" role="2jVV1y">
+                    <node concept="3SBG_A" id="5UuQb9KwuWK" role="3S$L2$">
+                      <ref role="3SBg9F" node="5UuQb9JZcFu" resolve="key" />
+                    </node>
+                    <node concept="3S$KP$" id="5UuQb9Kwv4G" role="3S$L2A">
+                      <ref role="3S$KQD" node="456D_1YO1lw" resolve="id" />
                     </node>
                   </node>
                 </node>
