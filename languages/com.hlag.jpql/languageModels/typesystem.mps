@@ -1613,5 +1613,42 @@
       <ref role="1YaFvo" to="ev4m:1qyyZLn7D6h" resolve="Query" />
     </node>
   </node>
+  <node concept="18kY7G" id="5UuQb9JYBz4">
+    <property role="TrG5h" value="check_JpqlDotExpression" />
+    <property role="3GE5qa" value="Referencing" />
+    <node concept="3clFbS" id="5UuQb9JYBz5" role="18ibNy">
+      <node concept="3clFbJ" id="5UuQb9JYNcy" role="3cqZAp">
+        <node concept="3clFbS" id="5UuQb9JYNcz" role="3clFbx">
+          <node concept="2MkqsV" id="5UuQb9JYOcz" role="3cqZAp">
+            <node concept="Xl_RD" id="5UuQb9JYOcJ" role="2MkJ7o">
+              <property role="Xl_RC" value="Using dot notation with java variable references is not implemented right now." />
+            </node>
+            <node concept="1YBJjd" id="5UuQb9JYOfK" role="2OEOjV">
+              <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="5UuQb9JYO2k" role="3clFbw">
+          <node concept="2OqwBi" id="5UuQb9JYN$b" role="2Oq$k0">
+            <node concept="1YBJjd" id="5UuQb9JYNcI" role="2Oq$k0">
+              <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
+            </node>
+            <node concept="3TrEf2" id="5UuQb9JYNMI" role="2OqNvi">
+              <ref role="3Tt5mk" to="ev4m:76asi296m64" />
+            </node>
+          </node>
+          <node concept="1mIQ4w" id="5UuQb9JYOa_" role="2OqNvi">
+            <node concept="chp4Y" id="5UuQb9JYObi" role="cj9EA">
+              <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5UuQb9JYBz7" role="1YuTPh">
+      <property role="TrG5h" value="jpqlDotExpression" />
+      <ref role="1YaFvo" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
+    </node>
+  </node>
 </model>
 

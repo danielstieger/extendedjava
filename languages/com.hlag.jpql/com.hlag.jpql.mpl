@@ -18,9 +18,10 @@
         <dependency reexport="false">b263f292-6e43-46d0-829c-100beca2960f(com.hlag.entitylang.runtime)</dependency>
         <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
         <dependency reexport="false">f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</dependency>
-        <dependency reexport="false">985c8c6a-64b4-486d-a91e-7d4112742556(jetbrains.mps.baseLanguage#1129914002933)</dependency>
         <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
         <dependency reexport="false">a846e4ee-ad86-4f44-b75a-4763a2ae30f6(com.hlag.jpql)</dependency>
+        <dependency reexport="false">b1c1665b-3ae1-4803-b445-16ee8c3aaa90(com.hlag.entitylang#1517936465229395678)</dependency>
+        <dependency reexport="false">5f362b6a-7593-4d33-922a-7554535c0063(com.hlag.entitylang)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>b401a680-8325-4110-8fd3-84331ff25bef(jetbrains.mps.lang.generator)</usedLanguage>
@@ -48,7 +49,22 @@
         <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" fqName="jetbrains.mps.lang.smodel" version="0" />
         <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
       </languageVersions>
-      <mapping-priorities />
+      <mapping-priorities>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="74f94c17-cc8e-4950-97eb-cd32049afdac(com.hlag.jpql#1517936465229397122)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="b1c1665b-3ae1-4803-b445-16ee8c3aaa90(com.hlag.entitylang#1517936465229395678)" />
+            <external-mapping>
+              <all-local-mappings />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
+      </mapping-priorities>
     </generator>
   </generators>
   <sourcePath />

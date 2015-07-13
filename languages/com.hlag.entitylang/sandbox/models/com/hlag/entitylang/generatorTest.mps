@@ -33,9 +33,6 @@
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
-      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
-        <child id="1068580123156" name="expression" index="3clFbG" />
-      </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
@@ -50,7 +47,6 @@
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
@@ -191,33 +187,7 @@
       </node>
       <node concept="3Tm1VV" id="6kkcopD2CKC" role="1B3o_S" />
       <node concept="3clFbS" id="6kkcopD2CKD" role="3clF47">
-        <node concept="3clFbF" id="7TuiphRkpOU" role="3cqZAp">
-          <node concept="2OqwBi" id="7TuiphRkpPU" role="3clFbG">
-            <node concept="37vLTw" id="7TuiphRkpOS" role="2Oq$k0">
-              <ref role="3cqZAo" node="6kkcopD2CZ0" resolve="em" />
-            </node>
-            <node concept="11J1DH" id="7TuiphRkq4W" role="2OqNvi">
-              <node concept="3SC4xO" id="7TuiphRkq4Y" role="3SC3Uq">
-                <node concept="1_NmOh" id="7TuiphRkqn1" role="3SC4x8">
-                  <node concept="3SBG_A" id="7TuiphRsYp$" role="3SB$Wo">
-                    <ref role="3SBg9F" node="7TuiphRsYcE" resolve="s" />
-                  </node>
-                </node>
-                <node concept="3SxtsA" id="7TuiphRsYcE" role="3SC4x6">
-                  <property role="TrG5h" value="s" />
-                  <ref role="3SxtsH" node="456D_1YO1iK" resolve="Shipment" />
-                </node>
-              </node>
-              <node concept="3uibUv" id="7TuiphRkq51" role="3SC4x7">
-                <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                <node concept="3uibUv" id="7TuiphRkq7U" role="11_B2D">
-                  <ref role="3uigEE" node="456D_1YO1iK" resolve="Shipment" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="7TuiphRkpNh" role="3cqZAp" />
+        <node concept="3clFbH" id="5UuQb9JNTa6" role="3cqZAp" />
         <node concept="3cpWs6" id="6kkcopD2CUT" role="3cqZAp">
           <node concept="2OqwBi" id="6kkcopD2D4A" role="3cqZAk">
             <node concept="37vLTw" id="6kkcopD2D3X" role="2Oq$k0">
@@ -227,6 +197,10 @@
               <node concept="3SC4xO" id="6kkcopD2DiQ" role="3SC3Uq">
                 <node concept="3SxtsA" id="6kkcopD2Dtp" role="3SC4x6">
                   <property role="TrG5h" value="s" />
+                  <ref role="3SxtsH" node="456D_1YO1iK" resolve="Shipment" />
+                </node>
+                <node concept="3SxtsA" id="5UuQb9JYAWX" role="3SC4x6">
+                  <property role="TrG5h" value="s2" />
                   <ref role="3SxtsH" node="456D_1YO1iK" resolve="Shipment" />
                 </node>
                 <node concept="1_NmOh" id="6kkcopD2DqO" role="3SC4x8">
