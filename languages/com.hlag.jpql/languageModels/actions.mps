@@ -535,6 +535,147 @@
         </node>
       </node>
     </node>
+    <node concept="3UNGvq" id="5UuQb9KcPWG" role="3UOs0v">
+      <property role="2uHTBK" value="ext_1_RTransform" />
+      <property role="7I3sp" value="both" />
+      <ref role="3UNGvu" to="ev4m:7TuiphRkrz5" resolve="IJoin" />
+      <node concept="tYCnQ" id="5UuQb9KcPWH" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:7TuiphRkrz5" resolve="IJoin" />
+        <node concept="Cmt7Y" id="5UuQb9KcPWI" role="uz6Si">
+          <node concept="Cnhdc" id="5UuQb9KcPWJ" role="Cncma">
+            <node concept="3clFbS" id="5UuQb9KcPWK" role="2VODD2">
+              <node concept="3clFbF" id="5UuQb9KcPWL" role="3cqZAp">
+                <node concept="2OqwBi" id="5UuQb9KcPWM" role="3clFbG">
+                  <node concept="2OqwBi" id="5UuQb9KcPWN" role="2Oq$k0">
+                    <node concept="1PxgMI" id="5UuQb9KcQt7" role="2Oq$k0">
+                      <ref role="1PxNhF" to="ev4m:76asi293Uo6" resolve="EntityVarDeclaration" />
+                      <node concept="2OqwBi" id="5UuQb9KcQbp" role="1PxMeX">
+                        <node concept="Cj7Ep" id="5UuQb9KcPWO" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="5UuQb9KcQjF" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="5UuQb9KcQMz" role="2OqNvi">
+                      <ref role="3TtcxE" to="ev4m:7TuiphRkzZr" />
+                    </node>
+                  </node>
+                  <node concept="2DeJg1" id="5UuQb9KcPWQ" role="2OqNvi">
+                    <ref role="1A0vxQ" to="ev4m:76asi299jGi" resolve="JoinVarDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPWR" role="Cn2iK">
+            <property role="2h1i$Z" value="JOIN" />
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPWS" role="Cn6ar">
+            <property role="2h1i$Z" value="join" />
+          </node>
+        </node>
+      </node>
+      <node concept="tYCnQ" id="5UuQb9KcPWT" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:7TuiphRkrz5" resolve="IJoin" />
+        <node concept="Cmt7Y" id="5UuQb9KcPWU" role="uz6Si">
+          <node concept="Cnhdc" id="5UuQb9KcPWV" role="Cncma">
+            <node concept="3clFbS" id="5UuQb9KcPWW" role="2VODD2">
+              <node concept="3clFbF" id="5UuQb9KcPWX" role="3cqZAp">
+                <node concept="2OqwBi" id="5UuQb9KcPWY" role="3clFbG">
+                  <node concept="2DeJg1" id="5UuQb9KcPX2" role="2OqNvi">
+                    <ref role="1A0vxQ" to="ev4m:76asi29duoM" resolve="FetchJoin" />
+                  </node>
+                  <node concept="2OqwBi" id="5UuQb9KcQUI" role="2Oq$k0">
+                    <node concept="1PxgMI" id="5UuQb9KcQQ4" role="2Oq$k0">
+                      <ref role="1PxNhF" to="ev4m:76asi293Uo6" resolve="EntityVarDeclaration" />
+                      <node concept="2OqwBi" id="5UuQb9KcQQ5" role="1PxMeX">
+                        <node concept="Cj7Ep" id="5UuQb9KcQQ6" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="5UuQb9KcQQ7" role="2OqNvi" />
+                      </node>
+                    </node>
+                    <node concept="3Tsc0h" id="5UuQb9KcRcj" role="2OqNvi">
+                      <ref role="3TtcxE" to="ev4m:7TuiphRkzZr" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPX3" role="Cn2iK">
+            <property role="2h1i$Z" value="FETCH JOIN" />
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPX4" role="Cn6ar">
+            <property role="2h1i$Z" value="join" />
+          </node>
+        </node>
+      </node>
+      <node concept="tYCnQ" id="5UuQb9KcPX5" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:7TuiphRkrz5" resolve="IJoin" />
+        <node concept="Cmt7Y" id="5UuQb9KcPX6" role="uz6Si">
+          <node concept="Cnhdc" id="5UuQb9KcPX7" role="Cncma">
+            <node concept="3clFbS" id="5UuQb9KcPX8" role="2VODD2">
+              <node concept="3clFbF" id="5UuQb9KcPX9" role="3cqZAp">
+                <node concept="2OqwBi" id="5UuQb9KcPXa" role="3clFbG">
+                  <node concept="2OqwBi" id="5UuQb9KcPXb" role="2Oq$k0">
+                    <node concept="3Tsc0h" id="5UuQb9KcPXd" role="2OqNvi">
+                      <ref role="3TtcxE" to="ev4m:7TuiphRkzZr" />
+                    </node>
+                    <node concept="1PxgMI" id="5UuQb9KcRfU" role="2Oq$k0">
+                      <ref role="1PxNhF" to="ev4m:76asi293Uo6" resolve="EntityVarDeclaration" />
+                      <node concept="2OqwBi" id="5UuQb9KcRfV" role="1PxMeX">
+                        <node concept="Cj7Ep" id="5UuQb9KcRfW" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="5UuQb9KcRfX" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2DeJg1" id="5UuQb9KcPXe" role="2OqNvi">
+                    <ref role="1A0vxQ" to="ev4m:76asi29a6os" resolve="LeftJoinVarDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPXf" role="Cn2iK">
+            <property role="2h1i$Z" value="LEFT JOIN" />
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPXg" role="Cn6ar">
+            <property role="2h1i$Z" value="join" />
+          </node>
+        </node>
+      </node>
+      <node concept="tYCnQ" id="5UuQb9KcPXh" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:7TuiphRkrz5" resolve="IJoin" />
+        <node concept="Cmt7Y" id="5UuQb9KcPXi" role="uz6Si">
+          <node concept="Cnhdc" id="5UuQb9KcPXj" role="Cncma">
+            <node concept="3clFbS" id="5UuQb9KcPXk" role="2VODD2">
+              <node concept="3clFbF" id="5UuQb9KcPXl" role="3cqZAp">
+                <node concept="2OqwBi" id="5UuQb9KcPXm" role="3clFbG">
+                  <node concept="2OqwBi" id="5UuQb9KcPXn" role="2Oq$k0">
+                    <node concept="3Tsc0h" id="5UuQb9KcPXp" role="2OqNvi">
+                      <ref role="3TtcxE" to="ev4m:7TuiphRkzZr" />
+                    </node>
+                    <node concept="1PxgMI" id="5UuQb9KcRjs" role="2Oq$k0">
+                      <ref role="1PxNhF" to="ev4m:76asi293Uo6" resolve="EntityVarDeclaration" />
+                      <node concept="2OqwBi" id="5UuQb9KcRjt" role="1PxMeX">
+                        <node concept="Cj7Ep" id="5UuQb9KcRju" role="2Oq$k0" />
+                        <node concept="1mfA1w" id="5UuQb9KcRjv" role="2OqNvi" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2DeJg1" id="5UuQb9KcPXq" role="2OqNvi">
+                    <ref role="1A0vxQ" to="ev4m:76asi29dupn" resolve="FetchLeftJoin" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPXr" role="Cn2iK">
+            <property role="2h1i$Z" value="FETCH LEFT JOIN" />
+          </node>
+          <node concept="2h1dTh" id="5UuQb9KcPXs" role="Cn6ar">
+            <property role="2h1i$Z" value="join" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3UOs0u" id="76asi29ejzo">
     <property role="TrG5h" value="WhereTransform" />

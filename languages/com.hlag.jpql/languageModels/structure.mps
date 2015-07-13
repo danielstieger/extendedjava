@@ -112,6 +112,7 @@
     <node concept="1TJgyj" id="76asi2953SS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="expression" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="26taNl4i7$I" resolve="IPathOrFunc" />
     </node>
     <node concept="PrWs8" id="26taNl4i7_c" role="PzmwI">

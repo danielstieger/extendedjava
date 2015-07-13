@@ -1388,19 +1388,12 @@
           </node>
         </node>
         <node concept="3fqX7Q" id="456D_1XUseD" role="3clFbw">
-          <node concept="2OqwBi" id="456D_1XUseF" role="3fr31v">
-            <node concept="2OqwBi" id="456D_1XUseG" role="2Oq$k0">
-              <node concept="1YBJjd" id="456D_1XUseH" role="2Oq$k0">
-                <ref role="1YBMHb" node="456D_1XTMZW" resolve="optionalExpression" />
-              </node>
-              <node concept="3TrEf2" id="456D_1XUseI" role="2OqNvi">
-                <ref role="3Tt5mk" to="ev4m:26taNl4mtwe" />
-              </node>
+          <node concept="2OqwBi" id="456D_1XUseG" role="3fr31v">
+            <node concept="1YBJjd" id="456D_1XUseH" role="2Oq$k0">
+              <ref role="1YBMHb" node="456D_1XTMZW" resolve="optionalExpression" />
             </node>
-            <node concept="1mIQ4w" id="456D_1XUseJ" role="2OqNvi">
-              <node concept="chp4Y" id="456D_1XUt1c" role="cj9EA">
-                <ref role="cht4Q" to="ev4m:4PnqMJuAq3Z" resolve="JpqlBinaryCompareOperation" />
-              </node>
+            <node concept="2qgKlT" id="5UuQb9KfduN" role="2OqNvi">
+              <ref role="37wK5l" to="zlu4:5UuQb9KeTl$" resolve="isJpqlBinaryCmpOperation" />
             </node>
           </node>
         </node>
@@ -1410,27 +1403,6 @@
             <node concept="3SKdUt" id="456D_1XWxLS" role="3cqZAp">
               <node concept="3SKdUq" id="456D_1XWxLV" role="3SKWNk">
                 <property role="3SKdUp" value="one of the descendants has to be a javaVarRef" />
-              </node>
-            </node>
-            <node concept="3cpWs8" id="456D_1XWInj" role="3cqZAp">
-              <node concept="3cpWsn" id="456D_1XWInm" role="3cpWs9">
-                <property role="TrG5h" value="count" />
-                <node concept="10Oyi0" id="456D_1XWInh" role="1tU5fm" />
-                <node concept="2OqwBi" id="456D_1XWzc4" role="33vP2m">
-                  <node concept="2OqwBi" id="456D_1XWyji" role="2Oq$k0">
-                    <node concept="1YBJjd" id="456D_1XWyhq" role="2Oq$k0">
-                      <ref role="1YBMHb" node="456D_1XTMZW" resolve="optionalExpression" />
-                    </node>
-                    <node concept="2Rf3mk" id="456D_1XWyxr" role="2OqNvi">
-                      <node concept="1xMEDy" id="456D_1XWyxt" role="1xVPHs">
-                        <node concept="chp4Y" id="456D_1XWyAS" role="ri$Ld">
-                          <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                  <node concept="34oBXx" id="456D_1XWCCO" role="2OqNvi" />
-                </node>
               </node>
             </node>
             <node concept="3clFbJ" id="456D_1XWHsC" role="3cqZAp">
@@ -1444,8 +1416,20 @@
                       <node concept="Xl_RD" id="456D_1XWHJk" role="3uHU7B">
                         <property role="Xl_RC" value="The optional expression checks for null of a java variable. Exactly one java var. reference is necessary. (" />
                       </node>
-                      <node concept="37vLTw" id="456D_1XWIR5" role="3uHU7w">
-                        <ref role="3cqZAo" node="456D_1XWInm" resolve="count" />
+                      <node concept="2OqwBi" id="5UuQb9Kfg13" role="3uHU7w">
+                        <node concept="2OqwBi" id="5UuQb9KfeFE" role="2Oq$k0">
+                          <node concept="1YBJjd" id="5UuQb9KfeAZ" role="2Oq$k0">
+                            <ref role="1YBMHb" node="456D_1XTMZW" resolve="optionalExpression" />
+                          </node>
+                          <node concept="2Rf3mk" id="5UuQb9KfflE" role="2OqNvi">
+                            <node concept="1xMEDy" id="5UuQb9KfflG" role="1xVPHs">
+                              <node concept="chp4Y" id="5UuQb9KffqL" role="ri$Ld">
+                                <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="34oBXx" id="5UuQb9KfjA$" role="2OqNvi" />
                       </node>
                     </node>
                   </node>
@@ -1454,12 +1438,14 @@
                   </node>
                 </node>
               </node>
-              <node concept="3y3z36" id="456D_1XWEKo" role="3clFbw">
-                <node concept="3cmrfG" id="456D_1XWEOn" role="3uHU7w">
-                  <property role="3cmrfH" value="1" />
-                </node>
-                <node concept="37vLTw" id="456D_1XWI$3" role="3uHU7B">
-                  <ref role="3cqZAo" node="456D_1XWInm" resolve="count" />
+              <node concept="3fqX7Q" id="5UuQb9KfdQL" role="3clFbw">
+                <node concept="2OqwBi" id="5UuQb9KfdTO" role="3fr31v">
+                  <node concept="1YBJjd" id="5UuQb9KfdRv" role="2Oq$k0">
+                    <ref role="1YBMHb" node="456D_1XTMZW" resolve="optionalExpression" />
+                  </node>
+                  <node concept="2qgKlT" id="5UuQb9Kfe_z" role="2OqNvi">
+                    <ref role="37wK5l" to="zlu4:5UuQb9KeUQf" resolve="isExactlyOneJavaVarReference" />
+                  </node>
                 </node>
               </node>
             </node>
