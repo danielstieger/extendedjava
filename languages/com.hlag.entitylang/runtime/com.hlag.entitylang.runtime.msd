@@ -4,12 +4,12 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="/Users/danielstieger/javaware/extendedjava/jars" type="java_classes">
+    <modelRoot contentPath="${extendedjava}/jars" type="java_classes">
       <sourceRoot location="javax.persistence_2.1.0.v201304241213.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="/Users/danielstieger/javaware/extendedjava/jars/javax.persistence_2.1.0.v201304241213.jar" />
+    <stubModelEntry path="${extendedjava}/jars/javax.persistence_2.1.0.v201304241213.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

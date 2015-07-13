@@ -169,8 +169,7 @@
     </language>
     <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql">
       <concept id="5573040900056680171" name="com.hlag.jpql.structure.EqualsCompLogOperation" flags="ng" index="2jNmR0" />
-      <concept id="5573040900056680174" name="com.hlag.jpql.structure.GreaterEqCompLogOperation" flags="ng" index="2jNmR5" />
-      <concept id="5573040900056654079" name="com.hlag.jpql.structure.BinaryCompareOperation" flags="ng" index="2jNGJk">
+      <concept id="5573040900056654079" name="com.hlag.jpql.structure.JpqlBinaryCompareOperation" flags="ng" index="2jNGJk">
         <child id="5573040900056654082" name="right" index="2jNGCD" />
         <child id="5573040900056654080" name="left" index="2jNGCF" />
       </concept>
@@ -193,11 +192,11 @@
       <concept id="8181476057624968260" name="com.hlag.jpql.structure.FieldReference" flags="ng" index="3S$KP$">
         <reference id="8181476057624968329" name="field" index="3S$KQD" />
       </concept>
-      <concept id="8181476057624961411" name="com.hlag.jpql.structure.DotExpression" flags="ng" index="3S$L2z">
+      <concept id="8181476057624961411" name="com.hlag.jpql.structure.JpqlDotExpression" flags="ng" index="3S$L2z">
         <child id="8181476057624961412" name="operand" index="3S$L2$" />
         <child id="8181476057624961414" name="operation" index="3S$L2A" />
       </concept>
-      <concept id="8181476057624623666" name="com.hlag.jpql.structure.Expression" flags="ng" index="3SB$Gi" />
+      <concept id="8181476057624623666" name="com.hlag.jpql.structure.JpqlExpression" flags="ng" index="3SB$Gi" />
       <concept id="8181476057624623626" name="com.hlag.jpql.structure.ResultSetFunc" flags="ng" index="3SB$GE">
         <child id="8181476057624624696" name="expression" index="3SB$Wo" />
       </concept>
@@ -1408,17 +1407,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3SFOCM" id="58Ciz8W2znn" role="3SC4x6">
-                  <property role="TrG5h" value="cnt" />
-                  <node concept="3S$L2z" id="58Ciz8W2znG" role="3SFODZ">
-                    <node concept="3SBG_A" id="58Ciz8W2znz" role="3S$L2$">
-                      <ref role="3SBg9F" node="58Ciz8W2wyi" resolve="s" />
-                    </node>
-                    <node concept="3S$KP$" id="58Ciz8W2zoc" role="3S$L2A">
-                      <ref role="3S$KQD" node="1qyyZLmWFzP" resolve="containers" />
-                    </node>
-                  </node>
-                </node>
                 <node concept="2jNmR0" id="58Ciz8W2zrs" role="3SGRm$">
                   <node concept="2jXr$n" id="58Ciz8W2zzj" role="2jNGCD">
                     <node concept="2jNmR0" id="58Ciz8W2$2l" role="2jNGCD">
@@ -1507,17 +1495,6 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3SFOCM" id="58Ciz8W2F0R" role="3SC4x6">
-                        <property role="TrG5h" value="cnt" />
-                        <node concept="3S$L2z" id="58Ciz8W2F0S" role="3SFODZ">
-                          <node concept="3SBG_A" id="58Ciz8W2F0T" role="3S$L2$">
-                            <ref role="3SBg9F" node="58Ciz8W2F0I" resolve="s" />
-                          </node>
-                          <node concept="3S$KP$" id="58Ciz8W2F0U" role="3S$L2A">
-                            <ref role="3S$KQD" node="1qyyZLmWFzP" resolve="containers" />
-                          </node>
-                        </node>
-                      </node>
                       <node concept="2jNmR0" id="58Ciz8W2F0V" role="3SGRm$">
                         <node concept="2jXr$n" id="58Ciz8W2F0W" role="2jNGCD">
                           <node concept="2jNmR0" id="58Ciz8W2F0X" role="2jNGCD">
@@ -1575,14 +1552,6 @@
                 <node concept="3SxtsA" id="4PnqMJuG9UK" role="3SC4x6">
                   <property role="TrG5h" value="s" />
                   <ref role="3SxtsH" node="1qyyZLmWy9F" resolve="Container" />
-                </node>
-                <node concept="2jNmR5" id="4PnqMJuG9Vg" role="3SGRm$">
-                  <node concept="3SBG_A" id="4PnqMJuG9Vv" role="2jNGCD">
-                    <ref role="3SBg9F" node="4PnqMJuG9UK" resolve="s" />
-                  </node>
-                  <node concept="3SBG_A" id="4PnqMJuG9V3" role="2jNGCF">
-                    <ref role="3SBg9F" node="4PnqMJuG9UK" resolve="s" />
-                  </node>
                 </node>
                 <node concept="3SFOCM" id="26taNl4itG$" role="3SC4x6">
                   <property role="TrG5h" value="cnt" />

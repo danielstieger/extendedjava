@@ -76,13 +76,19 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="statement" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="76asi29a$Mc" resolve="IQueryStatement" />
+      <ref role="20lvS9" node="76asi29az_k" resolve="SelectStatement" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi293Uo6">
     <property role="TrG5h" value="EntityVarDeclaration" />
     <property role="3GE5qa" value="Referencing" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="7TuiphRkzZr" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="joins" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="7TuiphRkrz5" resolve="IJoin" />
+    </node>
     <node concept="1TJgyj" id="76asi293Uod" role="1TKVEi">
       <property role="20lmBu" value="reference" />
       <property role="20kJfa" value="entity" />
@@ -91,6 +97,9 @@
     </node>
     <node concept="PrWs8" id="76asi299a4Y" role="PzmwI">
       <ref role="PrY4T" node="76asi299a1t" resolve="IVariable" />
+    </node>
+    <node concept="PrWs8" id="7TuiphRkrZn" role="PzmwI">
+      <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi2953Ca">
@@ -244,9 +253,6 @@
     <node concept="PrWs8" id="76asi29ccKk" role="PrDN$">
       <ref role="PrY4T" to="tpee:hCUYCKd" resolve="IValidIdentifier" />
     </node>
-    <node concept="PrWs8" id="76asi29cZoD" role="PrDN$">
-      <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
-    </node>
   </node>
   <node concept="1TIwiD" id="76asi299jGi">
     <property role="3GE5qa" value="Joins" />
@@ -262,6 +268,9 @@
     </node>
     <node concept="PrWs8" id="76asi299jGm" role="PzmwI">
       <ref role="PrY4T" node="76asi299a1t" resolve="IVariable" />
+    </node>
+    <node concept="PrWs8" id="7TuiphRkrSs" role="PzmwI">
+      <ref role="PrY4T" node="7TuiphRkrz5" resolve="IJoin" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi29a6os">
@@ -326,8 +335,8 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="26taNl4i7z5" resolve="IPath" />
     </node>
-    <node concept="PrWs8" id="76asi29duoN" role="PzmwI">
-      <ref role="PrY4T" node="76asi29cZnK" resolve="IFromClause" />
+    <node concept="PrWs8" id="7TuiphRkrAu" role="PzmwI">
+      <ref role="PrY4T" node="7TuiphRkrz5" resolve="IJoin" />
     </node>
   </node>
   <node concept="1TIwiD" id="76asi29dupn">
@@ -517,6 +526,10 @@
     <property role="34LRSv" value="OPTIONAL" />
     <property role="R4oN_" value="evaluate if variable is null" />
     <ref role="1TJDcQ" node="26taNl4mtwd" resolve="BoxingExpression" />
+  </node>
+  <node concept="PlHQZ" id="7TuiphRkrz5">
+    <property role="3GE5qa" value="Joins" />
+    <property role="TrG5h" value="IJoin" />
   </node>
 </model>
 

@@ -449,6 +449,19 @@
           <property role="2V7CMs" value="ext_1_RTransform" />
         </node>
       </node>
+      <node concept="3F2HdR" id="7TuiphRkA5N" role="3EZMnx">
+        <ref role="1NtTu8" to="ev4m:7TuiphRkzZr" />
+        <node concept="2V7CMv" id="7TuiphRmM6K" role="3F10Kt">
+          <property role="2V7CMs" value="ext_1_RTransform" />
+        </node>
+        <node concept="l2Vlx" id="7TuiphRkA5P" role="2czzBx" />
+        <node concept="3F0ifn" id="7TuiphRkAwH" role="2czzBI">
+          <property role="ilYzB" value="&lt;joins&gt;" />
+          <node concept="2V7CMv" id="7TuiphRmMaj" role="3F10Kt">
+            <property role="2V7CMs" value="ext_1_RTransform" />
+          </node>
+        </node>
+      </node>
       <node concept="l2Vlx" id="76asi293Uy0" role="2iSdaV" />
     </node>
   </node>
@@ -808,6 +821,7 @@
         <ref role="1k5W1q" node="1qyyZLn7D7A" resolve="JpqlKeyword" />
       </node>
       <node concept="3F2HdR" id="76asi29azKL" role="3EZMnx">
+        <property role="2czwfO" value="," />
         <ref role="1NtTu8" to="ev4m:76asi29az_A" />
         <node concept="l2Vlx" id="76asi29azKM" role="2czzBx" />
         <node concept="3F0ifn" id="76asi29azKN" role="2czzBI">
