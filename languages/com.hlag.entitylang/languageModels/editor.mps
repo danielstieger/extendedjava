@@ -16,6 +16,7 @@
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450554" name="vertical" index="2czwfN" />
         <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
@@ -70,6 +71,7 @@
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <property id="1073389446425" name="vertical" index="3EZMnw" />
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
@@ -117,7 +119,6 @@
       <concept id="1397920687865593407" name="de.slisson.mps.tables.structure.PartialTable" flags="ng" index="2r0Tta">
         <child id="1397920687865593523" name="cells" index="2r0Tv6" />
       </concept>
-      <concept id="1397920687864997197" name="de.slisson.mps.tables.structure.ChildsHorizontal" flags="ng" index="2reCKS" />
       <concept id="1397920687864997170" name="de.slisson.mps.tables.structure.TableNodeCollection" flags="ng" index="2reCL7">
         <child id="1397920687864997171" name="childTableNodes" index="2reCL6" />
       </concept>
@@ -309,8 +310,15 @@
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
           </node>
         </node>
-        <node concept="2reCKS" id="26taNl4fZ9m" role="2reCL6">
-          <ref role="2reCK$" to="5zrl:1qyyZLn58MQ" />
+        <node concept="2reCLy" id="4fc_cQscXJ8" role="2reCL6">
+          <node concept="3F2HdR" id="4fc_cQsd117" role="2reSmM">
+            <property role="2czwfO" value="," />
+            <ref role="1NtTu8" to="5zrl:1qyyZLn58MQ" />
+            <node concept="3F0ifn" id="4fc_cQsd11a" role="2czzBI">
+              <property role="3F0ifm" value="" />
+              <property role="ilYzB" value="..." />
+            </node>
+          </node>
         </node>
       </node>
     </node>
@@ -364,7 +372,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="1qyyZLn5g0u">
-    <ref role="1XX52x" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotation" />
+    <ref role="1XX52x" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
     <node concept="3EZMnI" id="1qyyZLn5g0w" role="2wV5jI">
       <node concept="1iCGBv" id="1qyyZLn5g0B" role="3EZMnx">
         <ref role="1NtTu8" to="5zrl:1qyyZLn5g0k" />
@@ -576,6 +584,32 @@
       <node concept="3F0ifn" id="2AlxPT0dt$Y" role="3EZMnx">
         <property role="3F0ifm" value="" />
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4fc_cQsn6NW">
+    <ref role="1XX52x" to="5zrl:4fc_cQsn6_l" resolve="JpaAnnotationArrayLiteral" />
+    <node concept="3EZMnI" id="hiBsoWE" role="2wV5jI">
+      <property role="3EZMnw" value="false" />
+      <node concept="3F0ifn" id="hiBsphc" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+        <ref role="1k5W1q" node="26taNl4EruX" resolve="ElJpaAnnotation" />
+        <node concept="11LMrY" id="i1sEseS" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="3F2HdR" id="hiBsqzj" role="3EZMnx">
+        <property role="2czwfN" value="false" />
+        <ref role="1NtTu8" to="5zrl:4fc_cQsn6NH" />
+        <node concept="2iRkQZ" id="4fc_cQsu4_4" role="2czzBx" />
+      </node>
+      <node concept="3F0ifn" id="hiBspHj" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <ref role="1k5W1q" node="26taNl4EruX" resolve="ElJpaAnnotation" />
+        <node concept="11L4FC" id="i1sJE$9" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="i0v7WfN" role="2iSdaV" />
     </node>
   </node>
 </model>

@@ -53,7 +53,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="jpaAnnotations" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
     </node>
     <node concept="1TJgyj" id="1kgMMKTCqIZ" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -78,7 +78,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="jpaAnnotations" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
     </node>
     <node concept="PrWs8" id="1kgMMKTDvZo" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -132,7 +132,7 @@
     </node>
   </node>
   <node concept="1TIwiD" id="1qyyZLn5fZ2">
-    <property role="TrG5h" value="JpaAnnotation" />
+    <property role="TrG5h" value="JpaAnnotationInstance" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="1qyyZLn5g0m" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -175,7 +175,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="jpaAnnotations" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotation" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
     </node>
     <node concept="1TJgyj" id="2AlxPT0dt5B" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -189,6 +189,18 @@
   </node>
   <node concept="PlHQZ" id="2AlxPT0gnyc">
     <property role="TrG5h" value="IContainsFields" />
+  </node>
+  <node concept="1TIwiD" id="4fc_cQsn6_l">
+    <property role="TrG5h" value="JpaAnnotationArrayLiteral" />
+    <property role="34LRSv" value="{" />
+    <property role="R4oN_" value="jpa annotation array literal" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="4fc_cQsn6NH" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="item" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
+    </node>
   </node>
 </model>
 

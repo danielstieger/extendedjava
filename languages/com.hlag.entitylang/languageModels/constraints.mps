@@ -320,7 +320,7 @@
     </node>
   </node>
   <node concept="1M2fIO" id="1qyyZLn5$Za">
-    <ref role="1M2myG" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotation" />
+    <ref role="1M2myG" to="5zrl:1qyyZLn5fZ2" resolve="JpaAnnotationInstance" />
     <node concept="1N5Pfh" id="1qyyZLn5_05" role="1Mr941">
       <ref role="1N5Vy1" to="5zrl:1qyyZLn5g0k" />
       <node concept="13QW63" id="1qyyZLn5_09" role="1N6uqs">
@@ -439,6 +439,23 @@
                 <node concept="Xl_RD" id="1qyyZLn6q0m" role="3uHU7w">
                   <property role="Xl_RC" value=" = " />
                 </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="1M2fIO" id="4fc_cQsn7mn">
+    <ref role="1M2myG" to="5zrl:4fc_cQsn6_l" resolve="JpaAnnotationArrayLiteral" />
+    <node concept="nKS2y" id="4fc_cQsn7ob" role="1MLUbF">
+      <node concept="3clFbS" id="4fc_cQsn7oc" role="2VODD2">
+        <node concept="3clFbF" id="4fc_cQsn8CZ" role="3cqZAp">
+          <node concept="2OqwBi" id="4fc_cQsn9zU" role="3clFbG">
+            <node concept="nLn13" id="4fc_cQsn8CY" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="4fc_cQsn9NQ" role="2OqNvi">
+              <node concept="chp4Y" id="4fc_cQsoDUt" role="cj9EA">
+                <ref role="cht4Q" to="5zrl:1qyyZLn5g0j" resolve="JpaAnnotationValue" />
               </node>
             </node>
           </node>
