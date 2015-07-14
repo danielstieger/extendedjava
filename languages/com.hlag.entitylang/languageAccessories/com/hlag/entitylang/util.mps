@@ -144,6 +144,73 @@
         </node>
       </node>
     </node>
+    <node concept="2YIFZL" id="1P7au1q_Kxe" role="jymVt">
+      <property role="TrG5h" value="getObjectSetterNameFromField" />
+      <node concept="37vLTG" id="1P7au1q_Kxf" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3Tqbb2" id="1P7au1q_Kxg" role="1tU5fm">
+          <ref role="ehGHo" to="5zrl:1kgMMKTClnP" resolve="Field" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="1P7au1q_Kxh" role="3clF45" />
+      <node concept="3Tm1VV" id="1P7au1q_Kxi" role="1B3o_S" />
+      <node concept="3clFbS" id="1P7au1q_Kxj" role="3clF47">
+        <node concept="3clFbF" id="1P7au1q_Kxk" role="3cqZAp">
+          <node concept="3cpWs3" id="1P7au1q_L$R" role="3clFbG">
+            <node concept="Xl_RD" id="1P7au1q_L_W" role="3uHU7w">
+              <property role="Xl_RC" value="Obj" />
+            </node>
+            <node concept="3cpWs3" id="1P7au1q_Kxl" role="3uHU7B">
+              <node concept="3cpWs3" id="1P7au1q_Kxs" role="3uHU7B">
+                <node concept="Xl_RD" id="1P7au1q_Kxt" role="3uHU7B">
+                  <property role="Xl_RC" value="set" />
+                </node>
+                <node concept="2OqwBi" id="1P7au1q_Kxu" role="3uHU7w">
+                  <node concept="2OqwBi" id="1P7au1q_Kxv" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1P7au1q_Kxw" role="2Oq$k0">
+                      <node concept="37vLTw" id="1P7au1q_Kxx" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1P7au1q_Kxf" resolve="field" />
+                      </node>
+                      <node concept="3TrcHB" id="1P7au1q_Kxy" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1P7au1q_Kxz" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
+                      <node concept="3cmrfG" id="1P7au1q_Kx$" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1P7au1q_Kx_" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1P7au1q_KxA" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1P7au1q_Kxm" role="3uHU7w">
+                <node concept="2OqwBi" id="1P7au1q_Kxn" role="2Oq$k0">
+                  <node concept="37vLTw" id="1P7au1q_Kxo" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1P7au1q_Kxf" resolve="field" />
+                  </node>
+                  <node concept="3TrcHB" id="1P7au1q_Kxp" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1P7au1q_Kxq" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
+                  <node concept="3cmrfG" id="1P7au1q_Kxr" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2YIFZL" id="456D_1YMbG5" role="jymVt">
       <property role="TrG5h" value="getGetterNameFromField" />
       <node concept="37vLTG" id="456D_1YMbMw" role="3clF46">
@@ -199,6 +266,73 @@
                 </node>
                 <node concept="liA8E" id="456D_1YMf$G" role="2OqNvi">
                   <ref role="37wK5l" to="e2lb:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2YIFZL" id="1P7au1q_KDB" role="jymVt">
+      <property role="TrG5h" value="getObjectGetterNameFromField" />
+      <node concept="37vLTG" id="1P7au1q_KDC" role="3clF46">
+        <property role="TrG5h" value="field" />
+        <node concept="3Tqbb2" id="1P7au1q_KDD" role="1tU5fm">
+          <ref role="ehGHo" to="5zrl:1kgMMKTClnP" resolve="Field" />
+        </node>
+      </node>
+      <node concept="17QB3L" id="1P7au1q_KDE" role="3clF45" />
+      <node concept="3Tm1VV" id="1P7au1q_KDF" role="1B3o_S" />
+      <node concept="3clFbS" id="1P7au1q_KDG" role="3clF47">
+        <node concept="3clFbF" id="1P7au1q_KDH" role="3cqZAp">
+          <node concept="3cpWs3" id="1P7au1q_Li3" role="3clFbG">
+            <node concept="Xl_RD" id="1P7au1q_Lj8" role="3uHU7w">
+              <property role="Xl_RC" value="Obj" />
+            </node>
+            <node concept="3cpWs3" id="1P7au1q_KDI" role="3uHU7B">
+              <node concept="3cpWs3" id="1P7au1q_KDP" role="3uHU7B">
+                <node concept="Xl_RD" id="1P7au1q_KDQ" role="3uHU7B">
+                  <property role="Xl_RC" value="get" />
+                </node>
+                <node concept="2OqwBi" id="1P7au1q_KDR" role="3uHU7w">
+                  <node concept="2OqwBi" id="1P7au1q_KDS" role="2Oq$k0">
+                    <node concept="2OqwBi" id="1P7au1q_KDT" role="2Oq$k0">
+                      <node concept="37vLTw" id="1P7au1q_KDU" role="2Oq$k0">
+                        <ref role="3cqZAo" node="1P7au1q_KDC" resolve="field" />
+                      </node>
+                      <node concept="3TrcHB" id="1P7au1q_KDV" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="1P7au1q_KDW" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~String.substring(int,int):java.lang.String" resolve="substring" />
+                      <node concept="3cmrfG" id="1P7au1q_KDX" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                      <node concept="3cmrfG" id="1P7au1q_KDY" role="37wK5m">
+                        <property role="3cmrfH" value="1" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="1P7au1q_KDZ" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~String.toUpperCase():java.lang.String" resolve="toUpperCase" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="1P7au1q_KDJ" role="3uHU7w">
+                <node concept="2OqwBi" id="1P7au1q_KDK" role="2Oq$k0">
+                  <node concept="37vLTw" id="1P7au1q_KDL" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1P7au1q_KDC" resolve="field" />
+                  </node>
+                  <node concept="3TrcHB" id="1P7au1q_KDM" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="1P7au1q_KDN" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~String.substring(int):java.lang.String" resolve="substring" />
+                  <node concept="3cmrfG" id="1P7au1q_KDO" role="37wK5m">
+                    <property role="3cmrfH" value="1" />
+                  </node>
                 </node>
               </node>
             </node>
