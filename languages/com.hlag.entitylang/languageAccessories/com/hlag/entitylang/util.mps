@@ -77,7 +77,7 @@
     </language>
   </registry>
   <node concept="312cEu" id="456D_1YMbua">
-    <property role="TrG5h" value="NameingPolicy" />
+    <property role="TrG5h" value="NamingPolicy" />
     <node concept="2tJIrI" id="456D_1YMggS" role="jymVt" />
     <node concept="2tJIrI" id="456D_1YMghG" role="jymVt" />
     <node concept="2tJIrI" id="456D_1YMgix" role="jymVt" />

@@ -15,12 +15,42 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
+      <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
+        <child id="1197027771414" name="operand" index="2Oq$k0" />
+        <child id="1197027833540" name="operation" index="2OqNvi" />
+      </concept>
       <concept id="1083260308424" name="jetbrains.mps.baseLanguage.structure.EnumConstantReference" flags="nn" index="Rm8GO">
         <reference id="1083260308426" name="enumConstantDeclaration" index="Rm8GQ" />
         <reference id="1144432896254" name="enumClass" index="1Px2BO" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
+      <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
+        <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123135" name="body" index="3clF47" />
+      </concept>
+      <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_" />
+      <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
+        <child id="1068580123156" name="expression" index="3clFbG" />
+      </concept>
+      <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+        <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
+        <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
@@ -44,8 +74,14 @@
         <child id="1517936465230545536" name="type" index="GJgAG" />
         <child id="1631019930970524854" name="jpaAnnotations" index="11Hwta" />
       </concept>
+      <concept id="1517936465230542825" name="com.hlag.entitylang.structure.FieldType" flags="ig" index="GJnN5">
+        <reference id="1517936465230542826" name="declaration" index="GJnN6" />
+      </concept>
       <concept id="1517936465230542567" name="com.hlag.entitylang.structure.FieldTypeDeclaration" flags="ng" index="GJnRb">
         <child id="1517936465230542570" name="subType" index="GJnR6" />
+      </concept>
+      <concept id="1517936465230616194" name="com.hlag.entitylang.structure.EntityFieldRefOp" flags="ng" index="GJxQI">
+        <reference id="1517936465230616197" name="field" index="GJxQD" />
       </concept>
       <concept id="1631019930970554306" name="com.hlag.entitylang.structure.JpaAnnotationInstance" flags="ng" index="11HBgY">
         <reference id="1631019930970554388" name="annotation" index="11HSJC" />
@@ -469,6 +505,54 @@
       <node concept="11HBgY" id="1P7au1qzAM3" role="11Hwta">
         <ref role="11HSJC" to="8mn1:~Column" resolve="Column" />
       </node>
+    </node>
+  </node>
+  <node concept="GG2rC" id="3B10Bzz_saA">
+    <property role="TrG5h" value="Extended" />
+    <node concept="2tJIrI" id="3B10Bzz_ANx" role="jymVt" />
+    <node concept="3clFb_" id="3B10Bzz_AND" role="jymVt">
+      <property role="TrG5h" value="test" />
+      <node concept="3cqZAl" id="3B10Bzz_ANF" role="3clF45" />
+      <node concept="3Tm1VV" id="3B10Bzz_ANG" role="1B3o_S" />
+      <node concept="3clFbS" id="3B10Bzz_ANH" role="3clF47">
+        <node concept="3clFbF" id="3B10Bzz_AQo" role="3cqZAp">
+          <node concept="37vLTI" id="3B10Bzz_BGj" role="3clFbG">
+            <node concept="Xl_RD" id="3B10Bzz_BU4" role="37vLTx">
+              <property role="Xl_RC" value="hello" />
+            </node>
+            <node concept="2OqwBi" id="3B10Bzz_B_N" role="37vLTJ">
+              <node concept="Xjq3P" id="3B10Bzz_AQn" role="2Oq$k0" />
+              <node concept="GJxQI" id="3B10Bzz_BBK" role="2OqNvi">
+                <ref role="GJxQD" node="3B10Bzz_saC" resolve="id" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3B10Bzz_BV2" role="3cqZAp" />
+        <node concept="3clFbF" id="3B10Bzz_BVN" role="3cqZAp">
+          <node concept="37vLTI" id="3B10BzzEBEm" role="3clFbG">
+            <node concept="Xl_RD" id="3B10BzzEBH_" role="37vLTx">
+              <property role="Xl_RC" value="hello" />
+            </node>
+            <node concept="2OqwBi" id="3B10Bzz_BWG" role="37vLTJ">
+              <node concept="Xjq3P" id="3B10Bzz_BVL" role="2Oq$k0" />
+              <node concept="GJxQI" id="3B10BzzEB_N" role="2OqNvi">
+                <ref role="GJxQD" node="1P7au1qzAK9" resolve="client" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3Tm1VV" id="3B10Bzz_saB" role="1B3o_S" />
+    <node concept="GGpVp" id="3B10Bzz_saC" role="GGm2j">
+      <property role="TrG5h" value="id" />
+      <node concept="GJnN5" id="3B10Bzz_ANu" role="GJgAG">
+        <ref role="GJnN6" node="1P7au1qzAKk" resolve="AddBusinessValue" />
+      </node>
+    </node>
+    <node concept="3uibUv" id="3B10Bzz_AAI" role="1zkMxy">
+      <ref role="3uigEE" node="1P7au1qzAEi" resolve="BwProcessInstance" />
     </node>
   </node>
 </model>
