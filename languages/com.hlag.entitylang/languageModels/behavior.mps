@@ -138,6 +138,8 @@
         <child id="1144104376918" name="parameter" index="1xVPHs" />
       </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1143234257716" name="jetbrains.mps.lang.smodel.structure.Node_GetModelOperation" flags="nn" index="I4A8Y" />
+      <concept id="1212008292747" name="jetbrains.mps.lang.smodel.structure.Model_GetLongNameOperation" flags="nn" index="LkI2h" />
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
@@ -1178,11 +1180,41 @@
       <ref role="13i0hy" node="6LxxuUwtX8G" resolve="getFullQualifiedName" />
       <node concept="3Tm1VV" id="6LxxuUwubdB" role="1B3o_S" />
       <node concept="3clFbS" id="6LxxuUwubdE" role="3clF47">
-        <node concept="3clFbF" id="6LxxuUwubhH" role="3cqZAp">
-          <node concept="2OqwBi" id="6LxxuUwubrw" role="3clFbG">
-            <node concept="13iPFW" id="6LxxuUwubhG" role="2Oq$k0" />
-            <node concept="2qgKlT" id="6LxxuUwucJj" role="2OqNvi">
-              <ref role="37wK5l" to="tpcu:hEwIO9y" resolve="getFqName" />
+        <node concept="3SKdUt" id="3B10Bz$8exB" role="3cqZAp">
+          <node concept="3SKdUq" id="3B10Bz$8eAZ" role="3SKWNk">
+            <property role="3SKdUp" value="Todo: Name resolution in order to allow EntityKey s in " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3B10Bz$8eGs" role="3cqZAp">
+          <node concept="3SKdUq" id="3B10Bz$8eLQ" role="3SKWNk">
+            <property role="3SKdUp" value="Entities, but generate them in class concepts outside. " />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="3B10Bz$8eYn" role="3cqZAp">
+          <node concept="3SKdUq" id="3B10Bz$8f1A" role="3SKWNk">
+            <property role="3SKdUp" value="Is this clever ?" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="3B10Bz$8f1E" role="3cqZAp" />
+        <node concept="3clFbF" id="3B10Bz$7kxH" role="3cqZAp">
+          <node concept="3cpWs3" id="3B10Bz$7mvb" role="3clFbG">
+            <node concept="2OqwBi" id="3B10Bz$7mJb" role="3uHU7w">
+              <node concept="13iPFW" id="3B10Bz$7m$r" role="2Oq$k0" />
+              <node concept="3TrcHB" id="3B10Bz$7nrV" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+            <node concept="3cpWs3" id="3B10Bz$7mhC" role="3uHU7B">
+              <node concept="2OqwBi" id="3B10Bz$7lZV" role="3uHU7B">
+                <node concept="2OqwBi" id="3B10Bz$7kFw" role="2Oq$k0">
+                  <node concept="13iPFW" id="3B10Bz$7kxG" role="2Oq$k0" />
+                  <node concept="I4A8Y" id="3B10Bz$7llz" role="2OqNvi" />
+                </node>
+                <node concept="LkI2h" id="3B10Bz$7m6b" role="2OqNvi" />
+              </node>
+              <node concept="Xl_RD" id="3B10Bz$7mi8" role="3uHU7w">
+                <property role="Xl_RC" value="." />
+              </node>
             </node>
           </node>
         </node>
