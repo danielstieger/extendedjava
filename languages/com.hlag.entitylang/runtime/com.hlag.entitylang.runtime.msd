@@ -12,6 +12,7 @@
     <stubModelEntry path="${extendedjava}/jars/javax.persistence_2.1.0.v201304241213.jar" />
     <stubModelEntry path="${extendedjava}/jars/c3p0-0.9.2-pre6.jar" />
     <stubModelEntry path="${extendedjava}/jars/eclipselink.jar" />
+    <stubModelEntry path="${extendedjava}/jars/mysql-connector-java-5.1.36-bin.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>

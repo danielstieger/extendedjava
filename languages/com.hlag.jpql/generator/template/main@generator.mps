@@ -1316,7 +1316,7 @@
                   <ref role="3cqZAo" node="456D_1XY6ey" resolve="entityManager" />
                 </node>
                 <node concept="liA8E" id="456D_1XY8EC" role="2OqNvi">
-                  <ref role="37wK5l" to="8mn1:~EntityManager.createNamedQuery(java.lang.String,java.lang.Class):javax.persistence.TypedQuery" resolve="createNamedQuery" />
+                  <ref role="37wK5l" to="8mn1:~EntityManager.createQuery(java.lang.String,java.lang.Class):javax.persistence.TypedQuery" resolve="createQuery" />
                   <node concept="2OqwBi" id="7TuiphRiN8b" role="37wK5m">
                     <node concept="37vLTw" id="7TuiphRiMEh" role="2Oq$k0">
                       <ref role="3cqZAo" node="7TuiphRiLmC" resolve="sqlQuery" />
@@ -4096,7 +4096,7 @@
                   <ref role="3cqZAo" node="7FR0ou$iLMH" resolve="entityManager" />
                 </node>
                 <node concept="liA8E" id="7FR0ou$iLQ4" role="2OqNvi">
-                  <ref role="37wK5l" to="8mn1:~EntityManager.createNamedQuery(java.lang.String,java.lang.Class):javax.persistence.TypedQuery" resolve="createNamedQuery" />
+                  <ref role="37wK5l" to="8mn1:~EntityManager.createQuery(java.lang.String,java.lang.Class):javax.persistence.TypedQuery" resolve="createQuery" />
                   <node concept="2OqwBi" id="7FR0ou$iLQ5" role="37wK5m">
                     <node concept="37vLTw" id="7FR0ou$iLQ6" role="2Oq$k0">
                       <ref role="3cqZAo" node="7FR0ou$iLNx" resolve="sqlQuery" />
