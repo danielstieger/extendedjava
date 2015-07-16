@@ -214,5 +214,24 @@
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
   </node>
+  <node concept="1TIwiD" id="4$MXrxp$$Y$">
+    <property role="TrG5h" value="MultiLineStringLiteral" />
+    <property role="34LRSv" value="&quot;&quot;&quot;" />
+    <ref role="1TJDcQ" to="tpee:fz3vP1J" resolve="Expression" />
+    <node concept="1TJgyj" id="4$MXrxp$Jm_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lines" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4$MXrxp$J1h" resolve="MultiLineStringLiteralLine" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="4$MXrxp$J1h">
+    <property role="TrG5h" value="MultiLineStringLiteralLine" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="4$MXrxp$J8S" role="1TKVEl">
+      <property role="TrG5h" value="text" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
 </model>
 

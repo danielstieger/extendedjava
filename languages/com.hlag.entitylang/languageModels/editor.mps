@@ -18,6 +18,7 @@
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450554" name="vertical" index="2czwfN" />
         <property id="1140524450557" name="separatorText" index="2czwfO" />
+        <property id="1160590307797" name="usesFolding" index="S$F3r" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
@@ -45,6 +46,7 @@
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
       <concept id="1186404549998" name="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem" flags="ln" index="VechU" />
+      <concept id="1186413799158" name="jetbrains.mps.lang.editor.structure.BracketColorStyleClassItem" flags="ln" index="VLuvy" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
       </concept>
@@ -65,6 +67,7 @@
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
+      <concept id="1219226236603" name="jetbrains.mps.lang.editor.structure.DrawBracketsStyleClassItem" flags="ln" index="3vyZuw" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1139852716018" name="noTargetText" index="1$x2rV" />
         <property id="1140017977771" name="readOnly" index="1Intyy" />
@@ -290,7 +293,7 @@
     <node concept="14StLt" id="26taNl4EruX" role="V601i">
       <property role="TrG5h" value="ElJpaAnnotation" />
       <node concept="VechU" id="26taNl4Erzv" role="3F10Kt">
-        <property role="Vb096" value="cyan" />
+        <property role="Vb096" value="DARK_MAGENTA" />
       </node>
       <node concept="Vb9p2" id="26taNl4ErCD" role="3F10Kt" />
     </node>
@@ -610,6 +613,28 @@
         </node>
       </node>
       <node concept="l2Vlx" id="i0v7WfN" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4$MXrxp$FEG">
+    <ref role="1XX52x" to="5zrl:4$MXrxp$$Y$" resolve="MultiLineStringLiteral" />
+    <node concept="3F2HdR" id="4$MXrxp$JHu" role="2wV5jI">
+      <property role="S$F3r" value="true" />
+      <ref role="1NtTu8" to="5zrl:4$MXrxp$Jm_" />
+      <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
+      <node concept="2iRkQZ" id="4$MXrxp$K05" role="2czzBx" />
+      <node concept="3vyZuw" id="4$MXrxpBbpw" role="3F10Kt">
+        <property role="VOm3f" value="true" />
+      </node>
+      <node concept="VLuvy" id="4$MXrxpBbwp" role="3F10Kt">
+        <property role="Vb096" value="cyan" />
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="4$MXrxp$Jcn">
+    <ref role="1XX52x" to="5zrl:4$MXrxp$J1h" resolve="MultiLineStringLiteralLine" />
+    <node concept="3F0A7n" id="4$MXrxp$Jdf" role="2wV5jI">
+      <ref role="1NtTu8" to="5zrl:4$MXrxp$J8S" resolve="text" />
+      <ref role="1k5W1q" to="tpen:hgVSdfU" resolve="StringLiteral" />
     </node>
   </node>
 </model>

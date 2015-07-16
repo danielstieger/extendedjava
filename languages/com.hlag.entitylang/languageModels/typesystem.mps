@@ -28,6 +28,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -540,6 +541,29 @@
     <node concept="1YaCAy" id="4fc_cQspqiU" role="1YuTPh">
       <property role="TrG5h" value="annotationInstanceValue" />
       <ref role="1YaFvo" to="5zrl:1qyyZLn5g0j" resolve="JpaAnnotationValue" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="4$MXrxpBbDQ">
+    <property role="TrG5h" value="typeof_MultiLineStringLiteral" />
+    <node concept="3clFbS" id="4$MXrxpBbDR" role="18ibNy">
+      <node concept="1Z5TYs" id="4$MXrxpBnSu" role="3cqZAp">
+        <node concept="mw_s8" id="4$MXrxpBnUu" role="1ZfhKB">
+          <node concept="2c44tf" id="4$MXrxpBnUq" role="mwGJk">
+            <node concept="17QB3L" id="4$MXrxpBnVB" role="2c44tc" />
+          </node>
+        </node>
+        <node concept="mw_s8" id="4$MXrxpBnSx" role="1ZfhK$">
+          <node concept="1Z2H0r" id="4$MXrxpBnvO" role="mwGJk">
+            <node concept="1YBJjd" id="4$MXrxpBnx6" role="1Z2MuG">
+              <ref role="1YBMHb" node="4$MXrxpBbDT" resolve="multiLineStringLiteral" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="4$MXrxpBbDT" role="1YuTPh">
+      <property role="TrG5h" value="multiLineStringLiteral" />
+      <ref role="1YaFvo" to="5zrl:4$MXrxp$$Y$" resolve="MultiLineStringLiteral" />
     </node>
   </node>
 </model>

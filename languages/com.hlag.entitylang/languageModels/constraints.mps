@@ -463,5 +463,22 @@
       </node>
     </node>
   </node>
+  <node concept="1M2fIO" id="4$MXrxpF7hm">
+    <ref role="1M2myG" to="5zrl:4$MXrxp$$Y$" resolve="MultiLineStringLiteral" />
+    <node concept="nKS2y" id="4$MXrxpF7k5" role="1MLUbF">
+      <node concept="3clFbS" id="4$MXrxpF7k6" role="2VODD2">
+        <node concept="3clFbF" id="4$MXrxpF7X7" role="3cqZAp">
+          <node concept="2OqwBi" id="4$MXrxpF80G" role="3clFbG">
+            <node concept="nLn13" id="4$MXrxpF7X6" role="2Oq$k0" />
+            <node concept="1mIQ4w" id="4$MXrxpF8dN" role="2OqNvi">
+              <node concept="chp4Y" id="4$MXrxpFIID" role="cj9EA">
+                <ref role="cht4Q" to="tpee:fz3uBXI" resolve="VariableDeclaration" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 

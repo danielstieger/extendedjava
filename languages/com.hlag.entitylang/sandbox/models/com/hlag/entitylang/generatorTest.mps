@@ -13,17 +13,23 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1215693861676" name="jetbrains.mps.baseLanguage.structure.BaseAssignmentExpression" flags="nn" index="d038R">
+        <child id="1068498886297" name="rValue" index="37vLTx" />
+        <child id="1068498886295" name="lValue" index="37vLTJ" />
+      </concept>
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1070475354124" name="jetbrains.mps.baseLanguage.structure.ThisExpression" flags="nn" index="Xjq3P" />
       <concept id="1068390468200" name="jetbrains.mps.baseLanguage.structure.FieldDeclaration" flags="ig" index="312cEg" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
       <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
+      <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
       </concept>
@@ -39,6 +45,9 @@
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
+      </concept>
+      <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
+        <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6">
         <child id="1068581517676" name="expression" index="3cqZAk" />
@@ -131,6 +140,9 @@
       <concept id="1517936465230542567" name="com.hlag.entitylang.structure.FieldTypeDeclaration" flags="ng" index="GJnRb">
         <child id="1517936465230542570" name="subType" index="GJnR6" />
       </concept>
+      <concept id="1517936465230616194" name="com.hlag.entitylang.structure.EntityFieldRefOp" flags="ng" index="GJxQI">
+        <reference id="1517936465230616197" name="field" index="GJxQD" />
+      </concept>
       <concept id="2996449965958866096" name="com.hlag.entitylang.structure.EntityKey" flags="ig" index="1DC2fI">
         <child id="2996449965958877543" name="fields" index="1DC5oT" />
       </concept>
@@ -144,7 +156,26 @@
       <property role="TrG5h" value="MyMethod" />
       <node concept="3cqZAl" id="6kkcopCXAIP" role="3clF45" />
       <node concept="3Tm1VV" id="6kkcopCXAIQ" role="1B3o_S" />
-      <node concept="3clFbS" id="6kkcopCXAIR" role="3clF47" />
+      <node concept="3clFbS" id="6kkcopCXAIR" role="3clF47">
+        <node concept="3clFbF" id="4$MXrxpxcvD" role="3cqZAp">
+          <node concept="37vLTI" id="4$MXrxpxd$J" role="3clFbG">
+            <node concept="2OqwBi" id="4$MXrxpxdlU" role="37vLTJ">
+              <node concept="2OqwBi" id="4$MXrxpxdf2" role="2Oq$k0">
+                <node concept="Xjq3P" id="4$MXrxpxcvB" role="2Oq$k0" />
+                <node concept="GJxQI" id="4$MXrxpxdgX" role="2OqNvi">
+                  <ref role="GJxQD" node="456D_1YO1iM" resolve="key" />
+                </node>
+              </node>
+              <node concept="GJxQI" id="4$MXrxpxdou" role="2OqNvi">
+                <ref role="GJxQD" node="456D_1YO1lw" resolve="id" />
+              </node>
+            </node>
+            <node concept="3cmrfG" id="4$MXrxpxdAE" role="37vLTx">
+              <property role="3cmrfH" value="10" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="3Tm1VV" id="456D_1YO1iL" role="1B3o_S" />
     <node concept="GGpVp" id="456D_1YO1iM" role="GGm2j">
