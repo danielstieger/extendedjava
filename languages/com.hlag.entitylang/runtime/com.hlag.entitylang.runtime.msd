@@ -6,6 +6,7 @@
     </modelRoot>
     <modelRoot contentPath="${extendedjava}/jars" type="java_classes">
       <sourceRoot location="javax.persistence_2.1.0.v201304241213.jar" />
+      <sourceRoot location="guava-18.0.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -13,6 +14,7 @@
     <stubModelEntry path="${extendedjava}/jars/c3p0-0.9.2-pre6.jar" />
     <stubModelEntry path="${extendedjava}/jars/eclipselink.jar" />
     <stubModelEntry path="${extendedjava}/jars/mysql-connector-java-5.1.36-bin.jar" />
+    <stubModelEntry path="${extendedjava}/jars/guava-18.0.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
