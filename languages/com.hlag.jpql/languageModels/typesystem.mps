@@ -105,6 +105,9 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
+      </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
@@ -1603,29 +1606,33 @@
     <property role="TrG5h" value="check_JpqlDotExpression" />
     <property role="3GE5qa" value="Referencing" />
     <node concept="3clFbS" id="5UuQb9JYBz5" role="18ibNy">
-      <node concept="3clFbJ" id="5UuQb9JYNcy" role="3cqZAp">
-        <node concept="3clFbS" id="5UuQb9JYNcz" role="3clFbx">
-          <node concept="2MkqsV" id="5UuQb9JYOcz" role="3cqZAp">
-            <node concept="Xl_RD" id="5UuQb9JYOcJ" role="2MkJ7o">
-              <property role="Xl_RC" value="Using dot notation with java variable references is not implemented right now." />
+      <node concept="3SKdUt" id="1A9rhAKFJLe" role="3cqZAp">
+        <node concept="3SKWN0" id="1A9rhAKFJLf" role="3SKWNk">
+          <node concept="3clFbJ" id="5UuQb9JYNcy" role="3SKWNf">
+            <node concept="3clFbS" id="5UuQb9JYNcz" role="3clFbx">
+              <node concept="2MkqsV" id="5UuQb9JYOcz" role="3cqZAp">
+                <node concept="Xl_RD" id="5UuQb9JYOcJ" role="2MkJ7o">
+                  <property role="Xl_RC" value="Using dot notation with java variable references is not implemented right now." />
+                </node>
+                <node concept="1YBJjd" id="5UuQb9JYOfK" role="2OEOjV">
+                  <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
+                </node>
+              </node>
             </node>
-            <node concept="1YBJjd" id="5UuQb9JYOfK" role="2OEOjV">
-              <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
-            </node>
-          </node>
-        </node>
-        <node concept="2OqwBi" id="5UuQb9JYO2k" role="3clFbw">
-          <node concept="2OqwBi" id="5UuQb9JYN$b" role="2Oq$k0">
-            <node concept="1YBJjd" id="5UuQb9JYNcI" role="2Oq$k0">
-              <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
-            </node>
-            <node concept="3TrEf2" id="5UuQb9JYNMI" role="2OqNvi">
-              <ref role="3Tt5mk" to="ev4m:76asi296m64" />
-            </node>
-          </node>
-          <node concept="1mIQ4w" id="5UuQb9JYOa_" role="2OqNvi">
-            <node concept="chp4Y" id="5UuQb9JYObi" role="cj9EA">
-              <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+            <node concept="2OqwBi" id="5UuQb9JYO2k" role="3clFbw">
+              <node concept="2OqwBi" id="5UuQb9JYN$b" role="2Oq$k0">
+                <node concept="1YBJjd" id="5UuQb9JYNcI" role="2Oq$k0">
+                  <ref role="1YBMHb" node="5UuQb9JYBz7" resolve="jpqlDotExpression" />
+                </node>
+                <node concept="3TrEf2" id="5UuQb9JYNMI" role="2OqNvi">
+                  <ref role="3Tt5mk" to="ev4m:76asi296m64" />
+                </node>
+              </node>
+              <node concept="1mIQ4w" id="5UuQb9JYOa_" role="2OqNvi">
+                <node concept="chp4Y" id="5UuQb9JYObi" role="cj9EA">
+                  <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+                </node>
+              </node>
             </node>
           </node>
         </node>
