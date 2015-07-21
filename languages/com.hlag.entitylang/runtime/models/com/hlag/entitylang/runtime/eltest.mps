@@ -72,6 +72,7 @@
       <concept id="1070533707846" name="jetbrains.mps.baseLanguage.structure.StaticFieldReference" flags="nn" index="10M0yZ">
         <reference id="1144433057691" name="classifier" index="1PxDUh" />
       </concept>
+      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
@@ -556,7 +557,12 @@
                     <ref role="3uigEE" node="4$MXrxpG$8B" resolve="Device" />
                   </node>
                 </node>
-                <node concept="2OqwBi" id="4$MXrxpKb6e" role="33vP2m">
+                <node concept="10Nm6u" id="uk_gqtsQSw" role="33vP2m" />
+              </node>
+            </node>
+            <node concept="3clFbF" id="uk_gqtsICG" role="3cqZAp">
+              <node concept="37vLTI" id="uk_gqtsICI" role="3clFbG">
+                <node concept="2OqwBi" id="4$MXrxpKb6e" role="37vLTx">
                   <node concept="37vLTw" id="4$MXrxpKb3E" role="2Oq$k0">
                     <ref role="3cqZAo" node="4$MXrxp$gKm" resolve="em" />
                   </node>
@@ -594,6 +600,9 @@
                       </node>
                     </node>
                   </node>
+                </node>
+                <node concept="37vLTw" id="uk_gqtsICM" role="37vLTJ">
+                  <ref role="3cqZAo" node="4$MXrxpGDtA" resolve="devices" />
                 </node>
               </node>
             </node>
@@ -941,15 +950,6 @@
           <property role="TrG5h" value="Id" />
           <node concept="3uibUv" id="6p0iX5WzFT3" role="GJnR6">
             <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
-          </node>
-        </node>
-      </node>
-      <node concept="GGpVp" id="uk_gqt8r8N" role="1DC5oT">
-        <property role="TrG5h" value="mandant" />
-        <node concept="GJnRb" id="uk_gqt8rfp" role="GJgAG">
-          <property role="TrG5h" value="Mandant" />
-          <node concept="3uibUv" id="uk_gqt8rhA" role="GJnR6">
-            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
           </node>
         </node>
       </node>

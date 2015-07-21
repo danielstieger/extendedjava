@@ -2196,11 +2196,11 @@
         <node concept="3cpWs6" id="uk_gqtcZMc" role="3cqZAp">
           <node concept="3cpWs3" id="uk_gqtdFQI" role="3cqZAk">
             <node concept="Xl_RD" id="uk_gqtdFRX" role="3uHU7w">
-              <property role="Xl_RC" value=")" />
+              <property role="Xl_RC" value=") " />
             </node>
             <node concept="3cpWs3" id="uk_gqtdBAA" role="3uHU7B">
               <node concept="Xl_RD" id="uk_gqtdBMu" role="3uHU7B">
-                <property role="Xl_RC" value="(" />
+                <property role="Xl_RC" value=" (" />
               </node>
               <node concept="2OqwBi" id="uk_gqtdCqa" role="3uHU7w">
                 <node concept="2OqwBi" id="uk_gqtcZYd" role="2Oq$k0">
@@ -2218,7 +2218,7 @@
                   </node>
                   <node concept="3cpWsd" id="uk_gqtdFw4" role="37wK5m">
                     <node concept="3cmrfG" id="uk_gqtdFwG" role="3uHU7w">
-                      <property role="3cmrfH" value="4" />
+                      <property role="3cmrfH" value="5" />
                     </node>
                     <node concept="2OqwBi" id="uk_gqtdEIq" role="3uHU7B">
                       <node concept="37vLTw" id="uk_gqtdEtR" role="2Oq$k0">
@@ -2273,6 +2273,58 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="uk_gqtj7o_" role="jymVt" />
+    <node concept="2YIFZL" id="uk_gqtj6dU" role="jymVt">
+      <property role="TrG5h" value="isCompositeKeyEntityAddressedAroundJavaReferences" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="uk_gqtj6dV" role="3clF47">
+        <node concept="3cpWs8" id="uk_gqtj6dW" role="3cqZAp">
+          <node concept="3cpWsn" id="uk_gqtj6dX" role="3cpWs9">
+            <property role="TrG5h" value="exp" />
+            <node concept="3Tqbb2" id="uk_gqtj6dY" role="1tU5fm">
+              <ref role="ehGHo" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
+            </node>
+            <node concept="1rXfSq" id="uk_gqtj6dZ" role="33vP2m">
+              <ref role="37wK5l" node="uk_gqsVOG2" resolve="getExpAroundJavaReference" />
+              <node concept="37vLTw" id="uk_gqtj6e0" role="37wK5m">
+                <ref role="3cqZAo" node="uk_gqtj6e$" resolve="jvr" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="uk_gqtj9lP" role="3cqZAp">
+          <node concept="3cpWsn" id="uk_gqtj9lQ" role="3cpWs9">
+            <property role="TrG5h" value="x" />
+            <node concept="3Tqbb2" id="uk_gqtj9lR" role="1tU5fm" />
+            <node concept="1rXfSq" id="uk_gqtj9lS" role="33vP2m">
+              <ref role="37wK5l" node="uk_gqsXYGL" resolve="getCompositeKeyEntityAddressedInExp" />
+              <node concept="37vLTw" id="uk_gqtj9lT" role="37wK5m">
+                <ref role="3cqZAo" node="uk_gqtj6dX" resolve="exp" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="uk_gqtj9lU" role="3cqZAp">
+          <node concept="2OqwBi" id="uk_gqtj9lV" role="3cqZAk">
+            <node concept="37vLTw" id="uk_gqtj9lW" role="2Oq$k0">
+              <ref role="3cqZAo" node="uk_gqtj9lQ" resolve="x" />
+            </node>
+            <node concept="3x8VRR" id="uk_gqtj9lX" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="uk_gqtj6e$" role="3clF46">
+        <property role="TrG5h" value="jvr" />
+        <node concept="3Tqbb2" id="uk_gqtj6e_" role="1tU5fm">
+          <ref role="ehGHo" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+        </node>
+      </node>
+      <node concept="10P_77" id="uk_gqtj9fW" role="3clF45" />
+      <node concept="3Tm1VV" id="uk_gqtj6eB" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="uk_gqtj6O8" role="jymVt" />
     <node concept="2tJIrI" id="uk_gqsY9MK" role="jymVt" />
     <node concept="2tJIrI" id="uk_gqsXY$w" role="jymVt" />
     <node concept="2YIFZL" id="uk_gqsVQbX" role="jymVt">
