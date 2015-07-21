@@ -165,12 +165,16 @@
         <child id="5573040900056654082" name="right" index="2jNGCD" />
         <child id="5573040900056654080" name="left" index="2jNGCF" />
       </concept>
+      <concept id="4544161228248388891" name="com.hlag.jpql.structure.OptionalExpression" flags="ng" index="2sMgYk" />
       <concept id="6475001545073807428" name="com.hlag.jpql.structure.JavaVarReference" flags="ng" index="ZSgft">
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
         <child id="8181476057626065255" name="returnType" index="3SC4x7" />
+      </concept>
+      <concept id="2422139682375194637" name="com.hlag.jpql.structure.BoxingExpression" flags="ng" index="1_LfcS">
+        <child id="2422139682375194638" name="expression" index="1_LfcV" />
       </concept>
       <concept id="2422139682374567460" name="com.hlag.jpql.structure.DistinctFunc" flags="ng" index="1_NmOh" />
       <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityVarDeclaration" flags="ng" index="3SxtsA">
@@ -567,17 +571,19 @@
                           <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
                         </node>
                       </node>
-                      <node concept="2jNmR0" id="1A9rhAKFCkn" role="3SGRm$">
-                        <node concept="3S$L2z" id="1A9rhAKFBCv" role="2jNGCF">
-                          <node concept="3SBG_A" id="1A9rhAKFBCo" role="3S$L2$">
-                            <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
+                      <node concept="2sMgYk" id="uk_gqtcI9s" role="3SGRm$">
+                        <node concept="2jNmR0" id="uk_gqtcI9t" role="1_LfcV">
+                          <node concept="3S$L2z" id="uk_gqtcI9u" role="2jNGCF">
+                            <node concept="3SBG_A" id="uk_gqtcI9v" role="3S$L2$">
+                              <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
+                            </node>
+                            <node concept="3S$KP$" id="uk_gqtcI9w" role="3S$L2A">
+                              <ref role="3S$KQD" node="4$MXrxpG$SF" resolve="key" />
+                            </node>
                           </node>
-                          <node concept="3S$KP$" id="1A9rhAKFBQW" role="3S$L2A">
-                            <ref role="3S$KQD" node="4$MXrxpG$SF" resolve="key" />
+                          <node concept="ZSgft" id="uk_gqtcI9x" role="2jNGCD">
+                            <ref role="ZSgbS" node="1A9rhAKFuJT" resolve="key" />
                           </node>
-                        </node>
-                        <node concept="ZSgft" id="uk_gqt1drM" role="2jNGCD">
-                          <ref role="ZSgbS" node="1A9rhAKFuJT" resolve="key" />
                         </node>
                       </node>
                     </node>
@@ -935,6 +941,15 @@
           <property role="TrG5h" value="Id" />
           <node concept="3uibUv" id="6p0iX5WzFT3" role="GJnR6">
             <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+          </node>
+        </node>
+      </node>
+      <node concept="GGpVp" id="uk_gqt8r8N" role="1DC5oT">
+        <property role="TrG5h" value="mandant" />
+        <node concept="GJnRb" id="uk_gqt8rfp" role="GJgAG">
+          <property role="TrG5h" value="Mandant" />
+          <node concept="3uibUv" id="uk_gqt8rhA" role="GJnR6">
+            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
           </node>
         </node>
       </node>
