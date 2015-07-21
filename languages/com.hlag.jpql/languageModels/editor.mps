@@ -1207,6 +1207,27 @@
       </node>
       <node concept="l2Vlx" id="4PnqMJuAsub" role="2iSdaV" />
     </node>
+    <node concept="1HlG4h" id="uk_gqsVaLy" role="6VMZX">
+      <node concept="1HfYo3" id="uk_gqsVaL$" role="1HlULh">
+        <node concept="3TQlhw" id="uk_gqsVaLA" role="1Hhtcw">
+          <node concept="3clFbS" id="uk_gqsVaLC" role="2VODD2">
+            <node concept="3clFbF" id="uk_gqsVj60" role="3cqZAp">
+              <node concept="3cpWs3" id="uk_gqsVk3E" role="3clFbG">
+                <node concept="2OqwBi" id="uk_gqsVke5" role="3uHU7w">
+                  <node concept="pncrf" id="uk_gqsVk7e" role="2Oq$k0" />
+                  <node concept="2qgKlT" id="uk_gqsXWyV" role="2OqNvi">
+                    <ref role="37wK5l" to="zlu4:uk_gqsVvAE" resolve="isKeyComparisonInvolved" />
+                  </node>
+                </node>
+                <node concept="Xl_RD" id="uk_gqsVj5Z" role="3uHU7B">
+                  <property role="Xl_RC" value="Key comparison involved? " />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="1h_SRR" id="4PnqMJuE29x">
     <property role="TrG5h" value="BinaryCompareOperation_RightArgument" />
