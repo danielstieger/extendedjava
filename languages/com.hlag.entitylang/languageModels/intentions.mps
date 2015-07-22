@@ -61,11 +61,15 @@
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
+      <concept id="1139184414036" name="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation" flags="nn" index="WFELt" />
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
       <concept id="1138056143562" name="jetbrains.mps.lang.smodel.structure.SLinkAccess" flags="nn" index="3TrEf2">
         <reference id="1138056516764" name="link" index="3Tt5mk" />
+      </concept>
+      <concept id="1138056282393" name="jetbrains.mps.lang.smodel.structure.SLinkListAccess" flags="nn" index="3Tsc0h">
+        <reference id="1138056546658" name="link" index="3TtcxE" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -269,6 +273,34 @@
                 </node>
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="uXlZoIoot5">
+    <property role="TrG5h" value="AddJpaAnnotation" />
+    <ref role="2ZfgGC" to="5zrl:1kgMMKTClnP" resolve="Field" />
+    <node concept="2S6ZIM" id="uXlZoIoot6" role="2ZfVej">
+      <node concept="3clFbS" id="uXlZoIoot7" role="2VODD2">
+        <node concept="3clFbF" id="uXlZoIopzf" role="3cqZAp">
+          <node concept="Xl_RD" id="uXlZoIopze" role="3clFbG">
+            <property role="Xl_RC" value="Add Jpa-Annotation" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="uXlZoIoot8" role="2ZfgGD">
+      <node concept="3clFbS" id="uXlZoIoot9" role="2VODD2">
+        <node concept="3clFbF" id="uXlZoIoq8o" role="3cqZAp">
+          <node concept="2OqwBi" id="uXlZoIo_eX" role="3clFbG">
+            <node concept="2OqwBi" id="uXlZoIoquj" role="2Oq$k0">
+              <node concept="2Sf5sV" id="uXlZoIoq8n" role="2Oq$k0" />
+              <node concept="3Tsc0h" id="uXlZoIo$$W" role="2OqNvi">
+                <ref role="3TtcxE" to="5zrl:1qyyZLn58MQ" />
+              </node>
+            </node>
+            <node concept="WFELt" id="uXlZoIoA$c" role="2OqNvi" />
           </node>
         </node>
       </node>
