@@ -25,10 +25,12 @@
     <usedLanguage>a846e4ee-ad86-4f44-b75a-4763a2ae30f6(com.hlag.jpql)</usedLanguage>
     <usedLanguage>5f362b6a-7593-4d33-922a-7554535c0063(com.hlag.entitylang)</usedLanguage>
     <usedLanguage>3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</usedLanguage>
+    <usedLanguage>121fd1b5-a76a-4410-9b98-5aa5b3681fe7(com.hlag.jpqlext)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="5f362b6a-7593-4d33-922a-7554535c0063" fqName="com.hlag.entitylang" version="0" />
     <language id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" fqName="com.hlag.jpql" version="0" />
+    <language id="121fd1b5-a76a-4410-9b98-5aa5b3681fe7" fqName="com.hlag.jpqlext" version="0" />
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" fqName="jetbrains.mps.baseLanguage" version="1" />
     <language id="ed6d7656-532c-4bc2-81d1-af945aeb8280" fqName="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" fqName="jetbrains.mps.lang.core" version="1" />
