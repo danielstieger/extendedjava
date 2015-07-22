@@ -423,7 +423,7 @@
     <node concept="14StLt" id="26taNl4m8Z_" role="V601i">
       <property role="TrG5h" value="JpqlLogicOperator" />
       <node concept="VechU" id="26taNl4m8ZX" role="3F10Kt">
-        <property role="Vb096" value="cyan" />
+        <property role="Vb096" value="DARK_MAGENTA" />
       </node>
       <node concept="Vb9p2" id="26taNl4m90b" role="3F10Kt" />
     </node>
