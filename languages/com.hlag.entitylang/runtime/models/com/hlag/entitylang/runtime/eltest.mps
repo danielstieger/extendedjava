@@ -166,16 +166,13 @@
         <child id="5573040900056654082" name="right" index="2jNGCD" />
         <child id="5573040900056654080" name="left" index="2jNGCF" />
       </concept>
-      <concept id="4544161228248388891" name="com.hlag.jpql.structure.OptionalExpression" flags="ng" index="2sMgYk" />
+      <concept id="5573040900057256508" name="com.hlag.jpql.structure.AndLogOperation" flags="ng" index="2jXr$n" />
       <concept id="6475001545073807428" name="com.hlag.jpql.structure.JavaVarReference" flags="ng" index="ZSgft">
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
         <child id="8181476057626065255" name="returnType" index="3SC4x7" />
-      </concept>
-      <concept id="2422139682375194637" name="com.hlag.jpql.structure.BoxingExpression" flags="ng" index="1_LfcS">
-        <child id="2422139682375194638" name="expression" index="1_LfcV" />
       </concept>
       <concept id="2422139682374567460" name="com.hlag.jpql.structure.DistinctFunc" flags="ng" index="1_NmOh" />
       <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityVarDeclaration" flags="ng" index="3SxtsA">
@@ -509,7 +506,7 @@
             <node concept="3clFbH" id="4$MXrxp$hO0" role="3cqZAp" />
             <node concept="3cpWs8" id="1A9rhAKFuJS" role="3cqZAp">
               <node concept="3cpWsn" id="1A9rhAKFuJT" role="3cpWs9">
-                <property role="TrG5h" value="key" />
+                <property role="TrG5h" value="qkey" />
                 <node concept="3uibUv" id="1A9rhAKFuJU" role="1tU5fm">
                   <ref role="3uigEE" node="4$MXrxpN5i6" resolve="Device.DeviceCompositeKey" />
                 </node>
@@ -524,7 +521,7 @@
               <node concept="37vLTI" id="1A9rhAKFyjc" role="3clFbG">
                 <node concept="2OqwBi" id="1A9rhAKFxxI" role="37vLTJ">
                   <node concept="37vLTw" id="1A9rhAKFxfH" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1A9rhAKFuJT" resolve="key" />
+                    <ref role="3cqZAo" node="1A9rhAKFuJT" resolve="qkey" />
                   </node>
                   <node concept="GJxQI" id="1A9rhAKFxN7" role="2OqNvi">
                     <ref role="GJxQD" node="4$MXrxpN5sD" resolve="id" />
@@ -532,6 +529,21 @@
                 </node>
                 <node concept="3cmrfG" id="1A9rhAKFySy" role="37vLTx">
                   <property role="3cmrfH" value="1" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="uXlZoIkBzm" role="3cqZAp">
+              <node concept="37vLTI" id="uXlZoIkCpO" role="3clFbG">
+                <node concept="Xl_RD" id="uXlZoIkCqz" role="37vLTx">
+                  <property role="Xl_RC" value="B" />
+                </node>
+                <node concept="2OqwBi" id="uXlZoIkBMB" role="37vLTJ">
+                  <node concept="37vLTw" id="uXlZoIkBzk" role="2Oq$k0">
+                    <ref role="3cqZAo" node="1A9rhAKFuJT" resolve="qkey" />
+                  </node>
+                  <node concept="GJxQI" id="uXlZoIkC62" role="2OqNvi">
+                    <ref role="GJxQD" node="uXlZoIkuM1" resolve="mandant" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -577,18 +589,51 @@
                           <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
                         </node>
                       </node>
-                      <node concept="2sMgYk" id="uk_gqtcI9s" role="3SGRm$">
-                        <node concept="2jNmR0" id="uk_gqtcI9t" role="1_LfcV">
-                          <node concept="3S$L2z" id="uk_gqtcI9u" role="2jNGCF">
-                            <node concept="3SBG_A" id="uk_gqtcI9v" role="3S$L2$">
-                              <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
+                      <node concept="2jXr$n" id="uXlZoIkOQX" role="3SGRm$">
+                        <node concept="2jNmR0" id="uXlZoIkPLQ" role="2jNGCD">
+                          <node concept="3S$L2z" id="uXlZoIkQjH" role="2jNGCD">
+                            <node concept="ZSgft" id="uXlZoIkQ1$" role="3S$L2$">
+                              <ref role="ZSgbS" node="1A9rhAKFuJT" resolve="qkey" />
                             </node>
-                            <node concept="3S$KP$" id="uk_gqtcI9w" role="3S$L2A">
-                              <ref role="3S$KQD" node="4$MXrxpG$SF" resolve="key" />
+                            <node concept="3S$KP$" id="uXlZoIkQlc" role="3S$L2A">
+                              <ref role="3S$KQD" node="uXlZoIkuM1" resolve="mandant" />
                             </node>
                           </node>
-                          <node concept="ZSgft" id="uk_gqtcI9x" role="2jNGCD">
-                            <ref role="ZSgbS" node="1A9rhAKFuJT" resolve="key" />
+                          <node concept="3S$L2z" id="uXlZoIkPe4" role="2jNGCF">
+                            <node concept="3S$L2z" id="uXlZoIkP9K" role="3S$L2$">
+                              <node concept="3SBG_A" id="uXlZoIkP6S" role="3S$L2$">
+                                <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
+                              </node>
+                              <node concept="3S$KP$" id="uXlZoIkPaX" role="3S$L2A">
+                                <ref role="3S$KQD" node="4$MXrxpG$SF" resolve="key" />
+                              </node>
+                            </node>
+                            <node concept="3S$KP$" id="uXlZoIkPtN" role="3S$L2A">
+                              <ref role="3S$KQD" node="uXlZoIkuM1" resolve="mandant" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2jNmR0" id="uXlZoIkO2O" role="2jNGCF">
+                          <node concept="3S$L2z" id="uXlZoIkOAd" role="2jNGCD">
+                            <node concept="ZSgft" id="uXlZoIkOia" role="3S$L2$">
+                              <ref role="ZSgbS" node="1A9rhAKFuJT" resolve="qkey" />
+                            </node>
+                            <node concept="3S$KP$" id="uXlZoIkOBc" role="3S$L2A">
+                              <ref role="3S$KQD" node="4$MXrxpN5sD" resolve="id" />
+                            </node>
+                          </node>
+                          <node concept="3S$L2z" id="uXlZoIkNMx" role="2jNGCF">
+                            <node concept="3S$L2z" id="uXlZoIkNyO" role="3S$L2$">
+                              <node concept="3SBG_A" id="uXlZoIkNyH" role="3S$L2$">
+                                <ref role="3SBg9F" node="4$MXrxpKbSi" resolve="d" />
+                              </node>
+                              <node concept="3S$KP$" id="uXlZoIkNLG" role="3S$L2A">
+                                <ref role="3S$KQD" node="4$MXrxpG$SF" resolve="key" />
+                              </node>
+                            </node>
+                            <node concept="3S$KP$" id="uXlZoIkNNJ" role="3S$L2A">
+                              <ref role="3S$KQD" node="4$MXrxpN5sD" resolve="id" />
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -607,7 +652,24 @@
               </node>
             </node>
             <node concept="3clFbH" id="4$MXrxpGCD0" role="3cqZAp" />
-            <node concept="3clFbH" id="4feGXpJqQ2U" role="3cqZAp" />
+            <node concept="3SKdUt" id="uXlZoIl0HH" role="3cqZAp">
+              <node concept="3SKdUq" id="uXlZoIl1e8" role="3SKWNk">
+                <property role="3SKdUp" value="SELECT DISTINCT(d) FROM Device d WHERE d.artikel.key = myArtikelKey " />
+              </node>
+            </node>
+            <node concept="3clFbH" id="uXlZoIl1Aw" role="3cqZAp" />
+            <node concept="3SKdUt" id="uXlZoIl453" role="3cqZAp">
+              <node concept="3SKdUq" id="uXlZoIl4_z" role="3SKWNk">
+                <property role="3SKdUp" value="Flughafen.FlughafenCompositeKey myStart ... , myArrivel ...;" />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="uXlZoIl2Di" role="3cqZAp">
+              <node concept="3SKdUq" id="uXlZoIl39K" role="3SKWNk">
+                <property role="3SKdUp" value="SELECT f FROM FLUG f WHERE f.startFlughafen.key = myStartFlughafenKey AND f.arrivalFlughafen.key = myArrivelFlugHafenKey" />
+              </node>
+            </node>
+            <node concept="3clFbH" id="uXlZoIkUkt" role="3cqZAp" />
+            <node concept="3clFbH" id="uXlZoIl5h1" role="3cqZAp" />
             <node concept="3clFbF" id="4feGXpJr14y" role="3cqZAp">
               <node concept="2OqwBi" id="4feGXpJr14v" role="3clFbG">
                 <node concept="10M0yZ" id="4feGXpJr14w" role="2Oq$k0">
@@ -950,6 +1012,15 @@
           <property role="TrG5h" value="Id" />
           <node concept="3uibUv" id="6p0iX5WzFT3" role="GJnR6">
             <ref role="3uigEE" to="e2lb:~Integer" resolve="Integer" />
+          </node>
+        </node>
+      </node>
+      <node concept="GGpVp" id="uXlZoIkuM1" role="1DC5oT">
+        <property role="TrG5h" value="mandant" />
+        <node concept="GJnRb" id="uXlZoIky$f" role="GJgAG">
+          <property role="TrG5h" value="Mandant" />
+          <node concept="3uibUv" id="uXlZoIkAhZ" role="GJnR6">
+            <ref role="3uigEE" to="e2lb:~String" resolve="String" />
           </node>
         </node>
       </node>
