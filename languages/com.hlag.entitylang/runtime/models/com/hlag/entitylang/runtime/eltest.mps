@@ -77,7 +77,9 @@
       <concept id="1070534760951" name="jetbrains.mps.baseLanguage.structure.ArrayType" flags="in" index="10Q1$e">
         <child id="1070534760952" name="componentType" index="10Q1$1" />
       </concept>
-      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
+      <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu">
+        <child id="1165602531693" name="superclass" index="1zkMxy" />
+      </concept>
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -180,6 +182,7 @@
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
         <child id="8181476057626065255" name="returnType" index="3SC4x7" />
       </concept>
+      <concept id="2422139682375110609" name="com.hlag.jpql.structure.NullExpression" flags="ng" index="1_Lqj$" />
       <concept id="2422139682374567460" name="com.hlag.jpql.structure.DistinctFunc" flags="ng" index="1_NmOh" />
       <concept id="8181476057624323590" name="com.hlag.jpql.structure.EntityVarDeclaration" flags="ng" index="3SxtsA">
         <reference id="8181476057624323597" name="entity" index="3SxtsH" />
@@ -1078,6 +1081,43 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="4qb9_qf8erX" role="3clF47">
+        <node concept="3clFbH" id="3lRwMUKA6_r" role="3cqZAp" />
+        <node concept="3clFbF" id="3lRwMUKA6Y$" role="3cqZAp">
+          <node concept="2OqwBi" id="3lRwMUKA7d0" role="3clFbG">
+            <node concept="37vLTw" id="3lRwMUKA77K" role="2Oq$k0">
+              <ref role="3cqZAo" node="4qb9_qf8kf8" resolve="em" />
+            </node>
+            <node concept="11J1DH" id="3lRwMUKA7v5" role="2OqNvi">
+              <node concept="3SC4xO" id="3lRwMUKA7v7" role="3SC3Uq">
+                <node concept="3SxtsA" id="3lRwMUKA7$P" role="3SC4x6">
+                  <property role="TrG5h" value="d" />
+                  <ref role="3SxtsH" node="3lRwMUK_ZuT" resolve="ExtendedDevice" />
+                </node>
+                <node concept="3SBG_A" id="3lRwMUKA7Br" role="3SC4x8">
+                  <ref role="3SBg9F" node="3lRwMUKA7$P" resolve="d" />
+                </node>
+                <node concept="2jNmR0" id="3lRwMUKA7SI" role="3SGRm$">
+                  <node concept="1_Lqj$" id="3lRwMUKA7UX" role="2jNGCD" />
+                  <node concept="3S$L2z" id="3lRwMUKA7Pl" role="2jNGCF">
+                    <node concept="3SBG_A" id="3lRwMUKA7Pb" role="3S$L2$">
+                      <ref role="3SBg9F" node="3lRwMUKA7$P" resolve="d" />
+                    </node>
+                    <node concept="3S$KP$" id="3lRwMUKA7Rt" role="3S$L2A">
+                      <ref role="3S$KQD" node="4$MXrxpG$8D" resolve="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3uibUv" id="3lRwMUKA7va" role="3SC4x7">
+                <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                <node concept="3uibUv" id="3lRwMUKA7z2" role="11_B2D">
+                  <ref role="3uigEE" node="3lRwMUK_ZuT" resolve="ExtendedDevice" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3lRwMUKA6Pq" role="3cqZAp" />
         <node concept="3cpWs8" id="uXlZoIpfzE" role="3cqZAp">
           <node concept="3cpWsn" id="uXlZoIpfzF" role="3cpWs9">
             <property role="TrG5h" value="artikelKey" />
@@ -1619,6 +1659,22 @@
       <node concept="3Tm1VV" id="4qb9_qf8JIq" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="4qb9_qf8JIr" role="1B3o_S" />
+  </node>
+  <node concept="GG2rC" id="3lRwMUK_ZuT">
+    <property role="TrG5h" value="ExtendedDevice" />
+    <node concept="3Tm1VV" id="3lRwMUK_ZuU" role="1B3o_S" />
+    <node concept="GGpVp" id="3lRwMUK_ZJg" role="GGm2j">
+      <property role="TrG5h" value="extendedName" />
+      <node concept="GJnRb" id="3lRwMUK_ZKd" role="GJgAG">
+        <property role="TrG5h" value="ExtendedName" />
+        <node concept="3uibUv" id="3lRwMUK_ZO6" role="GJnR6">
+          <ref role="3uigEE" to="e2lb:~String" resolve="String" />
+        </node>
+      </node>
+    </node>
+    <node concept="3uibUv" id="3lRwMUK_ZGD" role="1zkMxy">
+      <ref role="3uigEE" node="4$MXrxpG$8B" resolve="Device" />
+    </node>
   </node>
 </model>
 

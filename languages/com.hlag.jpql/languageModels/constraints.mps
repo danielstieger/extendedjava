@@ -304,7 +304,7 @@
               <node concept="2OqwBi" id="2AlxPT0i7OG" role="33vP2m">
                 <node concept="2OqwBi" id="2AlxPT0i8_1" role="2Oq$k0">
                   <node concept="1PxgMI" id="2AlxPT0i7kg" role="2Oq$k0">
-                    <ref role="1PxNhF" to="ev4m:76asi296m63" resolve="DotExpression" />
+                    <ref role="1PxNhF" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
                     <node concept="21POm0" id="2AlxPT0i76P" role="1PxMeX" />
                   </node>
                   <node concept="3TrEf2" id="2AlxPT0i91D" role="2OqNvi">
@@ -391,8 +391,8 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2qgKlT" id="2AlxPT0j5BU" role="2OqNvi">
-                  <ref role="37wK5l" to="74vs:2AlxPT0gnCB" resolve="getFields" />
+                <node concept="2qgKlT" id="3lRwMUK_Nb3" role="2OqNvi">
+                  <ref role="37wK5l" to="74vs:3B10Bzz_TgC" resolve="getFieldsAndSuperFields" />
                 </node>
               </node>
             </node>
@@ -407,7 +407,7 @@
             <node concept="nLn13" id="3Wg6CYzPBGx" role="2Oq$k0" />
             <node concept="1mIQ4w" id="3Wg6CYzPC1K" role="2OqNvi">
               <node concept="chp4Y" id="3Wg6CYzPC88" role="cj9EA">
-                <ref role="cht4Q" to="ev4m:76asi296m63" resolve="DotExpression" />
+                <ref role="cht4Q" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
               </node>
             </node>
           </node>
