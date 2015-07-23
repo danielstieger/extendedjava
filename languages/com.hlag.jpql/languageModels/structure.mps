@@ -13,11 +13,13 @@
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1212080844762" name="hasNoDefaultMember" index="PDuV0" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
       <concept id="1083171877298" name="jetbrains.mps.lang.structure.structure.EnumerationMemberDeclaration" flags="ig" index="M4N5e">
         <property id="1083923523172" name="externalValue" index="1uS6qo" />
+        <property id="1083923523171" name="internalValue" index="1uS6qv" />
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
@@ -310,6 +312,11 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="26taNl4i7$I" resolve="IPathOrFunc" />
     </node>
+    <node concept="1TJgyj" id="5yYWmTCUZzS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="maxResultSetSize" />
+      <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
+    </node>
     <node concept="PrWs8" id="76asi29a$YZ" role="PzmwI">
       <ref role="PrY4T" node="76asi29a$Mc" resolve="IQueryStatement" />
     </node>
@@ -450,7 +457,7 @@
     <property role="3GE5qa" value="OrderBy" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="1TgSVM5rpOo" role="1TKVEl">
-      <property role="TrG5h" value="order" />
+      <property role="TrG5h" value="sortOrder" />
       <ref role="AX2Wp" node="1TgSVM5rpE5" resolve="SortOrder" />
     </node>
     <node concept="1TJgyj" id="4PnqMJuIdH9" role="1TKVEi">
@@ -463,12 +470,15 @@
   <node concept="AxPO7" id="1TgSVM5rpE5">
     <property role="3GE5qa" value="OrderBy" />
     <property role="TrG5h" value="SortOrder" />
+    <property role="PDuV0" value="false" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="1TgSVM5rpE6" role="M5hS2">
       <property role="1uS6qo" value="ASC" />
+      <property role="1uS6qv" value="ASC" />
     </node>
     <node concept="M4N5e" id="1TgSVM5rpFd" role="M5hS2">
       <property role="1uS6qo" value="DESC" />
+      <property role="1uS6qv" value="DESC" />
     </node>
   </node>
   <node concept="1TIwiD" id="5BrOT_AeH14">

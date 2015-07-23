@@ -219,7 +219,12 @@
       <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
         <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
+      <concept id="1237721394592" name="jetbrains.mps.baseLanguage.collections.structure.AbstractContainerCreator" flags="nn" index="HWqM0">
+        <child id="1237721435807" name="elementType" index="HW$YZ" />
+      </concept>
+      <concept id="1160600644654" name="jetbrains.mps.baseLanguage.collections.structure.ListCreatorWithInit" flags="nn" index="Tc6Ow" />
       <concept id="1160612413312" name="jetbrains.mps.baseLanguage.collections.structure.AddElementOperation" flags="nn" index="TSZUe" />
+      <concept id="1160666733551" name="jetbrains.mps.baseLanguage.collections.structure.AddAllElementsOperation" flags="nn" index="X8dFx" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1165525191778" name="jetbrains.mps.baseLanguage.collections.structure.GetFirstOperation" flags="nn" index="1uHKPH" />
     </language>
@@ -359,18 +364,64 @@
       <property role="TrG5h" value="getParametersReferencingJavaCode" />
       <node concept="3Tm1VV" id="456D_1YvmqZ" role="1B3o_S" />
       <node concept="3clFbS" id="456D_1Yvmr0" role="3clF47">
-        <node concept="3clFbF" id="456D_1YvmXz" role="3cqZAp">
-          <node concept="2OqwBi" id="456D_1Yvn0h" role="3clFbG">
-            <node concept="13iPFW" id="456D_1YvmXy" role="2Oq$k0" />
-            <node concept="2Rf3mk" id="456D_1Yvnag" role="2OqNvi">
-              <node concept="1xMEDy" id="456D_1Yvnai" role="1xVPHs">
-                <node concept="chp4Y" id="456D_1YvnbZ" role="ri$Ld">
-                  <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+        <node concept="3cpWs8" id="5yYWmTDiVmt" role="3cqZAp">
+          <node concept="3cpWsn" id="5yYWmTDiVmw" role="3cpWs9">
+            <property role="TrG5h" value="references" />
+            <node concept="_YKpA" id="5yYWmTDiVmp" role="1tU5fm">
+              <node concept="3Tqbb2" id="5yYWmTDiVp1" role="_ZDj9">
+                <ref role="ehGHo" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+              </node>
+            </node>
+            <node concept="2ShNRf" id="5yYWmTDiVCQ" role="33vP2m">
+              <node concept="Tc6Ow" id="5yYWmTDiVsV" role="2ShVmc">
+                <node concept="3Tqbb2" id="5yYWmTDiVsW" role="HW$YZ">
+                  <ref role="ehGHo" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5yYWmTDiVGN" role="3cqZAp">
+          <node concept="2OqwBi" id="5yYWmTDiWfv" role="3clFbG">
+            <node concept="37vLTw" id="5yYWmTDiVGL" role="2Oq$k0">
+              <ref role="3cqZAo" node="5yYWmTDiVmw" resolve="references" />
+            </node>
+            <node concept="X8dFx" id="5yYWmTDiZwp" role="2OqNvi">
+              <node concept="2OqwBi" id="456D_1Yvn0h" role="25WWJ7">
+                <node concept="2OqwBi" id="5yYWmTDiV1j" role="2Oq$k0">
+                  <node concept="2OqwBi" id="5yYWmTDiUur" role="2Oq$k0">
+                    <node concept="13iPFW" id="456D_1YvmXy" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="5yYWmTDiUQk" role="2OqNvi">
+                      <ref role="3Tt5mk" to="ev4m:76asi29a$YU" />
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="5yYWmTDiVeE" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ev4m:76asi29egi4" />
+                  </node>
+                </node>
+                <node concept="2Rf3mk" id="456D_1Yvnag" role="2OqNvi">
+                  <node concept="1xMEDy" id="456D_1Yvnai" role="1xVPHs">
+                    <node concept="chp4Y" id="456D_1YvnbZ" role="ri$Ld">
+                      <ref role="cht4Q" to="ev4m:5BrOT_AeH14" resolve="JavaVarReference" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="5yYWmTDj0_G" role="3cqZAp">
+          <node concept="3SKdUq" id="5yYWmTDj0Eb" role="3SKWNk">
+            <property role="3SKdUp" value="something eles? " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="5yYWmTDj0G1" role="3cqZAp" />
+        <node concept="3clFbF" id="5yYWmTDj0Np" role="3cqZAp">
+          <node concept="37vLTw" id="5yYWmTDj0Nn" role="3clFbG">
+            <ref role="3cqZAo" node="5yYWmTDiVmw" resolve="references" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="5yYWmTDj0v7" role="3cqZAp" />
       </node>
       <node concept="_YKpA" id="456D_1Yvm_L" role="3clF45">
         <node concept="3Tqbb2" id="456D_1YvmBz" role="_ZDj9">

@@ -97,7 +97,7 @@
               </node>
             </node>
             <node concept="zfrQC" id="3Wg6CYzKaun" role="2OqNvi">
-              <ref role="1A9B2P" to="ev4m:76asi2953CM" resolve="Expression" />
+              <ref role="1A9B2P" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
             </node>
           </node>
         </node>
@@ -164,6 +164,37 @@
                 </node>
               </node>
               <node concept="34oBXx" id="3Wg6CYzKKbk" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="2S6QgY" id="5yYWmTCY_w6">
+    <property role="TrG5h" value="SelectStatementIntention" />
+    <property role="2ZfUl0" value="true" />
+    <ref role="2ZfgGC" to="ev4m:76asi29az_k" resolve="SelectStatement" />
+    <node concept="2S6ZIM" id="5yYWmTCY_w7" role="2ZfVej">
+      <node concept="3clFbS" id="5yYWmTCY_w8" role="2VODD2">
+        <node concept="3clFbF" id="5yYWmTCYA1O" role="3cqZAp">
+          <node concept="Xl_RD" id="5yYWmTCYA1N" role="3clFbG">
+            <property role="Xl_RC" value="Add Max ResultSet Size" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="5yYWmTCY_w9" role="2ZfgGD">
+      <node concept="3clFbS" id="5yYWmTCY_wa" role="2VODD2">
+        <node concept="3clFbF" id="5yYWmTCYAGJ" role="3cqZAp">
+          <node concept="2OqwBi" id="5yYWmTCYB79" role="3clFbG">
+            <node concept="2OqwBi" id="5yYWmTCYAIA" role="2Oq$k0">
+              <node concept="2Sf5sV" id="5yYWmTCYAGI" role="2Oq$k0" />
+              <node concept="3TrEf2" id="5yYWmTCYATG" role="2OqNvi">
+                <ref role="3Tt5mk" to="ev4m:5yYWmTCUZzS" />
+              </node>
+            </node>
+            <node concept="zfrQC" id="5yYWmTCYBhV" role="2OqNvi">
+              <ref role="1A9B2P" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
             </node>
           </node>
         </node>

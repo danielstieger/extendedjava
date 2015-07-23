@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="ev4m" ref="r:ca1efdef-e8fa-43c8-8dd9-dac061c10ff1(com.hlag.jpql.structure)" implicit="true" />
   </imports>
   <registry>
@@ -42,6 +41,12 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="4qb9_qf6rVA" resolve="PagingVariable" />
     </node>
+    <node concept="1TJgyj" id="5yYWmTD4lnS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pageSize" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
+    </node>
   </node>
   <node concept="1TIwiD" id="4qb9_qf6rVA">
     <property role="TrG5h" value="PagingVariable" />
@@ -50,7 +55,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="offset" />
       <property role="20lbJX" value="1" />
-      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+      <ref role="20lvS9" to="ev4m:76asi2953CM" resolve="JpqlExpression" />
     </node>
     <node concept="1TJgyj" id="4qb9_qf6sh_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
