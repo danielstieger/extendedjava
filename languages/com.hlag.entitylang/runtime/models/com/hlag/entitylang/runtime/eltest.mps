@@ -154,6 +154,9 @@
       <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
+      </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1116615150612" name="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression" flags="nn" index="3VsKOn">
@@ -240,6 +243,9 @@
       <concept id="1517936465229731317" name="com.hlag.entitylang.structure.Field" flags="ng" index="GGpVp">
         <child id="1517936465230545536" name="type" index="GJgAG" />
         <child id="1631019930970524854" name="jpaAnnotations" index="11Hwta" />
+      </concept>
+      <concept id="1517936465230542825" name="com.hlag.entitylang.structure.FieldType" flags="ig" index="GJnN5">
+        <reference id="1517936465230542826" name="declaration" index="GJnN6" />
       </concept>
       <concept id="1517936465230542567" name="com.hlag.entitylang.structure.FieldTypeDeclaration" flags="ng" index="GJnRb">
         <child id="1517936465230542570" name="subType" index="GJnR6" />
@@ -759,6 +765,36 @@
         <node concept="3SKdUt" id="uXlZoIon0x" role="3cqZAp">
           <node concept="3SKdUq" id="uXlZoIon0y" role="3SKWNk">
             <property role="3SKdUp" value="jpql does not build up a key on it s own ?? " />
+          </node>
+        </node>
+        <node concept="3clFbH" id="$mK6Te2flc" role="3cqZAp" />
+        <node concept="3SKdUt" id="$mK6TefCep" role="3cqZAp">
+          <node concept="3SKWN0" id="$mK6TefCeq" role="3SKWNk">
+            <node concept="3cpWs8" id="$mK6Te2ftX" role="3SKWNf">
+              <node concept="3cpWsn" id="$mK6Te2fu0" role="3cpWs9">
+                <property role="TrG5h" value="field" />
+                <node concept="GJnN5" id="$mK6Te2ftV" role="1tU5fm">
+                  <ref role="GJnN6" node="uXlZoIon1a" resolve="Id" />
+                </node>
+                <node concept="3cmrfG" id="$mK6Te2fuJ" role="33vP2m">
+                  <property role="3cmrfH" value="10" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3SKdUt" id="$mK6TefCfe" role="3cqZAp">
+          <node concept="3SKWN0" id="$mK6TefCff" role="3SKWNk">
+            <node concept="3clFbF" id="$mK6Te7QsE" role="3SKWNf">
+              <node concept="37vLTI" id="$mK6Te7QAW" role="3clFbG">
+                <node concept="3cmrfG" id="$mK6Te7QBm" role="37vLTx">
+                  <property role="3cmrfH" value="10" />
+                </node>
+                <node concept="37vLTw" id="$mK6Te7QsC" role="37vLTJ">
+                  <ref role="3cqZAo" node="$mK6Te2fu0" resolve="field" />
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>
