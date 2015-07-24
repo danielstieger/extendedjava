@@ -149,7 +149,7 @@
         <node concept="3clFbS" id="4qb9_qfaKXJ" role="3clFbx">
           <node concept="2MkqsV" id="4qb9_qfaMNx" role="3cqZAp">
             <node concept="Xl_RD" id="4qb9_qfaNJP" role="2MkJ7o">
-              <property role="Xl_RC" value="When using paging, no order by can be used." />
+              <property role="Xl_RC" value="When using paging, no 'order by' can be used." />
             </node>
             <node concept="1YBJjd" id="4qb9_qfaXpK" role="2OEOjV">
               <ref role="1YBMHb" node="4qb9_qfaDxY" resolve="pagingExp" />
@@ -177,7 +177,7 @@
         <node concept="3clFbS" id="5yYWmTD4kCc" role="3clFbx">
           <node concept="2MkqsV" id="5yYWmTD4kCd" role="3cqZAp">
             <node concept="Xl_RD" id="5yYWmTD4kCe" role="2MkJ7o">
-              <property role="Xl_RC" value="When using paging, no max result size can be used." />
+              <property role="Xl_RC" value="When using paging, no max resultset size can be used." />
             </node>
             <node concept="1YBJjd" id="5yYWmTD4kCf" role="2OEOjV">
               <ref role="1YBMHb" node="4qb9_qfaDxY" resolve="pagingExp" />
