@@ -5,6 +5,7 @@
     <use id="a846e4ee-ad86-4f44-b75a-4763a2ae30f6" name="com.hlag.jpql" version="-1" />
     <use id="5f362b6a-7593-4d33-922a-7554535c0063" name="com.hlag.entitylang" version="-1" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="-1" />
+    <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
   </languages>
   <imports>
     <import index="22fg" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" />
@@ -183,6 +184,18 @@
         <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
+      </concept>
+    </language>
+    <language id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest">
+      <concept id="1171931690126" name="jetbrains.mps.baseLanguage.unitTest.structure.TestMethod" flags="ig" index="3s$Bmu">
+        <property id="1171931690128" name="methodName" index="3s$Bm0" />
+      </concept>
+      <concept id="1171931851043" name="jetbrains.mps.baseLanguage.unitTest.structure.BTestCase" flags="ig" index="3s_ewN">
+        <property id="1171931851045" name="testCaseName" index="3s_ewP" />
+        <child id="1171931851044" name="testMethodList" index="3s_ewO" />
+      </concept>
+      <concept id="1171931858461" name="jetbrains.mps.baseLanguage.unitTest.structure.TestMethodList" flags="ng" index="3s_gsd">
+        <child id="1171931858462" name="testMethod" index="3s_gse" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -465,11 +478,11 @@
               <node concept="3cpWsn" id="6p0iX5WTKol" role="3cpWs9">
                 <property role="TrG5h" value="compositeKey" />
                 <node concept="3uibUv" id="6p0iX5WTKom" role="1tU5fm">
-                  <ref role="3uigEE" to="dh3z:4$MXrxpN5i6" resolve="Device.DeviceCompositeKey" />
+                  <ref role="3uigEE" to="dh3z:4$MXrxpN5i6" resolve="Device.CompositeKey" />
                 </node>
                 <node concept="2ShNRf" id="6p0iX5WTLb3" role="33vP2m">
                   <node concept="HV5vD" id="6p0iX5WTPq7" role="2ShVmc">
-                    <ref role="HV5vE" to="dh3z:4$MXrxpN5i6" resolve="Device.DeviceCompositeKey" />
+                    <ref role="HV5vE" to="dh3z:4$MXrxpN5i6" resolve="Device.CompositeKey" />
                   </node>
                 </node>
               </node>
@@ -768,6 +781,33 @@
       </node>
     </node>
     <node concept="3Tm1VV" id="4$MXrxpzrL4" role="1B3o_S" />
+  </node>
+  <node concept="3s_ewN" id="3yeDeu173i6">
+    <property role="3s_ewP" value="MyTest" />
+    <node concept="3Tm1VV" id="3yeDeu173i7" role="1B3o_S" />
+    <node concept="3s_gsd" id="3yeDeu173i8" role="3s_ewO">
+      <node concept="3s$Bmu" id="3yeDeu17oU0" role="3s_gse">
+        <property role="3s$Bm0" value="myTest" />
+        <node concept="3cqZAl" id="3yeDeu17oU2" role="3clF45" />
+        <node concept="3Tm1VV" id="3yeDeu17oU4" role="1B3o_S" />
+        <node concept="3clFbS" id="3yeDeu17oU5" role="3clF47">
+          <node concept="3clFbF" id="3yeDeu17sU7" role="3cqZAp">
+            <node concept="2OqwBi" id="3yeDeu17sU4" role="3clFbG">
+              <node concept="10M0yZ" id="3yeDeu17sU5" role="2Oq$k0">
+                <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="3yeDeu17sU6" role="2OqNvi">
+                <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="3yeDeu17sVS" role="37wK5m">
+                  <property role="Xl_RC" value="HELLO WORLD" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
