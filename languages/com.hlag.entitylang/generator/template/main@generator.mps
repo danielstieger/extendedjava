@@ -2512,9 +2512,6 @@
           </node>
         </node>
         <node concept="raruj" id="6p0iX5WrdrW" role="lGtFl" />
-        <node concept="3uibUv" id="6p0iX5WreoP" role="EKbjA">
-          <ref role="3uigEE" to="fxg7:~Serializable" resolve="Serializable" />
-        </node>
         <node concept="17Uvod" id="6p0iX5WreQg" role="lGtFl">
           <property role="P4ACc" value="ceab5195-25ea-4f22-9b92-103b95ca8c0c/1169194658468/1169194664001" />
           <property role="2qtEX9" value="name" />
