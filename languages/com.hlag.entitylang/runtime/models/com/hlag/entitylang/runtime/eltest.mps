@@ -317,16 +317,16 @@
           <property role="gC0u0" value="    &lt;properties&gt;" />
         </node>
         <node concept="gC0nD" id="4$MXrxpFs8S" role="gC00t">
-          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.url&quot; value=&quot;jdbc:mysql://localhost:3306/test&quot;/&gt;" />
+          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.url&quot; value=&quot;jdbc:mysql://localhost:3306/hlag&quot;/&gt;" />
         </node>
         <node concept="gC0nD" id="4$MXrxpFs92" role="gC00t">
           <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.driver&quot; value=&quot;com.mysql.jdbc.Driver&quot;/&gt;" />
         </node>
         <node concept="gC0nD" id="4$MXrxpFs9d" role="gC00t">
-          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.user&quot; value=&quot;root&quot;/&gt;" />
+          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.user&quot; value=&quot;daimonion&quot;/&gt;" />
         </node>
         <node concept="gC0nD" id="4$MXrxpFs9p" role="gC00t">
-          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.password&quot; value=&quot;&quot;/&gt;" />
+          <property role="gC0u0" value="      &lt;property name=&quot;javax.persistence.jdbc.password&quot; value=&quot;daimonion&quot;/&gt;" />
         </node>
         <node concept="gC0nD" id="4$MXrxpFs9A" role="gC00t">
           <property role="gC0u0" value="    &lt;/properties&gt;" />
@@ -673,7 +673,7 @@
       <node concept="11HSJJ" id="4$MXrxpJHw$" role="11HSJE">
         <ref role="11HlFK" to="8mn1:~Table.name()" resolve="name" />
         <node concept="Xl_RD" id="4$MXrxpJHxJ" role="11HlFM">
-          <property role="Xl_RC" value="Device" />
+          <property role="Xl_RC" value="processinstance" />
         </node>
       </node>
     </node>
@@ -871,7 +871,7 @@
       <node concept="11HSJJ" id="uXlZoIon0S" role="11HSJE">
         <ref role="11HlFK" to="8mn1:~Table.name()" resolve="name" />
         <node concept="Xl_RD" id="uXlZoIon0T" role="11HlFM">
-          <property role="Xl_RC" value="Artikel" />
+          <property role="Xl_RC" value="processdeclaration" />
         </node>
       </node>
     </node>
@@ -909,7 +909,7 @@
         <node concept="11HSJJ" id="uXlZoIon16" role="11HSJE">
           <ref role="11HlFK" to="8mn1:~Column.name()" resolve="name" />
           <node concept="Xl_RD" id="uXlZoIon17" role="11HlFM">
-            <property role="Xl_RC" value="NAME" />
+            <property role="Xl_RC" value="name" />
           </node>
         </node>
       </node>
@@ -930,7 +930,7 @@
           <node concept="11HSJJ" id="uXlZoIoF$G" role="11HSJE">
             <ref role="11HlFK" to="8mn1:~Column.name()" resolve="name" />
             <node concept="Xl_RD" id="uXlZoIoFDa" role="11HlFM">
-              <property role="Xl_RC" value="idArtikel" />
+              <property role="Xl_RC" value="idprocessdeclaration" />
             </node>
           </node>
         </node>
@@ -948,7 +948,7 @@
           <node concept="11HSJJ" id="uXlZoIoFXq" role="11HSJE">
             <ref role="11HlFK" to="8mn1:~Column.name()" resolve="name" />
             <node concept="Xl_RD" id="uXlZoIoFZx" role="11HlFM">
-              <property role="Xl_RC" value="idMandant" />
+              <property role="Xl_RC" value="mandantprocessdeclaration" />
             </node>
           </node>
         </node>

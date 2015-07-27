@@ -407,7 +407,7 @@
                         <node concept="2ShNRf" id="6yK5tYGdcwZ" role="37vLTx">
                           <node concept="3zrR0B" id="6yK5tYGdcw7" role="2ShVmc">
                             <node concept="3Tqbb2" id="6yK5tYGdcw8" role="3zrR0E">
-                              <ref role="ehGHo" to="ev4m:4PnqMJuAwrH" resolve="GreaterCompLogOperation" />
+                              <ref role="ehGHo" to="ev4m:4PnqMJuAwrI" resolve="GreaterEqCompLogOperation" />
                             </node>
                           </node>
                         </node>
