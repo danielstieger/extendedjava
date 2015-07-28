@@ -2780,6 +2780,7 @@
     <node concept="312cEu" id="$mK6TedbtX" role="13RCb5">
       <property role="2bfB8j" value="true" />
       <property role="TrG5h" value="reduce_AssignementExpression_FieldRef" />
+      <node concept="2tJIrI" id="2WF17D1c$DJ" role="jymVt" />
       <node concept="3clFb_" id="$mK6Tedc04" role="jymVt">
         <property role="TrG5h" value="method" />
         <node concept="3cqZAl" id="$mK6Tedc06" role="3clF45" />
