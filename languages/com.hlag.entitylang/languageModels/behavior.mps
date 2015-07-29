@@ -392,7 +392,7 @@
                 </node>
               </node>
               <node concept="Xl_RD" id="3STiRXRlj2_" role="3uHU7w">
-                <property role="Xl_RC" value="." />
+                <property role="Xl_RC" value="_" />
               </node>
             </node>
           </node>

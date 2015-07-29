@@ -176,6 +176,7 @@
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
+        <property id="4483697914859874105" name="single" index="19maL6" />
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
       </concept>
       <concept id="2422139682375194637" name="com.hlag.jpql.structure.BoxingExpression" flags="ng" index="1_LfcS">
@@ -203,6 +204,7 @@
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
       </concept>
+      <concept id="8181476057625616320" name="com.hlag.jpql.structure.LowerFunc" flags="ng" index="3SEiVw" />
     </language>
     <language id="121fd1b5-a76a-4410-9b98-5aa5b3681fe7" name="com.hlag.jpqlext">
       <concept id="5083198757627608806" name="com.hlag.jpqlext.structure.PagingVariable" flags="ng" index="39$DyK">
@@ -269,6 +271,11 @@
       <concept id="2996449965958866096" name="com.hlag.entitylang.structure.EntityKey" flags="ig" index="1DC2fI">
         <child id="2996449965958877542" name="jpaAnnotations" index="1DC5oS" />
         <child id="2996449965958877543" name="fields" index="1DC5oT" />
+      </concept>
+    </language>
+    <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1151688443754" name="jetbrains.mps.baseLanguage.collections.structure.ListType" flags="in" index="_YKpA">
+        <child id="1151688676805" name="elementType" index="_ZDj9" />
       </concept>
     </language>
   </registry>
@@ -624,6 +631,21 @@
             <property role="3SKdUp" value="jpql does not build up a key on it s own ?? " />
           </node>
         </node>
+        <node concept="3clFbH" id="4yCwU$CvZ91" role="3cqZAp" />
+        <node concept="3clFbH" id="4yCwU$Cz1Rs" role="3cqZAp" />
+        <node concept="3cpWs8" id="4yCwU$CvZ9n" role="3cqZAp">
+          <node concept="3cpWsn" id="4yCwU$CvZ9q" role="3cpWs9">
+            <property role="TrG5h" value="name" />
+            <node concept="GJnN5" id="4yCwU$CvZ9l" role="1tU5fm">
+              <ref role="GJnN6" node="4$MXrxpG$XY" resolve="Name" />
+            </node>
+            <node concept="Xl_RD" id="4yCwU$CvZa1" role="33vP2m">
+              <property role="Xl_RC" value="hello" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="4yCwU$CvZaD" role="3cqZAp" />
+        <node concept="3clFbH" id="4yCwU$CvZaM" role="3cqZAp" />
       </node>
     </node>
     <node concept="3clFb_" id="4$MXrxpK6oh" role="jymVt">
@@ -1022,7 +1044,7 @@
           </node>
           <node concept="3cpWs8" id="uXlZoIoT9h" role="3cqZAp">
             <node concept="3cpWsn" id="uXlZoIoT9i" role="3cpWs9">
-              <property role="TrG5h" value="processDecl" />
+              <property role="TrG5h" value="listOfTestCompoundObject" />
               <node concept="3uibUv" id="uXlZoIoT9j" role="1tU5fm">
                 <ref role="3uigEE" to="k7g3:~List" resolve="List" />
                 <node concept="3uibUv" id="4yCwU$Cn9OU" role="11_B2D">
@@ -1075,7 +1097,7 @@
             </node>
           </node>
           <node concept="3clFbH" id="uXlZoIplEX" role="3cqZAp" />
-          <node concept="3clFbH" id="2WF17D1bHez" role="3cqZAp" />
+          <node concept="3clFbH" id="4yCwU$CvXTv" role="3cqZAp" />
           <node concept="3SKdUt" id="$mK6Te1H7N" role="3cqZAp">
             <node concept="3SKdUq" id="$mK6Te1HiA" role="3SKWNk">
               <property role="3SKdUp" value="query on key4" />
@@ -1115,12 +1137,99 @@
                 </node>
               </node>
               <node concept="37vLTw" id="uXlZoIoT9A" role="37vLTJ">
-                <ref role="3cqZAo" node="uXlZoIoT9i" resolve="processDecl" />
+                <ref role="3cqZAo" node="uXlZoIoT9i" resolve="listOfTestCompoundObject" />
               </node>
             </node>
           </node>
           <node concept="3clFbH" id="uXlZoIoZbI" role="3cqZAp" />
+          <node concept="3clFbH" id="4yCwU$Cz477" role="3cqZAp" />
+          <node concept="3cpWs8" id="4yCwU$Cz6kF" role="3cqZAp">
+            <node concept="3cpWsn" id="4yCwU$Cz6kI" role="3cpWs9">
+              <property role="TrG5h" value="elm" />
+              <node concept="_YKpA" id="4yCwU$Cz6kB" role="1tU5fm">
+                <node concept="3uibUv" id="4yCwU$Cz6x0" role="_ZDj9">
+                  <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4yCwU$Cz48D" role="3cqZAp" />
+          <node concept="3clFbH" id="4yCwU$CzhDJ" role="3cqZAp" />
+          <node concept="3SKdUt" id="4yCwU$CzhQ7" role="3cqZAp">
+            <node concept="3SKdUq" id="4yCwU$Czi0_" role="3SKWNk">
+              <property role="3SKdUp" value="add typing if more then one param in resultset " />
+            </node>
+          </node>
+          <node concept="3clFbH" id="4yCwU$Czi6F" role="3cqZAp" />
+          <node concept="3clFbF" id="4yCwU$Cz2sf" role="3cqZAp">
+            <node concept="37vLTI" id="4yCwU$Cz3ob" role="3clFbG">
+              <node concept="37vLTw" id="4yCwU$Cz4v5" role="37vLTJ">
+                <ref role="3cqZAo" node="uXlZoIoT9i" resolve="listOfTestCompoundObject" />
+              </node>
+              <node concept="2OqwBi" id="4yCwU$Cz2$g" role="37vLTx">
+                <node concept="37vLTw" id="4yCwU$Cz2sd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="$mK6Te1mhh" resolve="em" />
+                </node>
+                <node concept="11J1DH" id="4yCwU$Cz2Tt" role="2OqNvi">
+                  <property role="19maL6" value="false" />
+                  <node concept="3SC4xO" id="4yCwU$Cz2Tv" role="3SC3Uq">
+                    <node concept="3SxtsA" id="4yCwU$Cz2TZ" role="3SC4x6">
+                      <property role="TrG5h" value="pd" />
+                      <ref role="3SxtsH" node="uXlZoIon0r" resolve="ProcessDeclaration" />
+                    </node>
+                    <node concept="3SxtsA" id="4yCwU$CzdSe" role="3SC4x6">
+                      <property role="TrG5h" value="pi" />
+                      <ref role="3SxtsH" node="4$MXrxpG$8B" resolve="ProcessInstance" />
+                    </node>
+                    <node concept="3SBG_A" id="4yCwU$Cz2Uz" role="3SC4x8">
+                      <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
+                    </node>
+                    <node concept="1_NmOh" id="4yCwU$Cz5vM" role="3SC4x8">
+                      <node concept="3SBG_A" id="4yCwU$Cz5z3" role="3SB$Wo">
+                        <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
+                      </node>
+                    </node>
+                    <node concept="3SEiVw" id="4yCwU$Cz5Du" role="3SC4x8">
+                      <node concept="3S$L2z" id="4yCwU$Cz5K0" role="3SB$Wo">
+                        <node concept="3SBG_A" id="4yCwU$Cz5GJ" role="3S$L2$">
+                          <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
+                        </node>
+                        <node concept="3S$KP$" id="4yCwU$Cz5Ny" role="3S$L2A">
+                          <ref role="3S$KQD" node="uXlZoIon12" resolve="name" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2jNmR0" id="4yCwU$Cz2XA" role="3SGRm$">
+                      <node concept="ZSgft" id="4yCwU$Cz2Yy" role="2jNGCD">
+                        <ref role="ZSgbS" node="uXlZoIpfzF" resolve="procKey" />
+                      </node>
+                      <node concept="3S$L2z" id="4yCwU$Cz2VY" role="2jNGCF">
+                        <node concept="3SBG_A" id="4yCwU$Cz2Vt" role="3S$L2$">
+                          <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
+                        </node>
+                        <node concept="3S$KP$" id="4yCwU$Cz2WL" role="3S$L2A">
+                          <ref role="3S$KQD" node="uXlZoIon0X" resolve="key" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3clFbH" id="4yCwU$Cn2Lt" role="3cqZAp" />
+          <node concept="3clFbF" id="4yCwU$CzfuF" role="3cqZAp">
+            <node concept="2OqwBi" id="4yCwU$CzfJ1" role="3clFbG">
+              <node concept="37vLTw" id="4yCwU$CzfuD" role="2Oq$k0">
+                <ref role="3cqZAo" node="uXlZoIoT9i" resolve="listOfTestCompoundObject" />
+              </node>
+              <node concept="liA8E" id="4yCwU$Czgs4" role="2OqNvi">
+                <ref role="37wK5l" to="e2lb:~Iterable.forEach(java.util.function.Consumer):void" resolve="forEach" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="4yCwU$Czfjw" role="3cqZAp" />
+          <node concept="3clFbH" id="4yCwU$CzeAd" role="3cqZAp" />
           <node concept="3SKdUt" id="$mK6Te1I09" role="3cqZAp">
             <node concept="3SKdUq" id="$mK6Te1Iat" role="3SKWNk">
               <property role="3SKdUp" value="Log to std out" />
@@ -1155,7 +1264,7 @@
               </node>
             </node>
             <node concept="37vLTw" id="uXlZoIoTa2" role="1DdaDG">
-              <ref role="3cqZAo" node="uXlZoIoT9i" resolve="processDecl" />
+              <ref role="3cqZAo" node="uXlZoIoT9i" resolve="listOfTestCompoundObject" />
             </node>
           </node>
           <node concept="3clFbH" id="uXlZoIoRXU" role="3cqZAp" />
@@ -1764,7 +1873,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4gnsj_4vqPr" role="jymVt" />
-    <node concept="2tJIrI" id="4gnsj_4vqPw" role="jymVt" />
     <node concept="3Tm1VV" id="4gnsj_4veSi" role="1B3o_S" />
   </node>
 </model>

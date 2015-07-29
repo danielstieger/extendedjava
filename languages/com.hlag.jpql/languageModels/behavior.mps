@@ -562,7 +562,7 @@
   <node concept="13h7C7" id="76asi29a$Z3">
     <ref role="13h7C2" to="ev4m:76asi29az_k" resolve="SelectStatement" />
     <node concept="13i0hz" id="3STiRXRoAKi" role="13h7CS">
-      <property role="TrG5h" value="isMultipleFields" />
+      <property role="TrG5h" value="isMultipleFieldsInResultSet" />
       <node concept="3Tm1VV" id="3STiRXRoAKj" role="1B3o_S" />
       <node concept="3clFbS" id="3STiRXRoAKk" role="3clF47">
         <node concept="3cpWs6" id="3STiRXRoAWI" role="3cqZAp">
@@ -744,7 +744,7 @@
             <node concept="3clFbH" id="456D_1YA0XL" role="3cqZAp" />
           </node>
           <node concept="BsUDl" id="3STiRXRoTSg" role="3clFbw">
-            <ref role="37wK5l" node="3STiRXRoAKi" resolve="isMultipleFields" />
+            <ref role="37wK5l" node="3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
           </node>
           <node concept="9aQIb" id="3STiRXRpsMH" role="9aQIa">
             <node concept="3clFbS" id="3STiRXRpsMI" role="9aQI4">
