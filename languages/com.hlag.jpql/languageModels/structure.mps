@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="5zrl" ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)" implicit="true" />
   </imports>
@@ -62,14 +63,12 @@
   <node concept="1TIwiD" id="1qyyZLn7D6h">
     <property role="TrG5h" value="Query" />
     <property role="34LRSv" value="query" />
-    <property role="R4oN_" value="query &lt;ret type&gt; SELECT" />
+    <property role="R4oN_" value="query SELECT" />
     <property role="MwhBj" value="${module}/icons/pencil.png" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="1TJgyj" id="76asi29az_B" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="returnType" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tpee:fz3vP1H" resolve="Type" />
+    <node concept="1TJgyi" id="3STiRXRousT" role="1TKVEl">
+      <property role="TrG5h" value="single" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="PrWs8" id="1qyyZLn7KKg" role="PzmwI">
       <ref role="PrY4T" to="tpee:hqOqG0K" resolve="IOperation" />
@@ -316,6 +315,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="maxResultSetSize" />
       <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
+    </node>
+    <node concept="1TJgyj" id="3STiRXRnz_5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="closure" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
     </node>
     <node concept="PrWs8" id="76asi29a$YZ" role="PzmwI">
       <ref role="PrY4T" node="76asi29a$Mc" resolve="IQueryStatement" />

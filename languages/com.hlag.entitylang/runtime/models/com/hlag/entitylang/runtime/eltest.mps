@@ -7,6 +7,7 @@
     <use id="5f362b6a-7593-4d33-922a-7554535c0063" name="com.hlag.entitylang" version="-1" />
     <use id="121fd1b5-a76a-4410-9b98-5aa5b3681fe7" name="com.hlag.jpqlext" version="-1" />
     <use id="f61473f9-130f-42f6-b98d-6c438812c2f6" name="jetbrains.mps.baseLanguage.unitTest" version="-1" />
+    <use id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections" version="-1" />
   </languages>
   <imports>
     <import index="8mn1" ref="b263f292-6e43-46d0-829c-100beca2960f/f:java_stub#b263f292-6e43-46d0-829c-100beca2960f#javax.persistence(com.hlag.entitylang.runtime/javax.persistence@java_stub)" />
@@ -176,7 +177,6 @@
       </concept>
       <concept id="1631019930971181457" name="com.hlag.jpql.structure.Query" flags="ng" index="11J1DH">
         <child id="8181476057626070970" name="statement" index="3SC3Uq" />
-        <child id="8181476057626065255" name="returnType" index="3SC4x7" />
       </concept>
       <concept id="2422139682375194637" name="com.hlag.jpql.structure.BoxingExpression" flags="ng" index="1_LfcS">
         <child id="2422139682375194638" name="expression" index="1_LfcV" />
@@ -1025,7 +1025,7 @@
               <property role="TrG5h" value="processDecl" />
               <node concept="3uibUv" id="uXlZoIoT9j" role="1tU5fm">
                 <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                <node concept="3uibUv" id="uXlZoIoTWj" role="11_B2D">
+                <node concept="3uibUv" id="4yCwU$Cn9OU" role="11_B2D">
                   <ref role="3uigEE" node="uXlZoIon0r" resolve="ProcessDeclaration" />
                 </node>
               </node>
@@ -1078,7 +1078,7 @@
           <node concept="3clFbH" id="2WF17D1bHez" role="3cqZAp" />
           <node concept="3SKdUt" id="$mK6Te1H7N" role="3cqZAp">
             <node concept="3SKdUq" id="$mK6Te1HiA" role="3SKWNk">
-              <property role="3SKdUp" value="query on key" />
+              <property role="3SKdUp" value="query on key4" />
             </node>
           </node>
           <node concept="3clFbF" id="uXlZoIoT9m" role="3cqZAp">
@@ -1112,12 +1112,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3uibUv" id="uXlZoIoT9$" role="3SC4x7">
-                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                    <node concept="3uibUv" id="uXlZoIoVBf" role="11_B2D">
-                      <ref role="3uigEE" node="uXlZoIon0r" resolve="ProcessDeclaration" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="uXlZoIoT9A" role="37vLTJ">
@@ -1126,6 +1120,7 @@
             </node>
           </node>
           <node concept="3clFbH" id="uXlZoIoZbI" role="3cqZAp" />
+          <node concept="3clFbH" id="4yCwU$Cn2Lt" role="3cqZAp" />
           <node concept="3SKdUt" id="$mK6Te1I09" role="3cqZAp">
             <node concept="3SKdUq" id="$mK6Te1Iat" role="3SKWNk">
               <property role="3SKdUp" value="Log to std out" />
@@ -1290,12 +1285,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3uibUv" id="4$MXrxpKbjd" role="3SC4x7">
-                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                    <node concept="3uibUv" id="4$MXrxpKbwL" role="11_B2D">
-                      <ref role="3uigEE" node="4$MXrxpG$8B" resolve="ProcessInstance" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="$mK6Te1Mcj" role="37vLTJ">
@@ -1458,12 +1447,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3uibUv" id="2WF17D17LBw" role="3SC4x7">
-                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                    <node concept="3uibUv" id="2WF17D17LBx" role="11_B2D">
-                      <ref role="3uigEE" node="4$MXrxpG$8B" resolve="ProcessInstance" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="2WF17D17LBy" role="37vLTJ">
@@ -1610,7 +1593,6 @@
             </node>
           </node>
           <node concept="3clFbH" id="3yeDeu15_b6" role="3cqZAp" />
-          <node concept="3clFbH" id="2WF17D1cDUE" role="3cqZAp" />
           <node concept="3clFbH" id="2WF17D1cEcH" role="3cqZAp" />
           <node concept="3clFbH" id="2WF17D1cEeb" role="3cqZAp" />
           <node concept="3clFbF" id="4qb9_qf8JGs" role="3cqZAp">
@@ -1685,12 +1667,6 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3uibUv" id="4qb9_qf8JGE" role="3SC4x7">
-                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                    <node concept="3uibUv" id="4qb9_qf8JGF" role="11_B2D">
-                      <ref role="3uigEE" node="uXlZoIon0r" resolve="ProcessDeclaration" />
-                    </node>
-                  </node>
                 </node>
               </node>
               <node concept="37vLTw" id="4qb9_qf8JGG" role="37vLTJ">
@@ -1762,6 +1738,34 @@
         </node>
       </node>
     </node>
+  </node>
+  <node concept="312cEu" id="4gnsj_4veSh">
+    <property role="TrG5h" value="TestCompoundObject" />
+    <node concept="2tJIrI" id="4gnsj_4vqPE" role="jymVt" />
+    <node concept="312cEg" id="4gnsj_4vqOW" role="jymVt">
+      <property role="TrG5h" value="processDeclaration" />
+      <node concept="3Tm1VV" id="4gnsj_4w7Cq" role="1B3o_S" />
+      <node concept="GJnN5" id="4gnsj_4vtey" role="1tU5fm">
+        <ref role="GJnN6" node="uXlZoIy9dX" resolve="ProcessDecl" />
+      </node>
+    </node>
+    <node concept="312cEg" id="4gnsj_4vtdI" role="jymVt">
+      <property role="TrG5h" value="processInstance" />
+      <node concept="3Tm1VV" id="4gnsj_4w7Cx" role="1B3o_S" />
+      <node concept="3uibUv" id="4gnsj_4vteD" role="1tU5fm">
+        <ref role="3uigEE" node="4$MXrxpG$8B" resolve="ProcessInstance" />
+      </node>
+    </node>
+    <node concept="312cEg" id="4gnsj_4vtfj" role="jymVt">
+      <property role="TrG5h" value="name" />
+      <node concept="3Tm6S6" id="4gnsj_4vtfk" role="1B3o_S" />
+      <node concept="GJnN5" id="4gnsj_4vtfE" role="1tU5fm">
+        <ref role="GJnN6" node="4$MXrxpG$XY" resolve="Name" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4gnsj_4vqPr" role="jymVt" />
+    <node concept="2tJIrI" id="4gnsj_4vqPw" role="jymVt" />
+    <node concept="3Tm1VV" id="4gnsj_4veSi" role="1B3o_S" />
   </node>
 </model>
 

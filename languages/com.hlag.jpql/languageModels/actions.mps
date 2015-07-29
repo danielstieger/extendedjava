@@ -52,7 +52,6 @@
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1068431790189" name="jetbrains.mps.baseLanguage.structure.Type" flags="in" index="33vP2l" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -104,10 +103,6 @@
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
-      <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
-        <reference id="1107535924139" name="classifier" index="3uigEE" />
-        <child id="1109201940907" name="parameter" index="11_B2D" />
-      </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
         <child id="1081773367580" name="leftExpression" index="3uHU7B" />
@@ -130,11 +125,6 @@
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
         <child id="1199569906740" name="parameter" index="1bW2Oz" />
         <child id="1199569916463" name="body" index="1bW5cS" />
-      </concept>
-    </language>
-    <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
-      <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
-        <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
@@ -1787,24 +1777,6 @@
               </node>
               <node concept="2DeJnY" id="26taNl4ks0w" role="2OqNvi">
                 <ref role="1A9B2P" to="ev4m:76asi29az_k" resolve="SelectStatement" />
-              </node>
-            </node>
-          </node>
-          <node concept="3clFbF" id="26taNl4lvnc" role="3cqZAp">
-            <node concept="2OqwBi" id="26taNl4lvHS" role="3clFbG">
-              <node concept="2OqwBi" id="26taNl4lvpn" role="2Oq$k0">
-                <node concept="1r4Lsj" id="26taNl4lvna" role="2Oq$k0" />
-                <node concept="3TrEf2" id="26taNl4lvyw" role="2OqNvi">
-                  <ref role="3Tt5mk" to="ev4m:76asi29az_B" />
-                </node>
-              </node>
-              <node concept="2oxUTD" id="26taNl4lvSV" role="2OqNvi">
-                <node concept="2c44tf" id="26taNl4lOkq" role="2oxUTC">
-                  <node concept="3uibUv" id="26taNl4lOwY" role="2c44tc">
-                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-                    <node concept="33vP2l" id="26taNl4lOy$" role="11_B2D" />
-                  </node>
-                </node>
               </node>
             </node>
           </node>
