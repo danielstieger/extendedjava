@@ -12,6 +12,7 @@
     <import index="tpeh" ref="r:00000000-0000-4000-0000-011c895902c5(jetbrains.mps.baseLanguage.typesystem)" />
     <import index="tpek" ref="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" />
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
+    <import index="5y66" ref="r:522a9c77-923c-48c6-b6ae-e8ee12ec5a61(com.hlag.jpql.util)" />
     <import index="zlu4" ref="r:c161406f-e616-4e69-a6ab-4c2097b0da6a(com.hlag.jpql.behavior)" implicit="true" />
     <import index="74vs" ref="r:56fffacf-5963-4372-ba5c-65683e2350ad(com.hlag.entitylang.behavior)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
@@ -40,6 +41,9 @@
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -110,6 +114,12 @@
         <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
+    </language>
+    <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
+      <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
+        <child id="1199569906740" name="parameter" index="1bW2Oz" />
+        <child id="1199569916463" name="body" index="1bW5cS" />
+      </concept>
     </language>
     <language id="3a13115c-633c-4c5c-bbcc-75c4219e9555" name="jetbrains.mps.lang.quotation">
       <concept id="1196350785110" name="jetbrains.mps.lang.quotation.structure.AbstractAntiquotation" flags="ng" index="2c44t0">
@@ -198,6 +208,7 @@
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1171305280644" name="jetbrains.mps.lang.smodel.structure.Node_GetDescendantsOperation" flags="nn" index="2Rf3mk" />
+      <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
         <child id="1177027386292" name="conceptArgument" index="cj9EA" />
       </concept>
@@ -236,6 +247,11 @@
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
+      <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
+        <child id="1204796294226" name="closure" index="23t8la" />
+      </concept>
+      <concept id="1235566554328" name="jetbrains.mps.baseLanguage.collections.structure.AnyOperation" flags="nn" index="2HwmR7" />
+      <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -1331,7 +1347,7 @@
               <ref role="1YBMHb" node="26taNl4mvY5" resolve="selectStatement" />
             </node>
             <node concept="2qgKlT" id="4yCwU$Cik$x" role="2OqNvi">
-              <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFields" />
+              <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
             </node>
           </node>
         </node>
@@ -1375,7 +1391,7 @@
                 <ref role="1YBMHb" node="26taNl4mvY5" resolve="selectStatement" />
               </node>
               <node concept="2qgKlT" id="4yCwU$CilJy" role="2OqNvi">
-                <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFields" />
+                <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
               </node>
             </node>
           </node>
@@ -1398,7 +1414,7 @@
                   <ref role="1YBMHb" node="26taNl4mvY5" resolve="selectStatement" />
                 </node>
                 <node concept="2qgKlT" id="4yCwU$CiudE" role="2OqNvi">
-                  <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFields" />
+                  <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
                 </node>
               </node>
             </node>
@@ -1471,7 +1487,7 @@
                   <ref role="1YBMHb" node="26taNl4mvY5" resolve="selectStatement" />
                 </node>
                 <node concept="2qgKlT" id="4yCwU$CiujV" role="2OqNvi">
-                  <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFields" />
+                  <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
                 </node>
               </node>
             </node>
@@ -1840,6 +1856,240 @@
     <node concept="1YaCAy" id="5UuQb9JYBz7" role="1YuTPh">
       <property role="TrG5h" value="jpqlDotExpression" />
       <ref role="1YaFvo" to="ev4m:76asi296m63" resolve="JpqlDotExpression" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="444xKTS3FiS">
+    <property role="TrG5h" value="check_SelectStatement" />
+    <node concept="3clFbS" id="444xKTS3FiT" role="18ibNy">
+      <node concept="3clFbJ" id="444xKTS3R5Z" role="3cqZAp">
+        <node concept="3clFbS" id="444xKTS3R60" role="3clFbx">
+          <node concept="3SKdUt" id="444xKTS3RkF" role="3cqZAp">
+            <node concept="3SKdUq" id="444xKTS3RkH" role="3SKWNk">
+              <property role="3SKdUp" value="okay, then class cast as well as AS paths have to be used" />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="444xKTS3RkT" role="3cqZAp">
+            <node concept="3clFbS" id="444xKTS3RkV" role="3clFbx">
+              <node concept="2MkqsV" id="444xKTS3Sy1" role="3cqZAp">
+                <node concept="Xl_RD" id="444xKTS3Syg" role="2MkJ7o">
+                  <property role="Xl_RC" value="If using more than one result set row, each column has to be casted." />
+                </node>
+                <node concept="1YBJjd" id="444xKTS3SAu" role="2OEOjV">
+                  <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="444xKTS3RRS" role="3clFbw">
+              <node concept="2OqwBi" id="444xKTS3Rnq" role="2Oq$k0">
+                <node concept="1YBJjd" id="444xKTS3Rlb" role="2Oq$k0">
+                  <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+                </node>
+                <node concept="3TrEf2" id="444xKTS3RzE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="ev4m:444xKTS2Kk2" />
+                </node>
+              </node>
+              <node concept="3w_OXm" id="444xKTS3Sw2" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="3clFbH" id="444xKTS3SAN" role="3cqZAp" />
+          <node concept="3clFbJ" id="444xKTS3SFs" role="3cqZAp">
+            <node concept="3clFbS" id="444xKTS3SFu" role="3clFbx">
+              <node concept="2MkqsV" id="444xKTS3W5s" role="3cqZAp">
+                <node concept="Xl_RD" id="444xKTS3W5F" role="2MkJ7o">
+                  <property role="Xl_RC" value="If using more then one result set row, each row has to be mapped to a variable of the casted class." />
+                </node>
+                <node concept="1YBJjd" id="444xKTS3W8_" role="2OEOjV">
+                  <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+                </node>
+              </node>
+            </node>
+            <node concept="2OqwBi" id="444xKTS3TE6" role="3clFbw">
+              <node concept="2OqwBi" id="444xKTS3SLB" role="2Oq$k0">
+                <node concept="1YBJjd" id="444xKTS3SJo" role="2Oq$k0">
+                  <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+                </node>
+                <node concept="3Tsc0h" id="444xKTS3T05" role="2OqNvi">
+                  <ref role="3TtcxE" to="ev4m:76asi29az_C" />
+                </node>
+              </node>
+              <node concept="2HwmR7" id="444xKTS3V_P" role="2OqNvi">
+                <node concept="1bVj0M" id="444xKTS3V_R" role="23t8la">
+                  <node concept="3clFbS" id="444xKTS3V_S" role="1bW5cS">
+                    <node concept="3clFbF" id="444xKTS3VBt" role="3cqZAp">
+                      <node concept="3fqX7Q" id="444xKTS3W2G" role="3clFbG">
+                        <node concept="2OqwBi" id="444xKTS3W2I" role="3fr31v">
+                          <node concept="37vLTw" id="444xKTS3W2J" role="2Oq$k0">
+                            <ref role="3cqZAo" node="444xKTS3V_T" resolve="it" />
+                          </node>
+                          <node concept="1mIQ4w" id="444xKTS3W2K" role="2OqNvi">
+                            <node concept="chp4Y" id="444xKTS3W2L" role="cj9EA">
+                              <ref role="cht4Q" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="Rh6nW" id="444xKTS3V_T" role="1bW2Oz">
+                    <property role="TrG5h" value="it" />
+                    <node concept="2jxLKc" id="444xKTS3V_U" role="1tU5fm" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="444xKTS3RkN" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="444xKTS3R8q" role="3clFbw">
+          <node concept="1YBJjd" id="444xKTS3R6b" role="2Oq$k0">
+            <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+          </node>
+          <node concept="2qgKlT" id="444xKTS3Rjv" role="2OqNvi">
+            <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="444xKTS5H1d" role="3cqZAp" />
+      <node concept="3clFbJ" id="444xKTS5Hf5" role="3cqZAp">
+        <node concept="3clFbS" id="444xKTS5Hf7" role="3clFbx">
+          <node concept="2MkqsV" id="444xKTS5Kbl" role="3cqZAp">
+            <node concept="Xl_RD" id="444xKTS5Kb$" role="2MkJ7o">
+              <property role="Xl_RC" value="Using a cast mapping with castedClass can only be applied in case more then one row is present in the resultset." />
+            </node>
+            <node concept="1YBJjd" id="444xKTS5Ke_" role="2OEOjV">
+              <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+            </node>
+          </node>
+        </node>
+        <node concept="1Wc70l" id="444xKTS5J$c" role="3clFbw">
+          <node concept="3fqX7Q" id="444xKTS5K4L" role="3uHU7w">
+            <node concept="2OqwBi" id="444xKTS5K4N" role="3fr31v">
+              <node concept="1YBJjd" id="444xKTS5K4O" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+              </node>
+              <node concept="2qgKlT" id="444xKTS5K4P" role="2OqNvi">
+                <ref role="37wK5l" to="zlu4:3STiRXRoAKi" resolve="isMultipleFieldsInResultSet" />
+              </node>
+            </node>
+          </node>
+          <node concept="2OqwBi" id="444xKTS5I8b" role="3uHU7B">
+            <node concept="2OqwBi" id="444xKTS5Hoj" role="2Oq$k0">
+              <node concept="1YBJjd" id="444xKTS5Hm4" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS3FiV" resolve="selectStatement" />
+              </node>
+              <node concept="3TrEf2" id="444xKTS5HNF" role="2OqNvi">
+                <ref role="3Tt5mk" to="ev4m:444xKTS2Kk2" />
+              </node>
+            </node>
+            <node concept="3x8VRR" id="444xKTS5IOU" role="2OqNvi" />
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="444xKTS5H4J" role="3cqZAp" />
+    </node>
+    <node concept="1YaCAy" id="444xKTS3FiV" role="1YuTPh">
+      <property role="TrG5h" value="selectStatement" />
+      <ref role="1YaFvo" to="ev4m:76asi29az_k" resolve="SelectStatement" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="444xKTS4QXb">
+    <property role="TrG5h" value="check_AsPathSpec" />
+    <node concept="3clFbS" id="444xKTS4QXc" role="18ibNy">
+      <node concept="3clFbJ" id="444xKTS4QXi" role="3cqZAp">
+        <node concept="3clFbS" id="444xKTS4QXj" role="3clFbx">
+          <node concept="2MkqsV" id="444xKTS4STE" role="3cqZAp">
+            <node concept="Xl_RD" id="444xKTS4STQ" role="2MkJ7o">
+              <property role="Xl_RC" value="As cast mapping can only be applied if a castedClass is given" />
+            </node>
+            <node concept="1YBJjd" id="444xKTS4SVz" role="2OEOjV">
+              <ref role="1YBMHb" node="444xKTS4QXe" resolve="asPathSpec" />
+            </node>
+          </node>
+        </node>
+        <node concept="2OqwBi" id="444xKTS4Sfk" role="3clFbw">
+          <node concept="2OqwBi" id="444xKTS4Roe" role="2Oq$k0">
+            <node concept="2OqwBi" id="444xKTS4QZi" role="2Oq$k0">
+              <node concept="1YBJjd" id="444xKTS4QXu" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS4QXe" resolve="asPathSpec" />
+              </node>
+              <node concept="2Xjw5R" id="444xKTS4Rh_" role="2OqNvi">
+                <node concept="1xMEDy" id="444xKTS4RhB" role="1xVPHs">
+                  <node concept="chp4Y" id="444xKTS4Rig" role="ri$Ld">
+                    <ref role="cht4Q" to="ev4m:76asi29az_k" resolve="SelectStatement" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3TrEf2" id="444xKTS4R$7" role="2OqNvi">
+              <ref role="3Tt5mk" to="ev4m:444xKTS2Kk2" />
+            </node>
+          </node>
+          <node concept="3w_OXm" id="444xKTS4SRF" role="2OqNvi" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="444xKTS4QXe" role="1YuTPh">
+      <property role="TrG5h" value="asPathSpec" />
+      <ref role="1YaFvo" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="444xKTS9Xvk">
+    <property role="TrG5h" value="typeof_AsPathSpec" />
+    <node concept="3clFbS" id="444xKTS9Xvl" role="18ibNy">
+      <node concept="1Z5TYs" id="444xKTS9XJz" role="3cqZAp">
+        <property role="3wDh2S" value="true" />
+        <node concept="mw_s8" id="444xKTS9XNh" role="1ZfhKB">
+          <node concept="2YIFZM" id="444xKTS9XNx" role="mwGJk">
+            <ref role="37wK5l" to="5y66:444xKTS90kC" resolve="getTypeOfValidAsSpecTarget" />
+            <ref role="1Pybhc" to="5y66:444xKTS8uFf" resolve="AsSpecHelper" />
+            <node concept="2OqwBi" id="444xKTS9XQ4" role="37wK5m">
+              <node concept="1YBJjd" id="444xKTS9XNV" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS9Xvn" resolve="asPathSpec" />
+              </node>
+              <node concept="3TrEf2" id="444xKTS9Y0p" role="2OqNvi">
+                <ref role="3Tt5mk" to="ev4m:444xKTS5L6i" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="444xKTS9XJA" role="1ZfhK$">
+          <node concept="1Z2H0r" id="444xKTS9Xvr" role="mwGJk">
+            <node concept="2OqwBi" id="444xKTS9Xz9" role="1Z2MuG">
+              <node concept="1YBJjd" id="444xKTS9XvR" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS9Xvn" resolve="asPathSpec" />
+              </node>
+              <node concept="3TrEf2" id="444xKTS9XGU" role="2OqNvi">
+                <ref role="3Tt5mk" to="ev4m:444xKTS4PJ2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Z5TYs" id="444xKTS9Ywd" role="3cqZAp">
+        <node concept="mw_s8" id="444xKTS9Yxw" role="1ZfhKB">
+          <node concept="1Z2H0r" id="444xKTS9Yxs" role="mwGJk">
+            <node concept="2OqwBi" id="444xKTS9Yzr" role="1Z2MuG">
+              <node concept="1YBJjd" id="444xKTS9YxL" role="2Oq$k0">
+                <ref role="1YBMHb" node="444xKTS9Xvn" resolve="asPathSpec" />
+              </node>
+              <node concept="3TrEf2" id="444xKTS9YRa" role="2OqNvi">
+                <ref role="3Tt5mk" to="ev4m:444xKTS4PJ2" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="444xKTS9Ywg" role="1ZfhK$">
+          <node concept="1Z2H0r" id="444xKTS9YtC" role="mwGJk">
+            <node concept="1YBJjd" id="444xKTS9Yv5" role="1Z2MuG">
+              <ref role="1YBMHb" node="444xKTS9Xvn" resolve="asPathSpec" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="444xKTS9Xvn" role="1YuTPh">
+      <property role="TrG5h" value="asPathSpec" />
+      <ref role="1YaFvo" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
     </node>
   </node>
 </model>

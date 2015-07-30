@@ -120,6 +120,7 @@
         <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
     </language>
     <language id="fd392034-7849-419d-9071-12563d152375" name="jetbrains.mps.baseLanguage.closures">
       <concept id="1199569711397" name="jetbrains.mps.baseLanguage.closures.structure.ClosureLiteral" flags="nn" index="1bVj0M">
@@ -1783,10 +1784,43 @@
         </node>
       </node>
     </node>
-    <node concept="37WvkG" id="26taNl4ks1R" role="37WGs$">
-      <ref role="37XkoT" to="ev4m:76asi29az_k" resolve="SelectStatement" />
-      <node concept="37Y9Zx" id="26taNl4ks1S" role="37ZfLb">
-        <node concept="3clFbS" id="26taNl4ks1T" role="2VODD2" />
+    <node concept="37WvkG" id="444xKTS4Pqy" role="37WGs$">
+      <ref role="37XkoT" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+      <node concept="37Y9Zx" id="444xKTS4Pqz" role="37ZfLb">
+        <node concept="3clFbS" id="444xKTS4Pq$" role="2VODD2">
+          <node concept="3clFbJ" id="444xKTS4Pr0" role="3cqZAp">
+            <node concept="3clFbS" id="444xKTS4Pr1" role="3clFbx">
+              <node concept="3clFbF" id="444xKTS4Pyk" role="3cqZAp">
+                <node concept="37vLTI" id="444xKTS4Qq4" role="3clFbG">
+                  <node concept="1PxgMI" id="444xKTS4QTH" role="37vLTx">
+                    <ref role="1PxNhF" to="ev4m:26taNl4i7$I" resolve="IPathOrFunc" />
+                    <node concept="1r4N5L" id="444xKTS4Qro" role="1PxMeX" />
+                  </node>
+                  <node concept="2OqwBi" id="444xKTS4PzL" role="37vLTJ">
+                    <node concept="1r4Lsj" id="444xKTS4Pyj" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="444xKTS4Qfa" role="2OqNvi">
+                      <ref role="3Tt5mk" to="ev4m:444xKTS4PJ2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="1Wc70l" id="444xKTS4QCT" role="3clFbw">
+              <node concept="2OqwBi" id="444xKTS4QFE" role="3uHU7w">
+                <node concept="1r4N5L" id="444xKTS4QEw" role="2Oq$k0" />
+                <node concept="1mIQ4w" id="444xKTS4QRa" role="2OqNvi">
+                  <node concept="chp4Y" id="444xKTS4QRV" role="cj9EA">
+                    <ref role="cht4Q" to="ev4m:26taNl4i7$I" resolve="IPathOrFunc" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="444xKTS4Psb" role="3uHU7B">
+                <node concept="1r4N5L" id="444xKTS4Prc" role="2Oq$k0" />
+                <node concept="3x8VRR" id="444xKTS4PxU" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
@@ -1980,6 +2014,46 @@
     <node concept="2tJIrI" id="3Wg6CYzLKX6" role="jymVt" />
     <node concept="2tJIrI" id="3Wg6CYzLKWY" role="jymVt" />
     <node concept="3Tm1VV" id="3Wg6CYzLKHY" role="1B3o_S" />
+  </node>
+  <node concept="3UOs0u" id="444xKTS4LW$">
+    <property role="TrG5h" value="IPathOfFunctSideTransforms" />
+    <node concept="3UNGvq" id="444xKTS4Oq8" role="3UOs0v">
+      <ref role="3UNGvu" to="ev4m:26taNl4i7$I" resolve="IPathOrFunc" />
+      <node concept="tYCnQ" id="444xKTS4P5O" role="_1QTJ">
+        <ref role="uz4UX" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+        <node concept="Cmt7Y" id="444xKTS4P5Q" role="uz6Si">
+          <node concept="Cnhdc" id="444xKTS4P5R" role="Cncma">
+            <node concept="3clFbS" id="444xKTS4P5S" role="2VODD2">
+              <node concept="3cpWs8" id="444xKTS4P7m" role="3cqZAp">
+                <node concept="3cpWsn" id="444xKTS4P7p" role="3cpWs9">
+                  <property role="TrG5h" value="asPathSpec" />
+                  <node concept="3Tqbb2" id="444xKTS4P7l" role="1tU5fm">
+                    <ref role="ehGHo" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+                  </node>
+                  <node concept="2OqwBi" id="444xKTS4Pct" role="33vP2m">
+                    <node concept="Cj7Ep" id="444xKTS4PaH" role="2Oq$k0" />
+                    <node concept="2DeJnW" id="444xKTS4Pk6" role="2OqNvi">
+                      <ref role="1_rbq0" to="ev4m:444xKTRYcnf" resolve="AsPathSpec" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs6" id="444xKTS4PmW" role="3cqZAp">
+                <node concept="37vLTw" id="444xKTS4Pol" role="3cqZAk">
+                  <ref role="3cqZAo" node="444xKTS4P7p" resolve="asPathSpec" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2h1dTh" id="444xKTS4P6L" role="Cn2iK">
+            <property role="2h1i$Z" value="AS" />
+          </node>
+          <node concept="2h1dTh" id="444xKTS4P73" role="Cn6ar">
+            <property role="2h1i$Z" value="cast mapping" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

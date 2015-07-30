@@ -7,7 +7,6 @@
   </languages>
   <imports>
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
-    <import index="tp2c" ref="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
     <import index="5zrl" ref="r:74cb588a-1fa0-4e17-85e5-d16307c446af(com.hlag.entitylang.structure)" implicit="true" />
   </imports>
@@ -287,6 +286,11 @@
     <property role="34LRSv" value="SELECT" />
     <property role="R4oN_" value="select from database" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="444xKTS2Kk2" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="castedClass" />
+      <ref role="20lvS9" to="tpee:fz12cDA" resolve="ClassConcept" />
+    </node>
     <node concept="1TJgyj" id="4PnqMJuIdpB" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="orderbyClause" />
@@ -315,12 +319,6 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="maxResultSetSize" />
       <ref role="20lvS9" node="76asi2953CM" resolve="JpqlExpression" />
-    </node>
-    <node concept="1TJgyj" id="3STiRXRnz_5" role="1TKVEi">
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="closure" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" to="tp2c:htbVj4_" resolve="ClosureLiteral" />
     </node>
     <node concept="PrWs8" id="76asi29a$YZ" role="PzmwI">
       <ref role="PrY4T" node="76asi29a$Mc" resolve="IQueryStatement" />
@@ -549,7 +547,20 @@
   </node>
   <node concept="1TIwiD" id="444xKTRYcnf">
     <property role="TrG5h" value="AsPathSpec" />
+    <property role="34LRSv" value="AS" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="444xKTS5L6i" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="mappingTarget" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+    <node concept="1TJgyj" id="444xKTS4PJ2" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ipathOrFunc" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="26taNl4i7$I" resolve="IPathOrFunc" />
+    </node>
     <node concept="PrWs8" id="444xKTRYhwI" role="PzmwI">
       <ref role="PrY4T" node="26taNl4i7$I" resolve="IPathOrFunc" />
     </node>

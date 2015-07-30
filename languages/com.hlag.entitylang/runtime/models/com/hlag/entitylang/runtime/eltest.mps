@@ -88,6 +88,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1068498886292" name="jetbrains.mps.baseLanguage.structure.ParameterDeclaration" flags="ir" index="37vLTG" />
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1225271177708" name="jetbrains.mps.baseLanguage.structure.StringType" flags="in" index="17QB3L" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
@@ -96,6 +97,7 @@
       <concept id="1068580123132" name="jetbrains.mps.baseLanguage.structure.BaseMethodDeclaration" flags="ng" index="3clF44">
         <property id="1181808852946" name="isFinal" index="DiZV1" />
         <child id="1068580123133" name="returnType" index="3clF45" />
+        <child id="1068580123134" name="parameter" index="3clF46" />
         <child id="1068580123135" name="body" index="3clF47" />
       </concept>
       <concept id="1068580123165" name="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration" flags="ig" index="3clFb_">
@@ -172,6 +174,10 @@
         <child id="5573040900056654080" name="left" index="2jNGCF" />
       </concept>
       <concept id="4544161228248388891" name="com.hlag.jpql.structure.OptionalExpression" flags="ng" index="2sMgYk" />
+      <concept id="4685018008584242639" name="com.hlag.jpql.structure.AsPathSpec" flags="ng" index="QZ4b1">
+        <reference id="4685018008586228114" name="mappingTarget" index="T4Tqs" />
+        <child id="4685018008585984962" name="ipathOrFunc" index="T5XNc" />
+      </concept>
       <concept id="6475001545073807428" name="com.hlag.jpql.structure.JavaVarReference" flags="ng" index="ZSgft">
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
@@ -200,6 +206,7 @@
         <reference id="8181476057624834891" name="varDeclaration" index="3SBg9F" />
       </concept>
       <concept id="8181476057626065236" name="com.hlag.jpql.structure.SelectStatement" flags="ng" index="3SC4xO">
+        <reference id="4685018008585438466" name="castedClass" index="T3S8c" />
         <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
@@ -1161,6 +1168,31 @@
             </node>
           </node>
           <node concept="3clFbH" id="4yCwU$Czi6F" role="3cqZAp" />
+          <node concept="3clFbF" id="444xKTS2JGD" role="3cqZAp">
+            <node concept="2OqwBi" id="444xKTS2JRH" role="3clFbG">
+              <node concept="37vLTw" id="444xKTS2JGB" role="2Oq$k0">
+                <ref role="3cqZAo" node="$mK6Te1mhh" resolve="em" />
+              </node>
+              <node concept="11J1DH" id="444xKTS2Kdx" role="2OqNvi">
+                <node concept="3SC4xO" id="444xKTS2Kdz" role="3SC3Uq">
+                  <ref role="T3S8c" node="4gnsj_4veSh" resolve="TestCompoundObject" />
+                  <node concept="QZ4b1" id="444xKTS7r2$" role="3SC4x8">
+                    <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
+                    <node concept="1_NmOh" id="444xKTS7r2_" role="T5XNc">
+                      <node concept="3SBG_A" id="444xKTS7r2A" role="3SB$Wo">
+                        <ref role="3SBg9F" node="444xKTS2Ke3" resolve="pd" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3SxtsA" id="444xKTS2Ke3" role="3SC4x6">
+                    <property role="TrG5h" value="pd" />
+                    <ref role="3SxtsH" node="uXlZoIon0r" resolve="ProcessDeclaration" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="444xKTS2Fox" role="3cqZAp" />
           <node concept="3clFbF" id="4yCwU$Cz2sf" role="3cqZAp">
             <node concept="37vLTI" id="4yCwU$Cz3ob" role="3clFbG">
               <node concept="37vLTw" id="4yCwU$Cz4v5" role="37vLTJ">
@@ -1854,8 +1886,8 @@
     <node concept="312cEg" id="4gnsj_4vqOW" role="jymVt">
       <property role="TrG5h" value="processDeclaration" />
       <node concept="3Tm1VV" id="4gnsj_4w7Cq" role="1B3o_S" />
-      <node concept="GJnN5" id="4gnsj_4vtey" role="1tU5fm">
-        <ref role="GJnN6" node="uXlZoIy9dX" resolve="ProcessDecl" />
+      <node concept="3uibUv" id="444xKTSaP18" role="1tU5fm">
+        <ref role="3uigEE" node="uXlZoIon0r" resolve="ProcessDeclaration" />
       </node>
     </node>
     <node concept="312cEg" id="4gnsj_4vtdI" role="jymVt">
@@ -1867,12 +1899,24 @@
     </node>
     <node concept="312cEg" id="4gnsj_4vtfj" role="jymVt">
       <property role="TrG5h" value="name" />
-      <node concept="3Tm6S6" id="4gnsj_4vtfk" role="1B3o_S" />
+      <node concept="3Tm1VV" id="444xKTS8qvy" role="1B3o_S" />
       <node concept="GJnN5" id="4gnsj_4vtfE" role="1tU5fm">
         <ref role="GJnN6" node="4$MXrxpG$XY" resolve="Name" />
       </node>
     </node>
-    <node concept="2tJIrI" id="4gnsj_4vqPr" role="jymVt" />
+    <node concept="2tJIrI" id="444xKTS8uBn" role="jymVt" />
+    <node concept="3clFb_" id="444xKTS9X44" role="jymVt">
+      <property role="TrG5h" value="setProcessInstance_Name" />
+      <node concept="37vLTG" id="444xKTS9X4P" role="3clF46">
+        <property role="TrG5h" value="name2" />
+        <node concept="GJnN5" id="444xKTS9X4Z" role="1tU5fm">
+          <ref role="GJnN6" node="uXlZoIon13" resolve="Name" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="444xKTS9X46" role="3clF45" />
+      <node concept="3Tm1VV" id="444xKTS9X47" role="1B3o_S" />
+      <node concept="3clFbS" id="444xKTS9X48" role="3clF47" />
+    </node>
     <node concept="3Tm1VV" id="4gnsj_4veSi" role="1B3o_S" />
   </node>
 </model>
