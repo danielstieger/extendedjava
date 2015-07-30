@@ -17,6 +17,7 @@
     <import index="ixkh" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.security(JDK/java.security@java_stub)" />
     <import index="22fg" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" />
     <import index="epq1" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.math(JDK/java.math@java_stub)" />
+    <import index="dh3z" ref="r:9d4a91c2-78d3-4bf1-805f-a201832ec4ed(com.hlag.entitylang.runtime.eltest)" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -1175,13 +1176,9 @@
               </node>
               <node concept="11J1DH" id="444xKTS2Kdx" role="2OqNvi">
                 <node concept="3SC4xO" id="444xKTS2Kdz" role="3SC3Uq">
-                  <ref role="T3S8c" node="4gnsj_4veSh" resolve="TestCompoundObject" />
-                  <node concept="QZ4b1" id="444xKTS7r2$" role="3SC4x8">
-                    <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
-                    <node concept="1_NmOh" id="444xKTS7r2_" role="T5XNc">
-                      <node concept="3SBG_A" id="444xKTS7r2A" role="3SB$Wo">
-                        <ref role="3SBg9F" node="444xKTS2Ke3" resolve="pd" />
-                      </node>
+                  <node concept="1_NmOh" id="444xKTS7r2_" role="3SC4x8">
+                    <node concept="3SBG_A" id="444xKTS7r2A" role="3SB$Wo">
+                      <ref role="3SBg9F" node="444xKTS2Ke3" resolve="pd" />
                     </node>
                   </node>
                   <node concept="3SxtsA" id="444xKTS2Ke3" role="3SC4x6">
@@ -1203,8 +1200,9 @@
                   <ref role="3cqZAo" node="$mK6Te1mhh" resolve="em" />
                 </node>
                 <node concept="11J1DH" id="4yCwU$Cz2Tt" role="2OqNvi">
-                  <property role="19maL6" value="false" />
+                  <property role="19maL6" value="true" />
                   <node concept="3SC4xO" id="4yCwU$Cz2Tv" role="3SC3Uq">
+                    <ref role="T3S8c" node="4gnsj_4veSh" resolve="TestCompoundObject" />
                     <node concept="3SxtsA" id="4yCwU$Cz2TZ" role="3SC4x6">
                       <property role="TrG5h" value="pd" />
                       <ref role="3SxtsH" node="uXlZoIon0r" resolve="ProcessDeclaration" />
@@ -1213,21 +1211,30 @@
                       <property role="TrG5h" value="pi" />
                       <ref role="3SxtsH" node="4$MXrxpG$8B" resolve="ProcessInstance" />
                     </node>
-                    <node concept="3SBG_A" id="4yCwU$Cz2Uz" role="3SC4x8">
-                      <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
-                    </node>
-                    <node concept="1_NmOh" id="4yCwU$Cz5vM" role="3SC4x8">
-                      <node concept="3SBG_A" id="4yCwU$Cz5z3" role="3SB$Wo">
+                    <node concept="QZ4b1" id="444xKTSfmWo" role="3SC4x8">
+                      <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
+                      <node concept="3SBG_A" id="444xKTSfmWp" role="T5XNc">
                         <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
                       </node>
                     </node>
-                    <node concept="3SEiVw" id="4yCwU$Cz5Du" role="3SC4x8">
-                      <node concept="3S$L2z" id="4yCwU$Cz5K0" role="3SB$Wo">
-                        <node concept="3SBG_A" id="4yCwU$Cz5GJ" role="3S$L2$">
+                    <node concept="QZ4b1" id="444xKTSfG_4" role="3SC4x8">
+                      <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
+                      <node concept="1_NmOh" id="444xKTSfG_5" role="T5XNc">
+                        <node concept="3SBG_A" id="444xKTSfG_6" role="3SB$Wo">
                           <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
                         </node>
-                        <node concept="3S$KP$" id="4yCwU$Cz5Ny" role="3S$L2A">
-                          <ref role="3S$KQD" node="uXlZoIon12" resolve="name" />
+                      </node>
+                    </node>
+                    <node concept="QZ4b1" id="444xKTSfGAr" role="3SC4x8">
+                      <ref role="T4Tqs" node="4gnsj_4vtfj" resolve="name" />
+                      <node concept="3SEiVw" id="444xKTSfGAs" role="T5XNc">
+                        <node concept="3S$L2z" id="444xKTSfGAt" role="3SB$Wo">
+                          <node concept="3SBG_A" id="444xKTSfGAu" role="3S$L2$">
+                            <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
+                          </node>
+                          <node concept="3S$KP$" id="444xKTSfGAv" role="3S$L2A">
+                            <ref role="3S$KQD" node="uXlZoIon12" resolve="name" />
+                          </node>
                         </node>
                       </node>
                     </node>
@@ -1250,16 +1257,6 @@
             </node>
           </node>
           <node concept="3clFbH" id="4yCwU$Cn2Lt" role="3cqZAp" />
-          <node concept="3clFbF" id="4yCwU$CzfuF" role="3cqZAp">
-            <node concept="2OqwBi" id="4yCwU$CzfJ1" role="3clFbG">
-              <node concept="37vLTw" id="4yCwU$CzfuD" role="2Oq$k0">
-                <ref role="3cqZAo" node="uXlZoIoT9i" resolve="listOfTestCompoundObject" />
-              </node>
-              <node concept="liA8E" id="4yCwU$Czgs4" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~Iterable.forEach(java.util.function.Consumer):void" resolve="forEach" />
-              </node>
-            </node>
-          </node>
           <node concept="3clFbH" id="4yCwU$Czfjw" role="3cqZAp" />
           <node concept="3clFbH" id="4yCwU$CzeAd" role="3cqZAp" />
           <node concept="3SKdUt" id="$mK6Te1I09" role="3cqZAp">
@@ -1900,9 +1897,7 @@
     <node concept="312cEg" id="4gnsj_4vtfj" role="jymVt">
       <property role="TrG5h" value="name" />
       <node concept="3Tm1VV" id="444xKTS8qvy" role="1B3o_S" />
-      <node concept="GJnN5" id="4gnsj_4vtfE" role="1tU5fm">
-        <ref role="GJnN6" node="4$MXrxpG$XY" resolve="Name" />
-      </node>
+      <node concept="17QB3L" id="444xKTSfPdy" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="444xKTS8uBn" role="jymVt" />
     <node concept="3clFb_" id="444xKTS9X44" role="jymVt">

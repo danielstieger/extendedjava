@@ -343,11 +343,8 @@
         <ref role="1k5W1q" to="tpen:6H7j4iMM5Cm" resolve="MPSMethodCall" />
       </node>
       <node concept="3F0ifn" id="1qyyZLn7D6N" role="3EZMnx">
-        <property role="3F0ifm" value="(SingleResult)" />
+        <property role="3F0ifm" value="SingleResult" />
         <ref role="1k5W1q" node="76asi296pkm" resolve="JpqlComment" />
-        <node concept="11L4FC" id="76asi2953bA" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
         <node concept="pkWqt" id="3STiRXRoyKq" role="pqm2j">
           <node concept="3clFbS" id="3STiRXRoyKr" role="2VODD2">
             <node concept="3clFbF" id="3STiRXRoyPl" role="3cqZAp">
@@ -1749,11 +1746,13 @@
         <ref role="1ERwB7" node="26taNl4pma2" resolve="AsSpecDeletOperations" />
       </node>
       <node concept="1iCGBv" id="444xKTS5L6o" role="3EZMnx">
+        <property role="1$x2rV" value="&lt;trgt&gt;" />
         <ref role="1NtTu8" to="ev4m:444xKTS5L6i" />
         <ref role="1ERwB7" node="26taNl4pma2" resolve="AsSpecDeletOperations" />
         <node concept="1sVBvm" id="444xKTS5L6q" role="1sWHZn">
           <node concept="3F0A7n" id="444xKTS5L6z" role="2wV5jI">
             <property role="1Intyy" value="true" />
+            <property role="1$x2rV" value="&lt;trgt&gt;" />
             <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
             <ref role="1ERwB7" node="26taNl4pma2" resolve="AsSpecDeletOperations" />
           </node>
