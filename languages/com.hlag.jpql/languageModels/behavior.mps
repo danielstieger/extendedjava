@@ -136,6 +136,7 @@
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107535904670" name="jetbrains.mps.baseLanguage.structure.ClassifierType" flags="in" index="3uibUv">
         <reference id="1107535924139" name="classifier" index="3uigEE" />
+        <child id="1109201940907" name="parameter" index="11_B2D" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -809,9 +810,10 @@
             <node concept="3clFbS" id="4puIgiarfvV" role="3eOfB_">
               <node concept="3cpWs6" id="4puIgiargcn" role="3cqZAp">
                 <node concept="2c44tf" id="4puIgiargdQ" role="3cqZAk">
-                  <node concept="_YKpA" id="4puIgiargfz" role="2c44tc">
-                    <node concept="10Q1$e" id="4puIgiargj9" role="_ZDj9">
-                      <node concept="3uibUv" id="4puIgiarghk" role="10Q1$1">
+                  <node concept="3uibUv" id="4puIgiayVq4" role="2c44tc">
+                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                    <node concept="10Q1$e" id="4puIgiayVBJ" role="11_B2D">
+                      <node concept="3uibUv" id="4puIgiayVyJ" role="10Q1$1">
                         <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
                       </node>
                     </node>
@@ -870,12 +872,13 @@
             <node concept="3clFbS" id="4puIgiarhb4" role="3eOfB_">
               <node concept="3cpWs6" id="4puIgiarhUP" role="3cqZAp">
                 <node concept="2c44tf" id="4puIgiarhVU" role="3cqZAk">
-                  <node concept="_YKpA" id="4puIgiari0t" role="2c44tc">
-                    <node concept="33vP2l" id="4puIgiari0v" role="_ZDj9">
-                      <node concept="2c44te" id="4puIgiari4S" role="lGtFl">
-                        <node concept="2OqwBi" id="4puIgiari75" role="2c44t1">
-                          <node concept="13iPFW" id="4puIgiari52" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="4puIgiarii1" role="2OqNvi">
+                  <node concept="3uibUv" id="4puIgiayVPn" role="2c44tc">
+                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                    <node concept="33vP2l" id="4puIgiayVSu" role="11_B2D">
+                      <node concept="2c44te" id="4puIgiayVWN" role="lGtFl">
+                        <node concept="2OqwBi" id="4puIgiayVZ0" role="2c44t1">
+                          <node concept="13iPFW" id="4puIgiayVWX" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="4puIgiayW9W" role="2OqNvi">
                             <ref role="37wK5l" node="3STiRXRoTUj" resolve="getClassifierTypeFromSingleField" />
                           </node>
                         </node>
@@ -962,10 +965,11 @@
             <node concept="3clFbS" id="4puIgiarj9J" role="3eOfB_">
               <node concept="3cpWs6" id="4puIgiarj9K" role="3cqZAp">
                 <node concept="2c44tf" id="4puIgiarj9L" role="3cqZAk">
-                  <node concept="_YKpA" id="4puIgiarj9M" role="2c44tc">
-                    <node concept="33vP2l" id="4puIgiarnU0" role="_ZDj9">
-                      <node concept="2c44te" id="4puIgiarnZZ" role="lGtFl">
-                        <node concept="37vLTw" id="4puIgiaro09" role="2c44t1">
+                  <node concept="3uibUv" id="4puIgiayWnG" role="2c44tc">
+                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                    <node concept="33vP2l" id="4puIgiayWrF" role="11_B2D">
+                      <node concept="2c44te" id="4puIgiayWxO" role="lGtFl">
+                        <node concept="37vLTw" id="4puIgiayWxZ" role="2c44t1">
                           <ref role="3cqZAo" node="4puIgiarjmV" resolve="classCastType" />
                         </node>
                       </node>
@@ -1025,12 +1029,13 @@
             <node concept="3clFbS" id="4puIgiarjab" role="3eOfB_">
               <node concept="3cpWs6" id="4puIgiarjac" role="3cqZAp">
                 <node concept="2c44tf" id="4puIgiarjad" role="3cqZAk">
-                  <node concept="_YKpA" id="4puIgiarjae" role="2c44tc">
-                    <node concept="33vP2l" id="4puIgiarjaf" role="_ZDj9">
-                      <node concept="2c44te" id="4puIgiarjag" role="lGtFl">
-                        <node concept="2OqwBi" id="4puIgiarjah" role="2c44t1">
-                          <node concept="13iPFW" id="4puIgiarjai" role="2Oq$k0" />
-                          <node concept="2qgKlT" id="4puIgiarjaj" role="2OqNvi">
+                  <node concept="3uibUv" id="4puIgiayWGX" role="2c44tc">
+                    <ref role="3uigEE" to="k7g3:~List" resolve="List" />
+                    <node concept="33vP2l" id="4puIgiayWMr" role="11_B2D">
+                      <node concept="2c44te" id="4puIgiayWRD" role="lGtFl">
+                        <node concept="2OqwBi" id="4puIgiayWTR" role="2c44t1">
+                          <node concept="13iPFW" id="4puIgiayWRO" role="2Oq$k0" />
+                          <node concept="2qgKlT" id="4puIgiayX4O" role="2OqNvi">
                             <ref role="37wK5l" node="3STiRXRoTUj" resolve="getClassifierTypeFromSingleField" />
                           </node>
                         </node>

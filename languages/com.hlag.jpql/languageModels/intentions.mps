@@ -3,7 +3,6 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="-1" />
-    <use id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem" version="-1" />
     <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports>
@@ -369,7 +368,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="3STiRXRxTjJ" role="2OqNvi">
-                    <ref role="37wK5l" to="zlu4:456D_1YDrAN" resolve="getEventualReturnType" />
+                    <ref role="37wK5l" to="zlu4:456D_1YDrAN" resolve="getOuterType" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3STiRXRxSBn" role="3uHU7B">
@@ -396,7 +395,7 @@
                     </node>
                   </node>
                   <node concept="2qgKlT" id="3STiRXRxUh4" role="2OqNvi">
-                    <ref role="37wK5l" to="zlu4:456D_1Y_Gvm" resolve="getEventualClassExpression" />
+                    <ref role="37wK5l" to="zlu4:456D_1Y_Gvm" resolve="getInnerClassExpression" />
                   </node>
                 </node>
                 <node concept="Xl_RD" id="3STiRXRxTqk" role="3uHU7B">
