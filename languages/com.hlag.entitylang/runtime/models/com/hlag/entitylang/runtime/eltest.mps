@@ -175,10 +175,6 @@
         <child id="5573040900056654080" name="left" index="2jNGCF" />
       </concept>
       <concept id="4544161228248388891" name="com.hlag.jpql.structure.OptionalExpression" flags="ng" index="2sMgYk" />
-      <concept id="4685018008584242639" name="com.hlag.jpql.structure.AsPathSpec" flags="ng" index="QZ4b1">
-        <reference id="4685018008586228114" name="mappingTarget" index="T4Tqs" />
-        <child id="4685018008585984962" name="ipathOrFunc" index="T5XNc" />
-      </concept>
       <concept id="6475001545073807428" name="com.hlag.jpql.structure.JavaVarReference" flags="ng" index="ZSgft">
         <reference id="6475001545073807713" name="varDeclaration" index="ZSgbS" />
       </concept>
@@ -207,12 +203,10 @@
         <reference id="8181476057624834891" name="varDeclaration" index="3SBg9F" />
       </concept>
       <concept id="8181476057626065236" name="com.hlag.jpql.structure.SelectStatement" flags="ng" index="3SC4xO">
-        <reference id="4685018008585438466" name="castedClass" index="T3S8c" />
         <child id="8181476057626065254" name="fromClause" index="3SC4x6" />
         <child id="8181476057626065256" name="resultSetExpression" index="3SC4x8" />
         <child id="8181476057627034756" name="whereClause" index="3SGRm$" />
       </concept>
-      <concept id="8181476057625616320" name="com.hlag.jpql.structure.LowerFunc" flags="ng" index="3SEiVw" />
     </language>
     <language id="121fd1b5-a76a-4410-9b98-5aa5b3681fe7" name="com.hlag.jpqlext">
       <concept id="5083198757627608806" name="com.hlag.jpqlext.structure.PagingVariable" flags="ng" index="39$DyK">
@@ -1200,9 +1194,8 @@
                   <ref role="3cqZAo" node="$mK6Te1mhh" resolve="em" />
                 </node>
                 <node concept="11J1DH" id="4yCwU$Cz2Tt" role="2OqNvi">
-                  <property role="19maL6" value="true" />
+                  <property role="19maL6" value="false" />
                   <node concept="3SC4xO" id="4yCwU$Cz2Tv" role="3SC3Uq">
-                    <ref role="T3S8c" node="4gnsj_4veSh" resolve="TestCompoundObject" />
                     <node concept="3SxtsA" id="4yCwU$Cz2TZ" role="3SC4x6">
                       <property role="TrG5h" value="pd" />
                       <ref role="3SxtsH" node="uXlZoIon0r" resolve="ProcessDeclaration" />
@@ -1211,32 +1204,8 @@
                       <property role="TrG5h" value="pi" />
                       <ref role="3SxtsH" node="4$MXrxpG$8B" resolve="ProcessInstance" />
                     </node>
-                    <node concept="QZ4b1" id="444xKTSfmWo" role="3SC4x8">
-                      <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
-                      <node concept="3SBG_A" id="444xKTSfmWp" role="T5XNc">
-                        <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
-                      </node>
-                    </node>
-                    <node concept="QZ4b1" id="444xKTSfG_4" role="3SC4x8">
-                      <ref role="T4Tqs" node="4gnsj_4vqOW" resolve="processDeclaration" />
-                      <node concept="1_NmOh" id="444xKTSfG_5" role="T5XNc">
-                        <node concept="3SBG_A" id="444xKTSfG_6" role="3SB$Wo">
-                          <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="QZ4b1" id="444xKTSfGAr" role="3SC4x8">
-                      <ref role="T4Tqs" node="4gnsj_4vtfj" resolve="name" />
-                      <node concept="3SEiVw" id="444xKTSfGAs" role="T5XNc">
-                        <node concept="3S$L2z" id="444xKTSfGAt" role="3SB$Wo">
-                          <node concept="3SBG_A" id="444xKTSfGAu" role="3S$L2$">
-                            <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
-                          </node>
-                          <node concept="3S$KP$" id="444xKTSfGAv" role="3S$L2A">
-                            <ref role="3S$KQD" node="uXlZoIon12" resolve="name" />
-                          </node>
-                        </node>
-                      </node>
+                    <node concept="3SBG_A" id="444xKTSfmWp" role="3SC4x8">
+                      <ref role="3SBg9F" node="4yCwU$Cz2TZ" resolve="pd" />
                     </node>
                     <node concept="2jNmR0" id="4yCwU$Cz2XA" role="3SGRm$">
                       <node concept="ZSgft" id="4yCwU$Cz2Yy" role="2jNGCD">
