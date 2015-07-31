@@ -2181,6 +2181,20 @@
           </node>
         </node>
         <node concept="2tJIrI" id="3B10BzzYbS4" role="jymVt" />
+        <node concept="3clFbW" id="3eyZyInnqHn" role="jymVt">
+          <node concept="3cqZAl" id="3eyZyInnqHp" role="3clF45" />
+          <node concept="3Tm1VV" id="3eyZyInnqHq" role="1B3o_S" />
+          <node concept="3clFbS" id="3eyZyInnqHr" role="3clF47">
+            <node concept="3clFbF" id="3eyZyInnrM0" role="3cqZAp">
+              <node concept="37vLTI" id="3eyZyInns0a" role="3clFbG">
+                <node concept="10Nm6u" id="3eyZyInns63" role="37vLTx" />
+                <node concept="37vLTw" id="3eyZyInnrLZ" role="37vLTJ">
+                  <ref role="3cqZAo" node="3B10BzzYbRS" resolve="field" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbW" id="3B10BzzYbS5" role="jymVt">
           <node concept="37vLTG" id="3B10BzzYbS6" role="3clF46">
             <property role="TrG5h" value="val" />
@@ -2211,6 +2225,34 @@
                   <ref role="3cqZAo" node="3B10BzzYbS6" resolve="val" />
                 </node>
                 <node concept="37vLTw" id="3B10BzzYbSn" role="37vLTJ">
+                  <ref role="3cqZAo" node="3B10BzzYbRS" resolve="field" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="2tJIrI" id="3eyZyInfINq" role="jymVt" />
+        <node concept="3clFbW" id="3eyZyInfHvH" role="jymVt">
+          <node concept="37vLTG" id="3eyZyInfHvI" role="3clF46">
+            <property role="TrG5h" value="decl" />
+            <node concept="3uibUv" id="3eyZyInfKe8" role="1tU5fm">
+              <ref role="3uigEE" node="3B10BzzYbRR" resolve="reduce_FieldDeclaration.FieldTypeDecl" />
+            </node>
+          </node>
+          <node concept="3cqZAl" id="3eyZyInfHvR" role="3clF45" />
+          <node concept="3Tm1VV" id="3eyZyInfHvS" role="1B3o_S" />
+          <node concept="3clFbS" id="3eyZyInfHvT" role="3clF47">
+            <node concept="3clFbF" id="3eyZyInfHvU" role="3cqZAp">
+              <node concept="37vLTI" id="3eyZyInfHvV" role="3clFbG">
+                <node concept="2OqwBi" id="3eyZyInfKQY" role="37vLTx">
+                  <node concept="37vLTw" id="3eyZyInfHvW" role="2Oq$k0">
+                    <ref role="3cqZAo" node="3eyZyInfHvI" resolve="decl" />
+                  </node>
+                  <node concept="liA8E" id="3eyZyInfL1P" role="2OqNvi">
+                    <ref role="37wK5l" node="3B10BzzYbSH" resolve="value" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="3eyZyInfHvX" role="37vLTJ">
                   <ref role="3cqZAo" node="3B10BzzYbRS" resolve="field" />
                 </node>
               </node>
@@ -2267,8 +2309,7 @@
             <node concept="3cpWs6" id="6p0iX5W$MtR" role="3cqZAp">
               <node concept="2ShNRf" id="6p0iX5W$MtS" role="3cqZAk">
                 <node concept="1pGfFk" id="6p0iX5W$MtT" role="2ShVmc">
-                  <ref role="37wK5l" node="3B10BzzYbS5" resolve="reduce_FieldDeclaration.FieldTypeDecl" />
-                  <node concept="10Nm6u" id="6p0iX5W$MTM" role="37wK5m" />
+                  <ref role="37wK5l" node="3eyZyInnqHn" resolve="reduce_FieldDeclaration.FieldTypeDecl" />
                 </node>
               </node>
             </node>
